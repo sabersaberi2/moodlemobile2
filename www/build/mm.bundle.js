@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-angular.module('mm', ['ionic', 'mm.core', 'mm.core.comments', 'mm.core.contentlinks', 'mm.core.course', 'mm.core.courses', 'mm.core.emulator', 'mm.core.fileuploader', 'mm.core.grades', 'mm.core.login', 'mm.core.question', 'mm.core.settings', 'mm.core.sharedfiles', 'mm.core.sidemenu', 'mm.core.textviewer', 'mm.core.user', 'mm.addons.badges', 'mm.addons.calendar', 'mm.addons.competency', 'mm.addons.coursecompletion', 'mm.addons.files', 'mm.addons.frontpage', 'mm.addons.grades', 'mm.addons.messageoutput', 'mm.addons.messages', 'mm.addons.myoverview', 'mm.addons.notes', 'mm.addons.notifications', 'mm.addons.participants', 'mm.addons.pushnotifications', 'mm.addons.remotestyles', 'mm.addons.messageoutput_airnotifier', 'mm.addons.mod_assign', 'mm.addons.mod_book', 'mm.addons.mod_chat', 'mm.addons.mod_choice', 'mm.addons.mod_data', 'mm.addons.mod_feedback', 'mm.addons.mod_folder', 'mm.addons.mod_forum', 'mm.addons.mod_glossary', 'mm.addons.mod_imscp', 'mm.addons.mod_label', 'mm.addons.mod_lesson', 'mm.addons.mod_lti', 'mm.addons.mod_page', 'mm.addons.mod_quiz', 'mm.addons.mod_resource', 'mm.addons.mod_scorm', 'mm.addons.mod_survey', 'mm.addons.mod_url', 'mm.addons.mod_wiki', 'mm.addons.qbehaviour_adaptive', 'mm.addons.qbehaviour_adaptivenopenalty', 'mm.addons.qbehaviour_deferredcbm', 'mm.addons.qbehaviour_deferredfeedback', 'mm.addons.qbehaviour_immediatecbm', 'mm.addons.qbehaviour_immediatefeedback', 'mm.addons.qbehaviour_informationitem', 'mm.addons.qbehaviour_interactive', 'mm.addons.qbehaviour_interactivecountback', 'mm.addons.qbehaviour_manualgraded', 'mm.addons.qtype_calculated', 'mm.addons.qtype_calculatedmulti', 'mm.addons.qtype_calculatedsimple', 'mm.addons.qtype_ddimageortext', 'mm.addons.qtype_ddmarker', 'mm.addons.qtype_description', 'mm.addons.qtype_ddwtos', 'mm.addons.qtype_essay', 'mm.addons.qtype_gapselect', 'mm.addons.qtype_match', 'mm.addons.qtype_multichoice', 'mm.addons.qtype_multianswer', 'mm.addons.qtype_numerical', 'mm.addons.qtype_randomsamatch', 'mm.addons.qtype_shortanswer', 'mm.addons.qtype_truefalse', 'mm.addons.userprofilefield_checkbox', 'mm.addons.userprofilefield_datetime', 'mm.addons.userprofilefield_menu', 'mm.addons.userprofilefield_text', 'mm.addons.userprofilefield_textarea', 'ngCordova', 'angular-md5', 'pascalprecht.translate', 'ngAria', 'oc.lazyLoad', 'ckeditor',
+angular.module('mm', ['ionic', 'mm.core', 'mm.core.comments', 'mm.core.contentlinks', 'mm.core.course', 'mm.core.courses', 'mm.core.emulator', 'mm.core.fileuploader', 'mm.core.grades', 'mm.core.login', 'mm.core.question', 'mm.core.settings', 'mm.core.sharedfiles', 'mm.core.sidemenu', 'mm.core.textviewer', 'mm.core.user', 'mm.addons.badges', 'mm.addons.calendar', 'mm.addons.competency', 'mm.addons.coursecompletion', 'mm.addons.files', 'mm.addons.frontpage', 'mm.addons.grades', 'mm.addons.messageoutput', 'mm.addons.messages', 'mm.addons.myoverview', 'mm.addons.notes', 'mm.addons.notifications', 'mm.addons.participants', 'mm.addons.pushnotifications', 'mm.addons.remotestyles', 'mm.addons.messageoutput_airnotifier', 'mm.addons.mod_assign', 'mm.addons.mod_book', 'mm.addons.mod_chat', 'mm.addons.mod_choice', 'mm.addons.mod_data', 'mm.addons.mod_feedback', 'mm.addons.mod_folder', 'mm.addons.mod_forum', 'mm.addons.mod_glossary', 'mm.addons.mod_imscp', 'mm.addons.mod_label', 'mm.addons.mod_lesson', 'mm.addons.mod_lti', 'mm.addons.mod_page', 'mm.addons.mod_quiz', 'mm.addons.mod_resource', 'mm.addons.mod_scorm', 'mm.addons.mod_survey', 'mm.addons.mod_url', 'mm.addons.mod_wiki', 'mm.addons.qbehaviour_adaptive', 'mm.addons.qbehaviour_adaptivenopenalty', 'mm.addons.qbehaviour_deferredcbm', 'mm.addons.qbehaviour_deferredfeedback', 'mm.addons.qbehaviour_immediatecbm', 'mm.addons.qbehaviour_immediatefeedback', 'mm.addons.qbehaviour_informationitem', 'mm.addons.qbehaviour_interactive', 'mm.addons.qbehaviour_interactivecountback', 'mm.addons.qbehaviour_manualgraded', 'mm.addons.qtype_calculated', 'mm.addons.qtype_calculatedmulti', 'mm.addons.qtype_calculatedsimple', 'mm.addons.qtype_ddimageortext', 'mm.addons.qtype_ddmarker', 'mm.addons.qtype_ddwtos', 'mm.addons.qtype_description', 'mm.addons.qtype_essay', 'mm.addons.qtype_gapselect', 'mm.addons.qtype_match', 'mm.addons.qtype_multianswer', 'mm.addons.qtype_multichoice', 'mm.addons.qtype_numerical', 'mm.addons.qtype_randomsamatch', 'mm.addons.qtype_shortanswer', 'mm.addons.qtype_truefalse', 'mm.addons.userprofilefield_checkbox', 'mm.addons.userprofilefield_datetime', 'mm.addons.userprofilefield_menu', 'mm.addons.userprofilefield_text', 'mm.addons.userprofilefield_textarea', 'ngCordova', 'angular-md5', 'pascalprecht.translate', 'ngAria', 'oc.lazyLoad', 'ckeditor',
             'ngMessages', 'ngAnimate'])
 .run(["$ionicPlatform", function($ionicPlatform) {
     $ionicPlatform.ready(function() {
@@ -12626,6 +12626,40 @@ angular.module('mm.core.contentlinks')
 }]);
 
 angular.module('mm.core.course')
+.directive('mmCourseModDescription', function() {
+    return {
+        compile: function(element, attrs) {
+            if (attrs.watch) {
+                element.find('mm-format-text').attr('watch', attrs.watch);
+            }
+            return function(scope) { 
+                scope.showfull = !!attrs.showfull;
+            };
+        },
+        restrict: 'E',
+        scope: {
+            description: '=',
+            note: '=?',
+            component: '@?',
+            componentId: '@?'
+        },
+        templateUrl: 'core/components/course/templates/mod_description.html'
+    };
+});
+
+angular.module('mm.core.course')
+.directive('mmCourseModule', function() {
+    return {
+        restrict: 'E',
+        scope: {
+            module: '=',
+            completionChanged: '=?'
+        },
+        templateUrl: 'core/components/course/templates/module.html'
+    };
+});
+
+angular.module('mm.core.course')
 .controller('mmCourseModContentCtrl', ["$log", "$stateParams", "$scope", "$mmCourseDelegate", "$mmCourse", "$translate", "$mmText", function($log, $stateParams, $scope, $mmCourseDelegate, $mmCourse, $translate, $mmText) {
     $log = $log.getInstance('mmCourseModContentCtrl');
     var module = $stateParams.module || {};
@@ -12968,40 +13002,6 @@ angular.module('mm.core.course')
         statusObserver && statusObserver.off && statusObserver.off();
     });
 }]);
-
-angular.module('mm.core.course')
-.directive('mmCourseModDescription', function() {
-    return {
-        compile: function(element, attrs) {
-            if (attrs.watch) {
-                element.find('mm-format-text').attr('watch', attrs.watch);
-            }
-            return function(scope) { 
-                scope.showfull = !!attrs.showfull;
-            };
-        },
-        restrict: 'E',
-        scope: {
-            description: '=',
-            note: '=?',
-            component: '@?',
-            componentId: '@?'
-        },
-        templateUrl: 'core/components/course/templates/mod_description.html'
-    };
-});
-
-angular.module('mm.core.course')
-.directive('mmCourseModule', function() {
-    return {
-        restrict: 'E',
-        scope: {
-            module: '=',
-            completionChanged: '=?'
-        },
-        templateUrl: 'core/components/course/templates/module.html'
-    };
-});
 
 angular.module('mm.core.course')
 .factory('$mmCourseContentHandler', ["$mmCourse", "$mmSite", function($mmCourse, $mmSite) {
@@ -14877,1977 +14877,6 @@ angular.module('mm.core.course')
         child.component = component;
         child.isResource = !!isResource;
         return child;
-    };
-    return self;
-}]);
-
-angular.module('mm.core.emulator')
-.factory('$mmEmulatorClipboard', ["$log", "$q", "$mmApp", "$cordovaClipboard", function($log, $q, $mmApp, $cordovaClipboard) {
-    $log = $log.getInstance('$mmEmulatorClipboard');
-    var self = {};
-    self.load = function() {
-        var isDesktop = $mmApp.isDesktop(),
-            clipboard,
-            copyTextarea;
-        if (isDesktop) {
-            clipboard = require('electron').clipboard;
-        } else {
-            copyTextarea = document.createElement('textarea');
-            angular.element(copyTextarea).addClass('mm-browser-copy-area');
-            copyTextarea.setAttribute('aria-hidden', 'true');
-            document.body.append(copyTextarea);
-        }
-        $cordovaClipboard.copy = function(text) {
-            var deferred = $q.defer();
-            if (isDesktop) {
-                clipboard.writeText(text);
-                deferred.resolve();
-            } else {
-                copyTextarea.innerHTML = text;
-                copyTextarea.select();
-                try {
-                    if (document.execCommand('copy')) {
-                        deferred.resolve();
-                    } else {
-                        deferred.reject();
-                    }
-                } catch (err) {
-                    deferred.reject();
-                }
-                copyTextarea.innerHTML = '';
-            }
-            return deferred.promise;
-        };
-        $cordovaClipboard.paste = function() {
-            var deferred = $q.defer();
-            if (isDesktop) {
-                deferred.resolve(clipboard.readText());
-            } else {
-                copyTextarea.innerHTML = '';
-                copyTextarea.select();
-                try {
-                    if (document.execCommand('paste')) {
-                        deferred.resolve(copyTextarea.innerHTML);
-                    } else {
-                        deferred.reject();
-                    }
-                } catch (err) {
-                    deferred.reject();
-                }
-                copyTextarea.innerHTML = '';
-            }
-            return deferred.promise;
-        };
-        return $q.when();
-    };
-    return self;
-}]);
-
-angular.module('mm.core.emulator')
-.factory('$mmEmulatorCustomURLScheme', ["$log", "$q", "$mmApp", function($log, $q, $mmApp) {
-    $log = $log.getInstance('$mmEmulatorCustomURLScheme');
-    var self = {};
-    self.load = function() {
-        if (!$mmApp.isDesktop()) {
-            return $q.when();
-        }
-        require('electron').ipcRenderer.on('mmAppLaunched', function(event, url) {
-            window.handleOpenURL && window.handleOpenURL(url);
-        });
-        return $q.when();
-    };
-    return self;
-}]);
-
-angular.module('mm.core.emulator')
-.factory('$mmEmulatorManager', ["$log", "$q", "$mmFS", "$mmEmulatorClipboard", "$mmEmulatorCustomURLScheme", "$mmEmulatorFile", "$mmEmulatorFileTransfer", "$mmEmulatorGlobalization", "$mmEmulatorInAppBrowser", "$mmEmulatorLocalNotifications", "$mmEmulatorPushNotifications", "$mmEmulatorZip", "$mmUtil", "$mmEmulatorMediaCapture", "$mmEmulatorNetwork", function($log, $q, $mmFS, $mmEmulatorClipboard, $mmEmulatorCustomURLScheme, $mmEmulatorFile,
-            $mmEmulatorFileTransfer, $mmEmulatorGlobalization, $mmEmulatorInAppBrowser, $mmEmulatorLocalNotifications,
-            $mmEmulatorPushNotifications, $mmEmulatorZip, $mmUtil, $mmEmulatorMediaCapture, $mmEmulatorNetwork) {
-    $log = $log.getInstance('$mmEmulatorManager');
-    var self = {};
-    self.loadHTMLAPI = function() {
-        if ($mmFS.isAvailable()) {
-            $log.debug('Stop loading HTML API, it was already loaded or the environment doesn\'t need it.');
-            return $q.when();
-        }
-        $log.debug('Loading HTML API.');
-        var promises = [];
-        promises.push($mmEmulatorClipboard.load());
-        promises.push($mmEmulatorCustomURLScheme.load());
-        promises.push($mmEmulatorFile.load());
-        promises.push($mmEmulatorFileTransfer.load());
-        promises.push($mmEmulatorGlobalization.load());
-        promises.push($mmEmulatorInAppBrowser.load());
-        promises.push($mmEmulatorLocalNotifications.load());
-        promises.push($mmEmulatorMediaCapture.load());
-        promises.push($mmEmulatorPushNotifications.load());
-        promises.push($mmEmulatorZip.load());
-        promises.push($mmEmulatorNetwork.load());
-        return $mmUtil.allPromises(promises);
-    };
-    return self;
-}]);
-
-angular.module('mm.core.emulator')
-.factory('$mmEmulatorFile', ["$log", "$q", "$mmFS", "$window", "$mmApp", "mmCoreConfigConstants", function($log, $q, $mmFS, $window, $mmApp, mmCoreConfigConstants) {
-    $log = $log.getInstance('$mmEmulatorFile');
-    var self = {};
-    function deleteEmptyFolder(fs, path, successCallback, errorCallback) {
-        fs.rmdir(path, function(err) {
-            if (err) {
-                errorCallback && errorCallback(err);
-            } else {
-                successCallback && successCallback();
-            }
-        });
-    }
-    function deleteRecursive(fs, path, successCallback, errorCallback) {
-        fs.stat(path, function(err, stats) {
-            if (err) {
-                errorCallback && errorCallback(err);
-            } else if (stats.isFile()) {
-                fs.unlink(path, function(err) {
-                    if (err) {
-                        errorCallback && errorCallback(err);
-                    } else {
-                        successCallback && successCallback();
-                    }
-                });
-            } else {
-                fs.readdir(path, function(err, files) {
-                    if (err) {
-                        errorCallback && errorCallback(err);
-                    } else if (!files.length) {
-                        deleteEmptyFolder(fs, path, successCallback, errorCallback);
-                    } else {
-                        var removed = 0;
-                        files.forEach(function(filename) {
-                            deleteRecursive(fs, $mmFS.concatenatePaths(path, filename), function() {
-                                removed++;
-                                if (removed == files.length) {
-                                    deleteEmptyFolder(fs, path, successCallback, errorCallback);
-                                }
-                            }, errorCallback);
-                        });
-                    }
-                });
-            }
-        });
-    }
-    function emulateCordovaFileForDesktop(fs) {
-        if (!$mmApp.isDesktop()) {
-            return;
-        }
-        emulateEntry(fs);
-        emulateFileWriter(fs);
-        emulateDirectoryReader(fs);
-        emulateFileEntry(fs);
-        emulateDirectoryEntry(fs);
-        $window.resolveLocalFileSystemURL = function(path, successCallback, errorCallback) {
-            fs.stat(path, function(err, stats) {
-                if (err) {
-                    errorCallback && errorCallback(err);
-                } else {
-                    var constructorFn = stats.isDirectory() ? DirectoryEntry : FileEntry,
-                        fileAndDir = $mmFS.getFileAndDirectoryFromPath(path);
-                    successCallback && successCallback(new constructorFn(fileAndDir.name, path));
-                }
-            });
-        };
-    }
-    function emulateDirectoryEntry(fs) {
-        $window.DirectoryEntry = function(name, fullPath, fileSystem, nativeURL) {
-            if ((fullPath) && !/\/$/.test(fullPath)) {
-                fullPath += '/';
-            }
-            if (nativeURL && !/\/$/.test(nativeURL)) {
-                nativeURL += '/';
-            }
-            $window.Entry.call(this, false, true, name, fullPath, fileSystem, nativeURL);
-        };
-        $window.DirectoryEntry.prototype = Object.create($window.Entry.prototype); 
-        $window.DirectoryEntry.prototype.createReader = function() {
-            return new DirectoryReader(this.fullPath);
-        };
-        $window.DirectoryEntry.prototype.getDirectory = function(path, options, successCallback, errorCallback) {
-            getDirOrFile(fs, this, true, path, options, successCallback, errorCallback);
-        };
-        $window.DirectoryEntry.prototype.removeRecursively = function(successCallback, errorCallback) {
-            var deferred = $q.defer();
-            deferred.promise.then(function() {
-                successCallback && successCallback();
-            }).catch(function(error) {
-                errorCallback && errorCallback(error);
-            });
-            deleteRecursive(fs, this.fullPath, deferred.resolve, deferred.reject);
-        };
-        $window.DirectoryEntry.prototype.getFile = function(path, options, successCallback, errorCallback) {
-            getDirOrFile(fs, this, false, path, options, successCallback, errorCallback);
-        };
-    }
-    function emulateDirectoryReader(fs) {
-        $window.DirectoryReader = function(localURL) {
-            this.localURL = localURL || null;
-        };
-        $window.DirectoryReader.prototype.readEntries = function(successCallback, errorCallback) {
-            var that = this;
-            fs.readdir(this.localURL, function(err, files) {
-                if (err) {
-                    errorCallback && errorCallback(err);
-                } else {
-                    try {
-                        var entries = [];
-                        for (var i = 0; i < files.length; i++) {
-                            var fileName = files[i],
-                                filePath = $mmFS.concatenatePaths(that.localURL, fileName),
-                                stats = fs.statSync(filePath); 
-                            if (stats.isDirectory()) {
-                                entries.push(new DirectoryEntry(fileName, filePath));
-                            } else if (stats.isFile()) {
-                                entries.push(new FileEntry(fileName, filePath));
-                            }
-                        }
-                        successCallback && successCallback(entries);
-                    } catch(ex) {
-                        errorCallback && errorCallback(ex);
-                    }
-                }
-            });
-        };
-    }
-    function emulateEntry(fs) {
-        $window.Entry = function(isFile, isDirectory, name, fullPath, fileSystem, nativeURL) {
-            this.isFile = !!isFile;
-            this.isDirectory = !!isDirectory;
-            this.name = name || '';
-            this.fullPath = fullPath || '';
-            this.filesystem = fileSystem || null;
-            this.nativeURL = nativeURL || null;
-        };
-        $window.Entry.prototype.getMetadata = function(successCallback, errorCallback) {
-            fs.stat(this.fullPath, function(err, stats) {
-                if (err) {
-                    errorCallback && errorCallback(err);
-                } else {
-                    successCallback && successCallback({
-                        size: stats.size,
-                        modificationTime: stats.mtime
-                    });
-                }
-            });
-        };
-        $window.Entry.prototype.setMetadata = function(successCallback, errorCallback, metadataObject) {
-            errorCallback && errorCallback('Not supported');
-        };
-        $window.Entry.prototype.moveTo = function(parent, newName, successCallback, errorCallback) {
-            newName = newName || this.name;
-            var srcPath = this.fullPath,
-                destPath = $mmFS.concatenatePaths(parent.fullPath, newName),
-                that = this;
-            fs.rename(srcPath, destPath, function(err) {
-                if (err) {
-                    errorCallback && errorCallback(err);
-                } else {
-                    var constructorFn = that.isDirectory ? DirectoryEntry : FileEntry;
-                    successCallback && successCallback(new constructorFn(newName, destPath));
-                }
-            });
-        };
-        $window.Entry.prototype.copyTo = function(parent, newName, successCallback, errorCallback) {
-            newName = newName || this.name;
-            var srcPath = this.fullPath,
-                destPath = $mmFS.concatenatePaths(parent.fullPath, newName),
-                reader = fs.createReadStream(srcPath),
-                writer = fs.createWriteStream(destPath),
-                deferred = $q.defer(), 
-                that = this;
-            deferred.promise.then(function() {
-                var constructorFn = that.isDirectory ? DirectoryEntry : FileEntry;
-                successCallback && successCallback(new constructorFn(newName, destPath));
-            }).catch(function(error) {
-                errorCallback && errorCallback(error);
-            });
-            reader.on('error', deferred.reject);
-            writer.on('error', deferred.reject);
-            writer.on('close', deferred.resolve);
-            reader.pipe(writer);
-        };
-        $window.Entry.prototype.toInternalURL = function() {
-            return 'file://' + this.fullPath;
-        };
-        $window.Entry.prototype.toURL = function() {
-            return this.fullPath;
-        };
-        $window.Entry.prototype.remove = function(successCallback, errorCallback) {
-            var removeFn = this.isDirectory ? fs.rmdir : fs.unlink;
-            removeFn(this.fullPath, function(err) {
-                if (err < 0) {
-                    errorCallback && errorCallback(err);
-                } else {
-                    successCallback && successCallback();
-                }
-            });
-        };
-        $window.Entry.prototype.getParent = function(successCallback, errorCallback) {
-            var fullPath = this.fullPath.slice(-1) == '/' ? this.fullPath.slice(0, -1) : this.fullPath,
-                parentPath = fullPath.substr(0, fullPath.lastIndexOf('/'));
-            fs.stat(parentPath, function(err, stats) {
-                if (err || !stats.isDirectory()) {
-                    errorCallback && errorCallback(err);
-                } else {
-                    var fileAndDir = $mmFS.getFileAndDirectoryFromPath(parentPath);
-                    successCallback && successCallback(new DirectoryEntry(fileAndDir.name, parentPath));
-                }
-            });
-        };
-    }
-    function emulateFileEntry(fs) {
-        $window.FileEntry = function(name, fullPath, fileSystem, nativeURL) {
-            if (fullPath && /\/$/.test(fullPath)) {
-                fullPath = fullPath.substring(0, fullPath.length - 1);
-            }
-            if (nativeURL && /\/$/.test(nativeURL)) {
-                nativeURL = nativeURL.substring(0, nativeURL.length - 1);
-            }
-            $window.Entry.call(this, true, false, name, fullPath, fileSystem, nativeURL);
-        };
-        $window.FileEntry.prototype = Object.create($window.Entry.prototype); 
-        $window.FileEntry.prototype.createWriter = function(successCallback, errorCallback) {
-            this.file(function(file) {
-                successCallback && successCallback(new FileWriter(file));
-            }, errorCallback);
-        };
-        $window.FileEntry.prototype.file = function(successCallback, errorCallback) {
-            var that = this;
-            this.getMetadata(function(metadata) {
-                fs.readFile(that.fullPath, function(err, data) {
-                    if (err) {
-                        errorCallback && errorCallback(err);
-                    } else {
-                        data = Uint8Array.from(data).buffer; 
-                        var file = new File([data], that.name || '', {
-                            lastModified: metadata.modificationTime || null,
-                            type: $mmFS.getMimeType($mmFS.getFileExtension(that.name)) || null
-                        });
-                        file.localURL = that.fullPath;
-                        file.start = 0;
-                        file.end = file.size;
-                        successCallback && successCallback(file);
-                    }
-                });
-            }, errorCallback);
-        };
-    }
-    function emulateFileWriter(fs) {
-        $window.FileWriter = function(file) {
-            this.fileName = '';
-            this.length = 0;
-            if (file) {
-                this.localURL = file.localURL || file;
-                this.length = file.size || 0;
-            }
-            this.position = 0; 
-            this.readyState = 0; 
-            this.result = null;
-            this.error = null;
-            this.onwritestart = null;   
-            this.onprogress = null;     
-            this.onwrite = null;        
-            this.onwriteend = null;     
-            this.onabort = null;        
-            this.onerror = null;        
-        };
-        $window.FileWriter.prototype.write = function(data) {
-            var that = this;
-            if (data && data.toString() == '[object Blob]') {
-                var reader = new FileReader();
-                reader.onload = function() {
-                    if (reader.readyState == 2) {
-                        write(new Buffer(reader.result));
-                    }
-                };
-                reader.readAsArrayBuffer(data);
-            } else if (data && data.toString() == '[object ArrayBuffer]') {
-                write(Buffer.from(new Uint8Array(data)));
-            } else {
-                write(data);
-            }
-            function write(data) {
-                fs.writeFile(that.localURL, data, function(err) {
-                    if (err) {
-                        that.onerror && that.onerror(err);
-                    } else {
-                        that.onwrite && that.onwrite();
-                    }
-                    that.onwriteend && that.onwriteend();
-                });
-                that.onwritestart && that.onwritestart();
-            }
-        };
-    }
-    function getDirOrFile(fs, entry, isDir, path, options, successCallback, errorCallback) {
-        var filename = $mmFS.getFileAndDirectoryFromPath(path).name,
-            fileDirPath = $mmFS.concatenatePaths(entry.fullPath, path);
-        fs.stat(fileDirPath, function(err) {
-            if (err) {
-                if (options.create) {
-                    create(function(error2) {
-                        if (!error2) {
-                            success();
-                        } else if (error2.code === 'EEXIST') {
-                            success();
-                        } else if (error2.code === 'ENOENT') {
-                            var parent = fileDirPath.substring(0, fileDirPath.lastIndexOf('/'));
-                            if (parent) {
-                                entry.getDirectory(parent, options, function() {
-                                    create(function(error3) {
-                                        if (!error3) {
-                                            success();
-                                        } else {
-                                            errorCallback && errorCallback(error3);
-                                        }
-                                    });
-                                }, errorCallback);
-                            } else {
-                                errorCallback && errorCallback(error2);
-                            }
-                        } else {
-                            errorCallback && errorCallback(error2);
-                        }
-                    });
-                } else {
-                    errorCallback && errorCallback(err);
-                }
-            } else {
-                success();
-            }
-        });
-        function success() {
-            var constructorFn = isDir ? DirectoryEntry : FileEntry;
-            successCallback && successCallback(new constructorFn(filename, fileDirPath));
-        }
-        function create(done) {
-            if (isDir) {
-                fs.mkdir(fileDirPath, done);
-            } else {
-                fs.writeFile(fileDirPath, '', done);
-            }
-        }
-    }
-    self.load = function() {
-        var deferred = $q.defer(),
-            basePath;
-        $window.requestFileSystem  = $window.requestFileSystem || $window.webkitRequestFileSystem;
-        $window.resolveLocalFileSystemURL = $window.resolveLocalFileSystemURL || $window.webkitResolveLocalFileSystemURL;
-        $window.LocalFileSystem = {
-            PERSISTENT: 1
-        };
-        if ($mmApp.isDesktop()) {
-            var fs = require('fs'),
-                app = require('electron').remote.app;
-            emulateCordovaFileForDesktop(fs);
-            basePath = app.getPath('documents') || app.getPath('home');
-            if (!basePath) {
-                deferred.reject('Cannot calculate base path for file system.');
-                return;
-            }
-            basePath = $mmFS.concatenatePaths(basePath.replace(/\\/g, '/'), mmCoreConfigConstants.app_id) + '/';
-            fs.mkdir(basePath, function(e) {
-                if (!e || (e && e.code === 'EEXIST')) {
-                    $mmFS.setHTMLBasePath(basePath);
-                    deferred.resolve();
-                } else {
-                    deferred.reject('Error creating base path.');
-                }
-            });
-        } else {
-            $window.webkitStorageInfo.requestQuota(PERSISTENT, 500 * 1024 * 1024, function(granted) {
-                $window.requestFileSystem(PERSISTENT, granted, function(entry) {
-                    basePath = entry.root.toURL();
-                    $mmFS.setHTMLBasePath(basePath);
-                    deferred.resolve();
-                }, deferred.reject);
-            }, deferred.reject);
-        }
-        return deferred.promise;
-    };
-    return self;
-}]);
-
-angular.module('mm.core.emulator')
-.factory('$mmEmulatorFileTransfer', ["$log", "$q", "$mmFS", "$window", "$mmApp", function($log, $q, $mmFS, $window, $mmApp) {
-    $log = $log.getInstance('$mmEmulatorFileTransfer');
-    var self = {},
-        fileTransferIdCounter = 0;
-    function getBasicAuthHeader(urlString) {
-        var header =  null;
-        if (window.btoa) {
-            var credentials = getUrlCredentials(urlString);
-            if (credentials) {
-                var authHeader = 'Authorization';
-                var authHeaderValue = 'Basic ' + window.btoa(credentials);
-                header = {
-                    name : authHeader,
-                    value : authHeaderValue
-                };
-            }
-        }
-        return header;
-    }
-    function getUrlCredentials(urlString) {
-        var credentialsPattern = /^https?\:\/\/(?:(?:(([^:@\/]*)(?::([^@\/]*))?)?@)?([^:\/?#]*)(?::(\d*))?).*$/,
-            credentials = credentialsPattern.exec(urlString);
-        return credentials && credentials[1];
-    }
-    self.load = function() {
-        $window.FileTransferError = function(code, source, target, status, body, exception) {
-            this.code = code || null;
-            this.source = source || null;
-            this.target = target || null;
-            this.http_status = status || null;
-            this.body = body || null;
-            this.exception = exception || null;
-        };
-        $window.FileTransferError.FILE_NOT_FOUND_ERR = 1;
-        $window.FileTransferError.INVALID_URL_ERR = 2;
-        $window.FileTransferError.CONNECTION_ERR = 3;
-        $window.FileTransferError.ABORT_ERR = 4;
-        $window.FileTransferError.NOT_MODIFIED_ERR = 5;
-        $window.FileTransfer = function() {
-            this._id = ++fileTransferIdCounter;
-            this.onprogress = null; 
-        };
-        $window.FileTransfer.prototype.download = function(source, target, successCallback, errorCallback, trustAllHosts, options) {
-            var basicAuthHeader = getBasicAuthHeader(source),
-                xhr = new XMLHttpRequest(),
-                isDesktop = $mmApp.isDesktop(),
-                deferred = $q.defer(), 
-                headers = null;
-            deferred.promise.then(function(entry) {
-                successCallback && successCallback(entry);
-            }).catch(function(error) {
-                errorCallback && errorCallback(error);
-            });
-            this.xhr = xhr;
-            this.deferred = deferred;
-            this.source = source;
-            this.target = target;
-            if (basicAuthHeader) {
-                source = source.replace(getUrlCredentials(source) + '@', '');
-                options = options || {};
-                options.headers = options.headers || {};
-                options.headers[basicAuthHeader.name] = basicAuthHeader.value;
-            }
-            if (options) {
-                headers = options.headers || null;
-            }
-            xhr.open('GET', source, true);
-            xhr.responseType = isDesktop ? 'arraybuffer' : 'blob';
-            angular.forEach(headers, function(value, name) {
-                xhr.setRequestHeader(name, value);
-            });
-            if (this.onprogress) {
-                xhr.onprogress = this.onprogress;
-            }
-            xhr.onerror = function() {
-                deferred.reject(new FileTransferError(-1, source, target, xhr.status, xhr.statusText));
-            };
-            xhr.onload = function() {
-                var response = xhr.response;
-                if (!response) {
-                    deferred.reject();
-                } else {
-                    var basePath = $mmFS.getBasePathInstant();
-                    target = target.replace(basePath, ''); 
-                    target = target.replace(/%20/g, ' '); 
-                    if (isDesktop) {
-                        response = Buffer.from(new Uint8Array(response));
-                    }
-                    $mmFS.writeFile(target, response).then(deferred.resolve, deferred.reject);
-                }
-            };
-            xhr.send();
-        };
-        $window.FileTransfer.prototype.upload = function(filePath, server, successCallback, errorCallback, options, trustAllHosts) {
-            var fileKey = null,
-                fileName = null,
-                mimeType = null,
-                params = null,
-                headers = null,
-                httpMethod = null,
-                deferred = $q.defer(), 
-                basicAuthHeader = getBasicAuthHeader(server),
-                that = this;
-            deferred.promise.then(function(result) {
-                successCallback && successCallback(result);
-            }).catch(function(error) {
-                errorCallback && errorCallback(error);
-            });
-            if (basicAuthHeader) {
-                server = server.replace(getUrlCredentials(server) + '@', '');
-                options = options || {};
-                options.headers = options.headers || {};
-                options.headers[basicAuthHeader.name] = basicAuthHeader.value;
-            }
-            if (options) {
-                fileKey = options.fileKey;
-                fileName = options.fileName;
-                mimeType = options.mimeType;
-                headers = options.headers;
-                httpMethod = options.httpMethod || 'POST';
-                if (httpMethod.toUpperCase() == "PUT"){
-                    httpMethod = 'PUT';
-                } else {
-                    httpMethod = 'POST';
-                }
-                if (options.params) {
-                    params = options.params;
-                } else {
-                    params = {};
-                }
-            }
-            headers = headers || {};
-            if (!headers['Content-Disposition']) {
-                headers['Content-Disposition'] = 'form-data;' + (fileKey ? ' name="' + fileKey + '";' : '') +
-                    (fileName ? ' filename="' + fileName + '"' : '')
-            }
-            delete headers['Content-Type'];
-            $mmFS.getFile(filePath).then(function(fileEntry) {
-                return $mmFS.getFileObjectFromFileEntry(fileEntry);
-            }).then(function(file) {
-                var xhr = new XMLHttpRequest();
-                xhr.open(httpMethod || 'POST', server);
-                angular.forEach(headers, function(value, name) {
-                    if (name != 'Connection') {
-                        xhr.setRequestHeader(name, value);
-                    }
-                });
-                if (that.onprogress) {
-                    xhr.onprogress = that.onprogress;
-                }
-                that.xhr = xhr;
-                that.deferred = deferred;
-                this.source = filePath;
-                this.target = server;
-                xhr.onerror = function() {
-                    deferred.reject(new FileTransferError(-1, filePath, server, xhr.status, xhr.statusText));
-                };
-                xhr.onload = function() {
-                    deferred.resolve({
-                        bytesSent: file.size,
-                        responseCode: xhr.status,
-                        response: xhr.response,
-                        objectId: ''
-                    });
-                };
-                var fd = new FormData();
-                angular.forEach(params, function(value, name) {
-                    fd.append(name, value);
-                });
-                fd.append('file', file);
-                xhr.send(fd);
-            }).catch(deferred.reject);
-        };
-        $window.FileTransfer.prototype.abort = function() {
-            if (this.xhr) {
-                this.xhr.abort();
-                this.deferred.reject(new FileTransferError(FileTransferError.ABORT_ERR, this.source, this.target));
-            }
-        };
-        return $q.when();
-    };
-    return self;
-}]);
-
-angular.module('mm.core.emulator')
-.factory('$mmEmulatorGlobalization', ["$log", "$q", "$window", "$mmApp", function($log, $q, $window, $mmApp) {
-    $log = $log.getInstance('$mmEmulatorGlobalization');
-    var self = {};
-    function getLocale() {
-        var navLang = navigator.userLanguage || navigator.language;
-        try {
-            if ($mmApp.isDesktop()) {
-                var locale = require('electron').remote.app.getLocale();
-                return locale || navLang;
-            } else {
-                return navLang;
-            }
-        } catch(ex) {
-            return navLang;
-        }
-    }
-    self.load = function() {
-        $window.GlobalizationError = function(code, message) {
-            this.code = code || null;
-            this.message = message || '';
-        };
-        $window.GlobalizationError.UNKNOWN_ERROR = 0;
-        $window.GlobalizationError.FORMATTING_ERROR = 1;
-        $window.GlobalizationError.PARSING_ERROR = 2;
-        $window.GlobalizationError.PATTERN_ERROR = 3;
-        navigator.globalization = {
-            getLocaleName: function(successCallback, errorCallback) {
-                var locale = getLocale();
-                if (locale) {
-                    successCallback && successCallback({value: locale});
-                } else {
-                    var error = new GlobalizationError(GlobalizationError.UNKNOWN_ERROR, 'Cannot get language');
-                    errorCallback && errorCallback(error);
-                }
-            },
-            numberToString: function(number, successCallback, errorCallback, options) {
-                var error = new GlobalizationError(GlobalizationError.UNKNOWN_ERROR, 'Not supported.');
-                errorCallback && errorCallback(error);
-            },
-            isDayLightSavingsTime: function(date, successCallback, errorCallback) {
-                var error = new GlobalizationError(GlobalizationError.UNKNOWN_ERROR, 'Not supported.');
-                errorCallback && errorCallback(error);
-            },
-            getFirstDayOfWeek: function(successCallback, errorCallback) {
-                var error = new GlobalizationError(GlobalizationError.UNKNOWN_ERROR, 'Not supported.');
-                errorCallback && errorCallback(error);
-            },
-            getDateNames: function (successCallback, errorCallback, options) {
-                var error = new GlobalizationError(GlobalizationError.UNKNOWN_ERROR, 'Not supported.');
-                errorCallback && errorCallback(error);
-            },
-            getDatePattern: function(successCallback, errorCallback, options) {
-                var error = new GlobalizationError(GlobalizationError.UNKNOWN_ERROR, 'Not supported.');
-                errorCallback && errorCallback(error);
-            },
-            getNumberPattern: function(successCallback, errorCallback, options) {
-                var error = new GlobalizationError(GlobalizationError.UNKNOWN_ERROR, 'Not supported.');
-                errorCallback && errorCallback(error);
-            },
-            getCurrencyPattern: function(currencyCode, successCallback, errorCallback) {
-                var error = new GlobalizationError(GlobalizationError.UNKNOWN_ERROR, 'Not supported.');
-                errorCallback && errorCallback(error);
-            },
-            stringToDate: function(dateString, successCallback, errorCallback, options) {
-                var error = new GlobalizationError(GlobalizationError.UNKNOWN_ERROR, 'Not supported.');
-                errorCallback && errorCallback(error);
-            },
-            stringToNumber: function(numberString, successCallback, errorCallback, options) {
-                var error = new GlobalizationError(GlobalizationError.UNKNOWN_ERROR, 'Not supported.');
-                errorCallback && errorCallback(error);
-            },
-            dateToString: function(date, successCallback, errorCallback, options) {
-                var error = new GlobalizationError(GlobalizationError.UNKNOWN_ERROR, 'Not supported.');
-                errorCallback && errorCallback(error);
-            },
-        };
-        navigator.globalization.getPreferredLanguage = navigator.globalization.getLocaleName;
-        return $q.when();
-    };
-    return self;
-}]);
-
-angular.module('mm.core.emulator')
-.constant('mmCoreEmulatorLastReceivedNotificationStore', 'mm_emulator_last_received_notification')
-.config(["$mmSitesFactoryProvider", "mmCoreEmulatorLastReceivedNotificationStore", function($mmSitesFactoryProvider, mmCoreEmulatorLastReceivedNotificationStore) {
-    var stores = [
-        {
-            name: mmCoreEmulatorLastReceivedNotificationStore,
-            keyPath: 'component' 
-        }
-    ];
-    $mmSitesFactoryProvider.registerStores(stores);
-}])
-.factory('$mmEmulatorHelper', ["$log", "$mmSitesManager", "$mmApp", "$q", "$mmLocalNotifications", "$mmUtil", "mmCoreSecondsDay", "mmCoreEmulatorLastReceivedNotificationStore", function($log, $mmSitesManager, $mmApp, $q, $mmLocalNotifications, $mmUtil, mmCoreSecondsDay,
-            mmCoreEmulatorLastReceivedNotificationStore) {
-    $log = $log.getInstance('$mmEmulatorHelper');
-    var self = {};
-    self.checkNewNotifications = function(component, fetchFn, getDataFn, siteId) {
-        if (!$mmApp.isDesktop() || !$mmLocalNotifications.isAvailable()) {
-            return $q.when();
-        }
-        if (!$mmApp.isOnline()) {
-            $log.debug('Cannot check push notifications because device is offline.');
-            return $q.reject();
-        }
-        var promise;
-        if (!siteId) {
-            promise = $mmSitesManager.getSitesIds();
-        } else {
-            promise = $q.when([siteId]);
-        }
-        return promise.then(function(siteIds) {
-            var sitePromises = [];
-            angular.forEach(siteIds, function(siteId) {
-                sitePromises.push(checkNewNotificationsForSite(component, fetchFn, getDataFn, siteId));
-            });
-            return $q.all(sitePromises);
-        });
-    };
-    function checkNewNotificationsForSite(component, fetchFn, getDataFn, siteId) {
-        return self.getLastReceivedNotification(component, siteId).then(function(lastNotification) {
-            return fetchFn(siteId).then(function(notifications) {
-                if (!lastNotification || !notifications.length) {
-                    return;
-                }
-                var notification = notifications[0];
-                if (notification.id == lastNotification.id || notification.timecreated <= lastNotification.timecreated ||
-                        $mmUtil.timestamp() - notification.timecreated > mmCoreSecondsDay) {
-                    return;
-                }
-                return $q.when(getDataFn(notification)).then(function(titleAndText) {
-                    var localNotif = {
-                            id: 1,
-                            at: new Date(),
-                            title: titleAndText.title,
-                            text: titleAndText.text,
-                            data: {
-                                notif: notification,
-                                site: siteId
-                            }
-                        };
-                    $mmLocalNotifications.schedule(localNotif, component, siteId);
-                });
-            });
-        });
-    }
-    self.getLastReceivedNotification = function(component, siteId) {
-        return $mmSitesManager.getSite(siteId).then(function(site) {
-            return site.getDb().get(mmCoreEmulatorLastReceivedNotificationStore, component);
-        }).catch(function() {
-            return false;
-        });
-    };
-    self.isLinux = function() {
-        try {
-            var os = require('os');
-            return os.platform().indexOf('linux') === 0;
-        } catch(ex) {
-            return false;
-        }
-    };
-    self.isMac = function() {
-        try {
-            var os = require('os');
-            return os.platform().indexOf('darwin') === 0;
-        } catch(ex) {
-            return false;
-        }
-    };
-    self.isWindows = function() {
-        try {
-            var os = require('os');
-            return os.platform().indexOf('win') === 0;
-        } catch(ex) {
-            return false;
-        }
-    };
-    self.storeLastReceivedNotification = function(component, notification, siteId) {
-        if (!notification) {
-            notification = {id: -1, timecreated: 0};
-        }
-        notification.component = component;
-        return $mmSitesManager.getSite(siteId).then(function(site) {
-            return site.getDb().insert(mmCoreEmulatorLastReceivedNotificationStore, notification);
-        });
-    };
-    return self;
-}]);
-
-angular.module('mm.core.emulator')
-.factory('$mmEmulatorInAppBrowser', ["$log", "$q", "$mmFS", "$window", "$mmApp", "$timeout", "$mmEmulatorHelper", "$mmUtil", function($log, $q, $mmFS, $window, $mmApp, $timeout, $mmEmulatorHelper, $mmUtil) {
-    $log = $log.getInstance('$mmEmulatorInAppBrowser');
-    var self = {};
-    function getLaunchUrl(webContents, retry) {
-        retry = retry || 0;
-        var jsCode = 'var el = document.querySelector("#launchapp"); el && el.href;',
-            deferred = $q.defer(),
-            found = false;
-        webContents.executeJavaScript(jsCode).then(function(launchUrl) {
-            found = true;
-            deferred.resolve(launchUrl);
-        });
-        $timeout(function() {
-            if (found) {
-            } else if (retry > 5) {
-                deferred.reject();
-            } else {
-                getLaunchUrl(webContents, retry + 1).then(deferred.resolve, deferred.reject);
-            }
-        }, 300);
-        return deferred.promise;
-    }
-    self.load = function() {
-        if (!$mmApp.isDesktop()) {
-            return $q.when();
-        }
-        var BrowserWindow = require('electron').remote.BrowserWindow,
-            screen = require('electron').screen;
-        $window.open = function(url, frameName, features) {
-            var width = 800,
-                height = 600,
-                display,
-                newWindow,
-                listeners = {},
-                isLinux = $mmEmulatorHelper.isLinux(),
-                isSSO = !!(url && url.match(/\/launch\.php\?service=.+&passport=/));
-            if (screen) {
-                display = screen.getPrimaryDisplay();
-                if (display && display.workArea) {
-                    width = display.workArea.width || width;
-                    height = display.workArea.height || height;
-                }
-            }
-            newWindow = new BrowserWindow({
-                width: width,
-                height: height
-            });
-            newWindow.loadURL(url);
-            if (isLinux && isSSO) {
-                var userAgent = 'Mozilla/5.0 (iPad) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60';
-                newWindow.webContents.setUserAgent(userAgent);
-            }
-            newWindow.addEventListener = function(name, callback) {
-                var that = this;
-                listeners[callback] = [received];
-                switch (name) {
-                    case 'loadstart':
-                        that.webContents.addListener('did-start-loading', received);
-                        if (isLinux && isSSO) {
-                            listeners[callback].push(finishLoad);
-                            that.webContents.addListener('did-finish-load', finishLoad);
-                            function finishLoad(event) {
-                                if ($mmUtil.removeUrlParams(url) == $mmUtil.removeUrlParams(that.getURL())) {
-                                    getLaunchUrl(that.webContents).then(function(launchUrl) {
-                                        if (launchUrl) {
-                                            received(event, launchUrl);
-                                        }
-                                    });
-                                }
-                            }
-                        }
-                        break;
-                    case 'loadstop':
-                        that.webContents.addListener('did-finish-load', received);
-                        break;
-                    case 'loaderror':
-                        that.webContents.addListener('did-fail-load', received);
-                        break;
-                    case 'exit':
-                        that.addListener('close', received);
-                        break;
-                }
-                function received(event, url) {
-                    try {
-                        event.url = url || that.getURL();
-                        callback(event);
-                    } catch(ex) {}
-                }
-            };
-            newWindow.removeEventListener = function(name, callback) {
-                var that = this,
-                    cbListeners = listeners[callback];
-                if (!cbListeners || !cbListeners.length) {
-                    return;
-                }
-                switch (name) {
-                    case 'loadstart':
-                        that.webContents.removeListener('did-start-loading', cbListeners[0]);
-                        if (cbListeners.length > 1) {
-                            that.webContents.removeListener('did-finish-load', cbListeners[1]);
-                        }
-                        break;
-                    case 'loadstop':
-                        that.webContents.removeListener('did-finish-load', cbListeners[0]);
-                        break;
-                    case 'loaderror':
-                        that.webContents.removeListener('did-fail-load', cbListeners[0]);
-                        break;
-                    case 'exit':
-                        that.removeListener('close', cbListeners[0]);
-                        break;
-                }
-            };
-            newWindow.executeScript = function(details, callback) {
-                var that = this;
-                if (details.code) {
-                    that.webContents.executeJavaScript(details.code, false, callback);
-                } else if (details.file) {
-                    $mmFS.readFile(details.file).then(function(code) {
-                        that.webContents.executeJavaScript(code, false, callback);
-                    }).catch(callback);
-                } else {
-                    callback('executeScript requires exactly one of code or file to be specified');
-                }
-            };
-            newWindow.insertCSS = function(details, callback) {
-                var that = this;
-                if (details.code) {
-                    that.webContents.insertCSS(details.code);
-                    callback();
-                } else if (details.file) {
-                    $mmFS.readFile(details.file).then(function(code) {
-                        that.webContents.insertCSS(code);
-                        callback();
-                    }).catch(callback);
-                } else {
-                    callback('insertCSS requires exactly one of code or file to be specified');
-                }
-            };
-            return newWindow;
-        };
-        return $q.when();
-    };
-    return self;
-}]);
-
-angular.module('mm.core.emulator')
-.constant('mmCoreDesktopLocalNotificationsStore', 'desktop_local_notifications')
-.config(["$mmAppProvider", "mmCoreDesktopLocalNotificationsStore", function($mmAppProvider, mmCoreDesktopLocalNotificationsStore) {
-    var stores = [
-        {
-            name: mmCoreDesktopLocalNotificationsStore, 
-            keyPath: 'id',
-            indexes: [
-                {
-                    name: 'triggered'
-                }
-            ]
-        }
-    ];
-    $mmAppProvider.registerStores(stores);
-}])
-.factory('$mmEmulatorLocalNotifications', ["$log", "$q", "$mmApp", "$mmUtil", "$timeout", "$interval", "$rootScope", "$cordovaLocalNotification", "mmCoreDesktopLocalNotificationsStore", "mmCoreSecondsYear", "mmCoreSecondsDay", "mmCoreSecondsHour", "mmCoreSecondsMinute", "$mmEmulatorHelper", "mmCoreConfigConstants", function($log, $q, $mmApp, $mmUtil, $timeout, $interval, $rootScope,
-            $cordovaLocalNotification, mmCoreDesktopLocalNotificationsStore, mmCoreSecondsYear, mmCoreSecondsDay,
-            mmCoreSecondsHour, mmCoreSecondsMinute, $mmEmulatorHelper, mmCoreConfigConstants) {
-    $log = $log.getInstance('$mmEmulatorLocalNotifications');
-    var self = {},
-        scheduled = {},
-        triggered = {},
-        defaults = {
-            text:  '',
-            title: '',
-            sound: '',
-            badge: 0,
-            id:    0,
-            data:  undefined,
-            every: undefined,
-            at:    undefined
-        },
-        winNotif, 
-        toastTemplate = '<toast><visual><binding template="ToastText02"><text id="1" hint-wrap="true">%s</text>' +
-                        '<text id="2" hint-wrap="true">%s</text></binding></visual></toast>', 
-        tileBindingTemplate =   '<text hint-style="base" hint-wrap="true">%s</text>' +
-                                '<text hint-style="captionSubtle" hint-wrap="true">%s</text>',
-        tileTemplate = '<tile><visual branding="nameAndLogo">' +
-                            '<binding template="TileMedium">' + tileBindingTemplate + '</binding>' +
-                            '<binding template="TileWide">' + tileBindingTemplate + '</binding>' +
-                            '<binding template="TileLarge">' + tileBindingTemplate + '</binding>' +
-                        '</visual></tile>'; 
-    function cancelNotification(id, omitEvent, eventName) {
-        var notification = scheduled[id].notification;
-        $timeout.cancel(scheduled[id].timeout);
-        $interval.cancel(scheduled[id].interval);
-        delete scheduled[id];
-        delete triggered[id];
-        removeNotification(id);
-        if (!omitEvent) {
-            $rootScope.$broadcast(eventName, notification, 'foreground');
-        }
-    }
-    function convertIds(ids) {
-        var convertedIds = [];
-        for (var i = 0; i < ids.length; i++) {
-            convertedIds.push(Number(ids[i]));
-        }
-        return convertedIds;
-    }
-    function convertProperties(options) {
-        if (options.id) {
-            if (isNaN(options.id)) {
-                options.id = defaults.id;
-                $log.warn('Id is not a number: ' + options.id);
-            } else {
-                options.id = Number(options.id);
-            }
-        }
-        if (options.title) {
-            options.title = options.title.toString();
-        }
-        if (options.text) {
-            options.text  = options.text.toString();
-        }
-        if (options.badge) {
-            if (isNaN(options.badge)) {
-                options.badge = defaults.badge;
-                $log.warn('Badge number is not a number: ' + options.id);
-            } else {
-                options.badge = Number(options.badge);
-            }
-        }
-        if (options.at) {
-            if (typeof options.at == 'object') {
-                options.at = options.at.getTime();
-            }
-            options.at = Math.round(options.at / 1000);
-        }
-        if (typeof options.data == 'object') {
-            options.data = JSON.stringify(options.data);
-        }
-        return options;
-    }
-    function getAllNotifications() {
-        return $mmApp.getDB().getAll(mmCoreDesktopLocalNotificationsStore);
-    }
-    function getNotifications(ids, getScheduled, getTriggered) {
-        var notifications = [];
-        if (getScheduled) {
-            angular.forEach(scheduled, function(entry, id) {
-                if (!ids || ids.indexOf(id) != -1) {
-                    notifications.push(entry.notification);
-                }
-            });
-        }
-        if (getTriggered) {
-            angular.forEach(triggered, function(notification, id) {
-                if ((!getScheduled || !scheduled[id]) && (!ids || ids.indexOf(id) != -1)) {
-                    notifications.push(notification);
-                }
-            });
-        }
-        return notifications;
-    }
-    function getValueFor(options) {
-        var keys = Array.apply(null, arguments).slice(1);
-        for (var i = 0; i < keys.length; i++) {
-            var key = keys[i];
-            if (options.hasOwnProperty(key)) {
-                return options[key];
-            }
-        }
-    }
-    self.load = function() {
-        if (!$mmApp.isDesktop()) {
-            return $q.when();
-        }
-        if ($mmEmulatorHelper.isWindows()) {
-            try {
-                winNotif = require('electron-windows-notifications');
-            } catch(ex) {}
-        }
-        $cordovaLocalNotification.schedule = function(notifications, scope, isUpdate) {
-            var promises = [];
-            notifications = Array.isArray(notifications) ? notifications : [notifications];
-            angular.forEach(notifications, function(notification) {
-                mergeWithDefaults(notification);
-                convertProperties(notification);
-                $cordovaLocalNotification.cancel(notification.id, null, true);
-                scheduled[notification.id] = {
-                    notification: notification
-                };
-                promises.push(storeNotification(notification, false));
-                if (Math.abs(moment().diff(notification.at * 1000, 'days')) > 15) {
-                    return;
-                }
-                var toTrigger = notification.at * 1000 - Date.now();
-                scheduled[notification.id].timeout = $timeout(function trigger() {
-                    triggerNotification(notification);
-                    triggered[notification.id] = notification;
-                    storeNotification(notification, true);
-                    $rootScope.$broadcast('$cordovaLocalNotification:trigger', notification, 'foreground');
-                    if (notification.every && scheduled[notification.id] && !scheduled[notification.id].interval) {
-                        var interval = parseInterval(notification.every);
-                        if (interval > 0) {
-                            scheduled[notification.id].interval = $interval(trigger, interval);
-                        }
-                    }
-                }, toTrigger);
-                var eventName = isUpdate ? 'update' : 'schedule';
-                $rootScope.$broadcast('$cordovaLocalNotification:' + eventName, notification, 'foreground');
-            });
-            return $q.when();
-        };
-        $cordovaLocalNotification.update = function(notifications) {
-            return $cordovaLocalNotification.schedule(notifications, null, true);
-        };
-        $cordovaLocalNotification.clear = function(ids, scope, omitEvent) {
-            var promises = [];
-            ids = Array.isArray(ids) ? ids : [ids];
-            ids = convertIds(ids);
-            angular.forEach(ids, function(id) {
-                if (scheduled[id] && scheduled[id].notification && !scheduled[id].notification.every) {
-                    promises.push(cancelNotification(id, omitEvent, '$cordovaLocalNotification:clear'));
-                }
-            });
-            return $q.all(promises);
-        };
-        $cordovaLocalNotification.clearAll = function(scope, omitEvent) {
-            var ids = Object.keys(scheduled);
-            return $cordovaLocalNotification.clear(ids, scope, omitEvent).then(function() {
-                if (!omitEvent) {
-                    $rootScope.$broadcast('$cordovaLocalNotification:clearall', 'foreground');
-                }
-            });
-        };
-        $cordovaLocalNotification.cancel = function(ids, scope, omitEvent) {
-            var promises = [];
-            ids = Array.isArray(ids) ? ids : [ids];
-            ids = convertIds(ids);
-            angular.forEach(ids, function(id) {
-                if (scheduled[id]) {
-                    promises.push(cancelNotification(id, omitEvent, '$cordovaLocalNotification:cancel'));
-                }
-            });
-            return $q.all(promises);
-        };
-        $cordovaLocalNotification.cancelAll = function(scope, omitEvent) {
-            var ids = Object.keys(scheduled);
-            return $cordovaLocalNotification.cancel(ids, scope, omitEvent).then(function() {
-                if (!omitEvent) {
-                    $rootScope.$broadcast('$cordovaLocalNotification:cancelall', 'foreground');
-                }
-            });
-        };
-        $cordovaLocalNotification.isPresent = function(id) {
-            return $q.when(!!scheduled[id] || !!triggered[notification.id]);
-        };
-        $cordovaLocalNotification.isScheduled = function(id) {
-            return $q.when(!!scheduled[id]);
-        };
-        $cordovaLocalNotification.isTriggered = function(id) {
-            return $q.when(!!triggered[notification.id]);
-        };
-        $cordovaLocalNotification.hasPermission = function() {
-            return $q.when(true);
-        };
-        $cordovaLocalNotification.registerPermission = function() {
-            return $q.when(true);
-        };
-        $cordovaLocalNotification.getAllIds = function() {
-            return $q.when($mmUtil.mergeArraysWithoutDuplicates(Object.keys(scheduled), Object.keys(triggered)));
-        };
-        $cordovaLocalNotification.getIds = $cordovaLocalNotification.getAllIds;
-        $cordovaLocalNotification.getScheduledIds = function() {
-            return $q.when(Object.keys(scheduled));
-        };
-        $cordovaLocalNotification.getTriggeredIds = function() {
-            return $q.when(Object.keys(triggered));
-        };
-        $cordovaLocalNotification.get = function(ids) {
-            ids = Array.isArray(ids) ? ids : [ids];
-            ids = convertIds(ids);
-            return $q.when(getNotifications(ids, true, true));
-        };
-        $cordovaLocalNotification.getAll = function() {
-            return $q.when(getNotifications(null, true, true));
-        };
-        $cordovaLocalNotification.getScheduled = function(ids) {
-            ids = Array.isArray(ids) ? ids : [ids];
-            ids = convertIds(ids);
-            return $q.when(getNotifications(ids, true, false));
-        };
-        $cordovaLocalNotification.getAllScheduled = function() {
-            return $q.when(getNotifications(null, true, false));
-        };
-        $cordovaLocalNotification.getTriggered = function(ids) {
-            ids = Array.isArray(ids) ? ids : [ids];
-            ids = convertIds(ids);
-            return $q.when(getNotifications(ids, false, true));
-        };
-        $cordovaLocalNotification.getAllTriggered = function() {
-            return $q.when(getNotifications(null, false, true));
-        };
-        $cordovaLocalNotification.getDefaults = function() {
-            return defaults;
-        };
-        $cordovaLocalNotification.setDefaults = function(newDefaults) {
-            for (var key in defaults) {
-                if (newDefaults.hasOwnProperty(key)) {
-                    defaults[key] = newDefaults[key];
-                }
-            }
-        };
-        return getAllNotifications().catch(function() {
-            return [];
-        }).then(function(notifications) {
-            angular.forEach(notifications, function(notification) {
-                if (notification.triggered) {
-                    delete notification.triggered;
-                    scheduled[notification.id] = {
-                        notification: notification
-                    };
-                    triggered[notification.id] = notification;
-                } else {
-                    delete notification.triggered;
-                    notification.at = notification.at * 1000;
-                    if (notification.at - Date.now() > - mmCoreSecondsHour * 1000) {
-                        $cordovaLocalNotification.schedule(notification);
-                    }
-                }
-            });
-        });
-    };
-    function mergeWithDefaults(options) {
-        options.at   = getValueFor(options, 'at', 'firstAt', 'date');
-        options.text = getValueFor(options, 'text', 'message');
-        options.data = getValueFor(options, 'data', 'json');
-        if (defaults.hasOwnProperty('autoClear')) {
-            options.autoClear = getValueFor(options, 'autoClear', 'autoCancel');
-        }
-        if (options.autoClear !== true && options.ongoing) {
-            options.autoClear = false;
-        }
-        if (options.at === undefined || options.at === null) {
-            options.at = new Date();
-        }
-        for (var key in defaults) {
-            if (options[key] === null || options[key] === undefined) {
-                if (options.hasOwnProperty(key) && ['data','sound'].indexOf(key) > -1) {
-                    options[key] = undefined;
-                } else {
-                    options[key] = defaults[key];
-                }
-            }
-        }
-        for (key in options) {
-            if (!defaults.hasOwnProperty(key)) {
-                delete options[key];
-                $log.warn('Unknown property: ' + key);
-            }
-        }
-        return options;
-    }
-    function notificationClicked(notification) {
-        $rootScope.$broadcast('$cordovaLocalNotification:click', notification, 'foreground');
-        require('electron').ipcRenderer.send('focusApp');
-    }
-    function parseInterval(every) {
-        var interval;
-        every = String(every).toLowerCase();
-        if (!every || every == 'undefined') {
-            interval = 0;
-        } else if (every == 'second') {
-            interval = 1000;
-        } else if (every == 'minute') {
-            interval = mmCoreSecondsMinute * 1000;
-        } else if (every == 'hour') {
-            interval = mmCoreSecondsHour * 1000;
-        } else if (every == 'day') {
-            interval = mmCoreSecondsDay * 1000;
-        } else if (every == 'week') {
-            interval = mmCoreSecondsDay * 7 * 1000;
-        } else if (every == 'month') {
-            interval = mmCoreSecondsDay * 31 * 1000;
-        } else if (every == 'quarter') {
-            interval = mmCoreSecondsHour * 2190 * 1000;
-        } else if (every == 'year') {
-            interval = mmCoreSecondsYear * 1000;
-        } else {
-            interval = parseInt(every, 10);
-            if (isNaN(interval)) {
-                interval = 0;
-            } else {
-                interval *= 60000;
-            }
-        }
-        return interval;
-    }
-    function removeNotification(id) {
-        return $mmApp.getDB().remove(mmCoreDesktopLocalNotificationsStore, id);
-    }
-    function storeNotification(notification, triggered) {
-        notification = angular.copy(notification);
-        notification.triggered = !!triggered;
-        return $mmApp.getDB().insert(mmCoreDesktopLocalNotificationsStore, notification);
-    }
-    function triggerNotification(notification) {
-        if (winNotif) {
-            var notifInstance = new winNotif.ToastNotification({
-                appId: mmCoreConfigConstants.app_id,
-                template: toastTemplate,
-                strings: [notification.title,  notification.text]
-            });
-            notifInstance.on('activated', function() {
-                notificationClicked(notification);
-            });
-            notifInstance.show();
-            try {
-                var tileNotif = new winNotif.TileNotification({
-                    tag: notification.id + '',
-                    template: tileTemplate,
-                    strings: [notification.title,  notification.text, notification.title,  notification.text, notification.title,  notification.text],
-                    expirationTime: new Date(Date.now() + mmCoreSecondsHour * 1000) 
-                })
-                tileNotif.show()
-            } catch(ex) {
-                $log.warn('Error showing TileNotification. Please notice they only work with the app installed.', ex);
-            }
-        } else {
-            var notifInstance = new Notification(notification.title, {
-                body: notification.text
-            });
-            notifInstance.onclick = function() {
-                notificationClicked(notification);
-            };
-        }
-    }
-    return self;
-}]);
-
-angular.module('mm.core.emulator')
-.factory('$mmEmulatorMediaCapture', ["$log", "$q", "$ionicModal", "$rootScope", "$window", "$mmUtil", "$mmFS", "$timeout", function($log, $q, $ionicModal, $rootScope, $window, $mmUtil, $mmFS, $timeout) {
-    $log = $log.getInstance('$mmEmulatorMediaCapture');
-    var self = {},
-        possibleAudioMimeTypes = {
-            'audio/webm': 'weba',
-            'audio/ogg': 'ogg'
-        },
-        possibleVideoMimeTypes = {
-            'video/webm;codecs=vp9': 'webm',
-            'video/webm;codecs=vp8': 'webm',
-            'video/ogg': 'ogv'
-        },
-        videoMimeType,
-        audioMimeType;
-    function captureMedia(type, successCallback, errorCallback, options) {
-        options = options || {};
-        var loadingModal;
-        try {
-            var scope = $rootScope.$new(),
-                facingMode = 'environment',
-                mimetype,
-                extension,
-                quality = 0.92, 
-                returnData = false, 
-                isCaptureImage = false, 
-                mimeAndExt;
-            loadingModal = $mmUtil.showModalLoading();
-            if (type == 'captureimage') {
-                isCaptureImage = true;
-                type = 'image';
-            }
-            if (type == 'video') {
-                scope.isVideo = true;
-                title = 'mm.core.capturevideo';
-                mimeAndExt = getMimeTypeAndExtension(type, options.mimetypes);
-                mimetype = mimeAndExt.mimetype;
-                extension = mimeAndExt.extension;
-            } else if (type == 'audio') {
-                scope.isAudio = true;
-                title = 'mm.core.captureaudio';
-                mimeAndExt = getMimeTypeAndExtension(type, options.mimetypes);
-                mimetype = mimeAndExt.mimetype;
-                extension = mimeAndExt.extension;
-            } else if (type == 'image') {
-                scope.isImage = true;
-                title = 'mm.core.captureimage';
-                if (typeof options.sourceType != 'undefined' && options.sourceType != Camera.PictureSourceType.CAMERA) {
-                    errorCallback && errorCallback('This source type is not supported in desktop.');
-                    loadingModal.dismiss();
-                    return;
-                }
-                if (options.cameraDirection == Camera.Direction.FRONT) {
-                    facingMode = 'user';
-                }
-                if (options.encodingType == Camera.EncodingType.PNG) {
-                    mimetype = 'image/png';
-                    extension = 'png';
-                } else {
-                    mimetype = 'image/jpeg';
-                    extension = 'jpeg';
-                }
-                if (options.quality >= 0 && options.quality <= 100) {
-                    quality = options.quality / 100;
-                }
-                if (options.destinationType == Camera.DestinationType.DATA_URL) {
-                    returnData = true;
-                }
-            }
-            if (options.duration) {
-                scope.chronoEndTime = options.duration * 1000;
-            }
-            initModal(scope).then(function(modal) {
-                var constraints = {
-                    video: scope.isAudio ? false : {facingMode: facingMode},
-                    audio: !scope.isImage
-                };
-                return navigator.mediaDevices.getUserMedia(constraints).then(function(localMediaStream) {
-                    var streamVideo,
-                        previewMedia,
-                        canvas,
-                        imgEl,
-                        mediaRecorder,
-                        chunks = [],
-                        mediaBlob,
-                        audioDrawer;
-                    if (scope.isImage) {
-                        canvas = modal.modalEl.querySelector('canvas.mm-webcam-image-canvas');
-                        imgEl = modal.modalEl.querySelector('img.mm-webcam-image');
-                    } else {
-                        if (scope.isVideo) {
-                            previewMedia = modal.modalEl.querySelector('video.mm-webcam-video-captured');
-                        } else {
-                            previewMedia = modal.modalEl.querySelector('audio.mm-audio-captured');
-                            canvas = modal.modalEl.querySelector('canvas.mm-audio-canvas');
-                            audioDrawer = initAudioDrawer(localMediaStream, canvas);
-                            audioDrawer.start();
-                        }
-                        mediaRecorder = new MediaRecorder(localMediaStream, {mimeType: mimetype});
-                        mediaRecorder.ondataavailable = function(e) {
-                            if (e.data.size > 0) {
-                                chunks.push(e.data);
-                            }
-                        };
-                        mediaRecorder.onstop = function() {
-                            mediaBlob = new Blob(chunks);
-                            chunks = [];
-                            previewMedia.src = $window.URL.createObjectURL(mediaBlob);
-                        };
-                    }
-                    if (scope.isImage || scope.isVideo) {
-                        var hasLoaded = false,
-                            waitTimeout;
-                        streamVideo = modal.modalEl.querySelector('video.mm-webcam-stream');
-                        streamVideo.src = $window.URL.createObjectURL(localMediaStream);
-                        streamVideo.onloadedmetadata = function() {
-                            if (hasLoaded) {
-                                return;
-                            }
-                            hasLoaded = true;
-                            $timeout.cancel(waitTimeout);
-                            loadingModal.dismiss();
-                            modal.show();
-                            scope.readyToCapture = true;
-                            streamVideo.onloadedmetadata = null;
-                        };
-                        waitTimeout = $timeout(function() {
-                            if (!hasLoaded) {
-                                hasLoaded = true;
-                                loadingModal.dismiss();
-                                errorCallback && errorCallback({code: -1, message: 'Cannot connect to webcam.'});
-                            }
-                        }, 10000);
-                    } else {
-                        loadingModal.dismiss();
-                        modal.show();
-                        scope.readyToCapture = true;
-                    }
-                    scope.actionClicked = function() {
-                        if (scope.isCapturing) {
-                            scope.stopCapturing();
-                        } else {
-                            if (!scope.isImage) {
-                                scope.isCapturing = true;
-                                mediaRecorder.start();
-                                scope.$broadcast('mm-chrono-start');
-                            } else {
-                                var width = streamVideo.videoWidth,
-                                    height = streamVideo.videoHeight;
-                                canvas.width = width;
-                                canvas.height = height;
-                                canvas.getContext('2d').drawImage(streamVideo, 0, 0, width, height);
-                                loadingModal = $mmUtil.showModalLoading();
-                                canvas.toBlob(function(blob) {
-                                    loadingModal.dismiss();
-                                    mediaBlob = blob;
-                                    imgEl.setAttribute('src', $window.URL.createObjectURL(mediaBlob));
-                                    scope.hasCaptured = true;
-                                }, mimetype, quality);
-                            }
-                        }
-                    };
-                    scope.stopCapturing = function() {
-                        streamVideo && streamVideo.pause();
-                        audioDrawer && audioDrawer.stop();
-                        mediaRecorder.stop();
-                        scope.isCapturing = false;
-                        scope.hasCaptured = true;
-                        scope.$broadcast('mm-chrono-stop');
-                    };
-                    scope.discard = function() {
-                        previewMedia && previewMedia.pause();
-                        streamVideo && streamVideo.play();
-                        audioDrawer && audioDrawer.start();
-                        scope.hasCaptured = false;
-                        scope.isCapturing = false;
-                        scope.$broadcast('mm-chrono-reset');
-                        delete mediaBlob;
-                    };
-                    scope.done = function() {
-                        if (returnData) {
-                            success(canvas.toDataURL(mimetype, quality));
-                            return;
-                        }
-                        if (!mediaBlob) {
-                            $mmUtil.showErrorModal('Please capture the media first.');
-                            return;
-                        }
-                        var fileName = type + '_' + $mmUtil.readableTimestamp() + '.' + extension,
-                            path = $mmFS.concatenatePaths($mmFS.getTmpFolder(), 'media/' + fileName);
-                        loadingModal = $mmUtil.showModalLoading();
-                        $mmFS.writeFile(path, mediaBlob).then(function(fileEntry) {
-                            if (scope.isImage && !isCaptureImage) {
-                                success(fileEntry.toURL());
-                            } else {
-                                fileEntry.getFormatData = function(successFn, errorFn) {
-                                    errorFn && errorFn('Not supported');
-                                };
-                                success([fileEntry]);
-                            }
-                        }).catch(function(err) {
-                            $mmUtil.showErrorModal(err);
-                        }).finally(function() {
-                            loadingModal.dismiss();
-                        });
-                    };
-                    function success(data) {
-                        scope.modal.hide();
-                        $timeout(function() {
-                            successCallback && successCallback(data);
-                        }, 400);
-                    }
-                    scope.cancel = function() {
-                        scope.modal.hide();
-                        var error = scope.isImage && !isCaptureImage ? 'Camera cancelled' : {code: 3, message: 'Canceled.'};
-                        errorCallback && errorCallback(error);
-                    };
-                    scope.$on('modal.hidden', function() {
-                        var tracks = localMediaStream.getTracks();
-                        angular.forEach(tracks, function(track) {
-                            track.stop();
-                        });
-                        streamVideo && streamVideo.pause();
-                        previewMedia && previewMedia.pause();
-                        audioDrawer && audioDrawer.stop();
-                        scope.$destroy();
-                    });
-                    scope.$on('$destroy', function() {
-                        scope.modal.remove();
-                    });
-                });
-            }).catch(function(err) {
-                loadingModal && loadingModal.dismiss();
-                errorCallback && errorCallback(err);
-            });
-        } catch(ex) {
-            loadingModal && loadingModal.dismiss();
-            errorCallback && errorCallback(ex.toString());
-        }
-    }
-    function getMimeTypeAndExtension(type, mimetypes) {
-        var result = {};
-        if (mimetypes && mimetypes.length) {
-            for (var i = 0; i < mimetypes.length; i++) {
-                var mimetype = mimetypes[i],
-                    matches = mimetype.match(new RegExp('^' + type + '/'));
-                if (matches && matches.length && MediaRecorder.isTypeSupported(mimetype)) {
-                    result.mimetype = mimetype;
-                    break;
-                }
-            }
-        }
-        if (result.mimetype) {
-            result.extension = $mmFS.getExtension(result.mimetype);
-        } else if (type == 'video') {
-            result.mimetype = videoMimeType;
-            result.extension = possibleVideoMimeTypes[result.mimetype];
-        } else if (type == 'audio') {
-            result.mimetype = audioMimeType;
-            result.extension = possibleAudioMimeTypes[result.mimetype];
-        }
-        return result;
-    }
-    function initAudioDrawer(stream, canvas) {
-        var audioCtx = new (window.AudioContext || webkitAudioContext)(),
-            canvasCtx = canvas.getContext("2d"),
-            source = audioCtx.createMediaStreamSource(stream),
-            analyser = audioCtx.createAnalyser(),
-            bufferLength = analyser.frequencyBinCount,
-            dataArray = new Uint8Array(bufferLength),
-            width = canvas.width,
-            height = canvas.height,
-            running = false,
-            skip = true;
-        analyser.fftSize = 2048;
-        source.connect(analyser);
-        return {
-            start: function() {
-                if (running) {
-                    return;
-                }
-                running = true;
-                drawAudio();
-            },
-            stop: function() {
-                running = false;
-            }
-        };
-        function drawAudio() {
-            if (!running) {
-                return;
-            }
-            requestAnimationFrame(drawAudio);
-            skip = !skip;
-            if (skip) {
-                return;
-            }
-            var sliceWidth = width / bufferLength,
-                x = 0;
-            analyser.getByteTimeDomainData(dataArray);
-            canvasCtx.fillStyle = 'rgb(200, 200, 200)';
-            canvasCtx.fillRect(0, 0, width, height);
-            canvasCtx.lineWidth = 1;
-            canvasCtx.strokeStyle = 'rgb(0, 0, 0)';
-            canvasCtx.beginPath();
-            for(var i = 0; i < bufferLength; i++) {
-                var v = dataArray[i] / 128.0,
-                    y = v * height / 2;
-                if (i === 0) {
-                    canvasCtx.moveTo(x, y);
-                } else {
-                    canvasCtx.lineTo(x, y);
-                }
-                x += sliceWidth;
-            }
-            canvasCtx.lineTo(width, height / 2);
-            canvasCtx.stroke();
-        }
-    }
-    function initGetUserMedia() {
-        navigator.mediaDevices = navigator.mediaDevices || {};
-        if (!navigator.mediaDevices.getUserMedia) {
-            navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia ||
-                            navigator.mozGetUserMedia || navigator.msGetUserMedia;
-            if (navigator.getUserMedia) {
-                navigator.mediaDevices.getUserMedia = function(constraints) {
-                    var deferred = $q.defer();
-                    navigator.getUserMedia(constraints, deferred.resolve, deferred.reject);
-                    return deferred.promise;
-                };
-            } else {
-                return false;
-            }
-        }
-        return true;
-    }
-    function initMimeTypes() {
-        for (var mimeType in possibleVideoMimeTypes) {
-            if (MediaRecorder.isTypeSupported(mimeType)) {
-                videoMimeType = mimeType;
-                break;
-            }
-        }
-        for (mimeType in possibleAudioMimeTypes) {
-            if (MediaRecorder.isTypeSupported(mimeType)) {
-                audioMimeType = mimeType;
-                break;
-            }
-        }
-    }
-    function initModal(scope) {
-        return $ionicModal.fromTemplateUrl('core/components/emulator/templates/capturemediamodal.html', {
-            scope: scope,
-            animation: 'slide-in-up'
-        }).then(function(modal) {
-            scope.modal = modal;
-            return modal;
-        });
-    }
-    self.load = function() {
-        if (typeof window.MediaRecorder == 'undefined') {
-            return $q.when();
-        }
-        if (!initGetUserMedia()) {
-            return $q.when();
-        }
-        initMimeTypes();
-        navigator.device = navigator.device || {};
-        navigator.device.capture = navigator.device.capture || {};
-        navigator.camera = navigator.camera || {};
-        $window.Camera = $window.Camera || {};
-        $window.Camera.DestinationType = {
-            DATA_URL: 0,
-            FILE_URI: 1,
-            NATIVE_URI: 2
-        };
-        $window.Camera.Direction = {
-            BACK: 0,
-            FRONT: 1
-        };
-        $window.Camera.EncodingType = {
-            JPEG: 0,
-            PNG: 1
-        };
-        $window.Camera.MediaType = {
-            PICTURE: 0,
-            VIDEO: 1,
-            ALLMEDIA: 2
-        };
-        $window.Camera.PictureSourceType = {
-            PHOTOLIBRARY: 0,
-            CAMERA: 1,
-            SAVEDPHOTOALBUM: 2
-        };
-        $window.Camera.PopoverArrowDirection = {
-            ARROW_UP: 1,
-            ARROW_DOWN: 2,
-            ARROW_LEFT: 4,
-            ARROW_RIGHT: 8,
-            ARROW_ANY: 15
-        };
-        angular.extend(navigator.camera, $window.Camera);
-        $window.CameraPopoverOptions = function() {
-        };
-        $window.CameraPopoverHandle = function() {
-        };
-        $window.CameraPopoverHandle.prototype.setPosition = function() {
-        };
-        navigator.camera.getPicture = function(successCallback, errorCallback, options) {
-            return captureMedia('image', successCallback, errorCallback, options);
-        };
-        navigator.camera.cleanup = function(successCallback, errorCallback) {
-            successCallback && successCallback();
-        };
-        navigator.device.capture.captureImage = function(successCallback, errorCallback, options) {
-            return captureMedia('captureimage', successCallback, errorCallback, options);
-        };
-        navigator.device.capture.captureVideo = function(successCallback, errorCallback, options) {
-            return captureMedia('video', successCallback, errorCallback, options);
-        };
-        navigator.device.capture.captureAudio = function(successCallback, errorCallback, options) {
-            return captureMedia('audio', successCallback, errorCallback, options);
-        };
-        $window.CaptureAudioOptions = function() {};
-        $window.CaptureImageOptions = function() {};
-        $window.CaptureVideoOptions = function() {};
-        $window.CaptureError = function(c) {
-            this.code = c || null;
-        };
-        return $q.when();
-    };
-    return self;
-}]);
-
-angular.module('mm.core.emulator')
-.factory('$mmEmulatorNetwork', ["$log", "$q", function($log, $q) {
-    $log = $log.getInstance('$mmEmulatorNetwork');
-    var self = {};
-    self.load = function() {
-        window.Connection = {
-            UNKNOWN: 'unknown',
-            ETHERNET: 'ethernet',
-            WIFI: 'wifi',
-            CELL_2G: '2g',
-            CELL_3G: '3g',
-            CELL_4G: '4g',
-            CELL: 'cellular',
-            NONE: 'none'
-        };
-        return $q.when();
-    };
-    return self;
-}]);
-
-angular.module('mm.core.emulator')
-.factory('$mmEmulatorPushNotifications', ["$log", "$q", "$window", "$mmApp", function($log, $q, $window, $mmApp) {
-    $log = $log.getInstance('$mmEmulatorPushNotifications');
-    var self = {};
-    self.load = function() {
-        var PushNotification = function(options) {};
-        PushNotification.prototype.unregister = function(successCallback, errorCallback, options) {
-            errorCallback && errorCallback('Unregister is only supported in mobile devices');
-        };
-        PushNotification.prototype.subscribe = function(topic, successCallback, errorCallback) {
-            errorCallback && errorCallback('Suscribe is only supported in mobile devices');
-        };
-        PushNotification.prototype.unsubscribe = function(topic, successCallback, errorCallback) {
-            errorCallback && errorCallback('Unsuscribe is only supported in mobile devices');
-        };
-        PushNotification.prototype.setApplicationIconBadgeNumber = function(successCallback, errorCallback, badge) {
-            if (!$mmApp.isDesktop()) {
-                errorCallback && errorCallback('setApplicationIconBadgeNumber is not supported in browser');
-                return;
-            }
-            try {
-                var app = require('electron').remote.app;
-                if (app.setBadgeCount(badge)) {
-                    successCallback && successCallback();
-                } else {
-                    errorCallback && errorCallback();
-                }
-            } catch(ex) {
-                errorCallback && errorCallback(ex);
-            }
-        };
-        PushNotification.prototype.getApplicationIconBadgeNumber = function(successCallback, errorCallback) {
-            if (!$mmApp.isDesktop()) {
-                errorCallback && errorCallback('getApplicationIconBadgeNumber is not supported in browser');
-                return;
-            }
-            try {
-                var app = require('electron').remote.app;
-                successCallback && successCallback(app.getBadgeCount());
-            } catch(ex) {
-                errorCallback && errorCallback(ex);
-            }
-        };
-        PushNotification.prototype.clearAllNotifications = function(successCallback, errorCallback) {
-            errorCallback && errorCallback('clearAllNotifications is only supported in mobile devices');
-        };
-        PushNotification.prototype.on = function(eventName, callback) {};
-        PushNotification.prototype.off = function(eventName, handle) {};
-        PushNotification.prototype.emit = function() {};
-        PushNotification.prototype.finish = function(successCallback, errorCallback, id) {
-            errorCallback && errorCallback('finish is only supported in mobile devices');
-        };
-        $window.PushNotification = {
-            init: function(options) {
-                return new PushNotification(options);
-            },
-            hasPermission: function(successCallback, errorCallback) {
-                errorCallback && errorCallback('hasPermission is only supported in mobile devices');
-            },
-            PushNotification: PushNotification
-        };
-        return $q.when();
-    };
-    return self;
-}]);
-
-angular.module('mm.core.emulator')
-.factory('$mmEmulatorZip', ["$log", "$q", "$mmFS", "$window", function($log, $q, $mmFS, $window) {
-    $log = $log.getInstance('$mmEmulatorZip');
-    var self = {};
-    self.load = function() {
-        $window.zip = {
-            unzip: function(source, destination, callback, progressCallback) {
-                var basePath = $mmFS.getBasePathInstant();
-                source = source.replace(basePath, '').replace(/%20/g, ' ');
-                destination = destination.replace(basePath, '').replace(/%20/g, ' ');
-                $mmFS.readFile(source, $mmFS.FORMATARRAYBUFFER).then(function(data) {
-                    var zip = new JSZip(data),
-                        promises = [],
-                        loaded = 0,
-                        total = Object.keys(zip.files).length;
-                    angular.forEach(zip.files, function(file, name) {
-                        var filePath = $mmFS.concatenatePaths(destination, name),
-                            type,
-                            promise;
-                        if (!file.dir) {
-                            type = $mmFS.getMimeType($mmFS.getFileExtension(name));
-                            promise = $mmFS.writeFile(filePath, new Blob([file.asArrayBuffer()], {type: type}));
-                        } else {
-                            promise = $mmFS.createDir(filePath);
-                        }
-                        promises.push(promise.then(function() {
-                            loaded++;
-                            progressCallback && progressCallback({loaded: loaded, total: total});
-                        }));
-                    });
-                    return $q.all(promises).then(function() {
-                        callback(0);
-                    });
-                }).catch(function() {
-                    callback(-1);
-                });
-            }
-        };
-        return $q.when();
     };
     return self;
 }]);
@@ -18979,6 +17008,1977 @@ angular.module('mm.core.fileuploader')
             });
         }
     }
+    return self;
+}]);
+
+angular.module('mm.core.emulator')
+.factory('$mmEmulatorClipboard', ["$log", "$q", "$mmApp", "$cordovaClipboard", function($log, $q, $mmApp, $cordovaClipboard) {
+    $log = $log.getInstance('$mmEmulatorClipboard');
+    var self = {};
+    self.load = function() {
+        var isDesktop = $mmApp.isDesktop(),
+            clipboard,
+            copyTextarea;
+        if (isDesktop) {
+            clipboard = require('electron').clipboard;
+        } else {
+            copyTextarea = document.createElement('textarea');
+            angular.element(copyTextarea).addClass('mm-browser-copy-area');
+            copyTextarea.setAttribute('aria-hidden', 'true');
+            document.body.append(copyTextarea);
+        }
+        $cordovaClipboard.copy = function(text) {
+            var deferred = $q.defer();
+            if (isDesktop) {
+                clipboard.writeText(text);
+                deferred.resolve();
+            } else {
+                copyTextarea.innerHTML = text;
+                copyTextarea.select();
+                try {
+                    if (document.execCommand('copy')) {
+                        deferred.resolve();
+                    } else {
+                        deferred.reject();
+                    }
+                } catch (err) {
+                    deferred.reject();
+                }
+                copyTextarea.innerHTML = '';
+            }
+            return deferred.promise;
+        };
+        $cordovaClipboard.paste = function() {
+            var deferred = $q.defer();
+            if (isDesktop) {
+                deferred.resolve(clipboard.readText());
+            } else {
+                copyTextarea.innerHTML = '';
+                copyTextarea.select();
+                try {
+                    if (document.execCommand('paste')) {
+                        deferred.resolve(copyTextarea.innerHTML);
+                    } else {
+                        deferred.reject();
+                    }
+                } catch (err) {
+                    deferred.reject();
+                }
+                copyTextarea.innerHTML = '';
+            }
+            return deferred.promise;
+        };
+        return $q.when();
+    };
+    return self;
+}]);
+
+angular.module('mm.core.emulator')
+.factory('$mmEmulatorCustomURLScheme', ["$log", "$q", "$mmApp", function($log, $q, $mmApp) {
+    $log = $log.getInstance('$mmEmulatorCustomURLScheme');
+    var self = {};
+    self.load = function() {
+        if (!$mmApp.isDesktop()) {
+            return $q.when();
+        }
+        require('electron').ipcRenderer.on('mmAppLaunched', function(event, url) {
+            window.handleOpenURL && window.handleOpenURL(url);
+        });
+        return $q.when();
+    };
+    return self;
+}]);
+
+angular.module('mm.core.emulator')
+.factory('$mmEmulatorManager', ["$log", "$q", "$mmFS", "$mmEmulatorClipboard", "$mmEmulatorCustomURLScheme", "$mmEmulatorFile", "$mmEmulatorFileTransfer", "$mmEmulatorGlobalization", "$mmEmulatorInAppBrowser", "$mmEmulatorLocalNotifications", "$mmEmulatorPushNotifications", "$mmEmulatorZip", "$mmUtil", "$mmEmulatorMediaCapture", "$mmEmulatorNetwork", function($log, $q, $mmFS, $mmEmulatorClipboard, $mmEmulatorCustomURLScheme, $mmEmulatorFile,
+            $mmEmulatorFileTransfer, $mmEmulatorGlobalization, $mmEmulatorInAppBrowser, $mmEmulatorLocalNotifications,
+            $mmEmulatorPushNotifications, $mmEmulatorZip, $mmUtil, $mmEmulatorMediaCapture, $mmEmulatorNetwork) {
+    $log = $log.getInstance('$mmEmulatorManager');
+    var self = {};
+    self.loadHTMLAPI = function() {
+        if ($mmFS.isAvailable()) {
+            $log.debug('Stop loading HTML API, it was already loaded or the environment doesn\'t need it.');
+            return $q.when();
+        }
+        $log.debug('Loading HTML API.');
+        var promises = [];
+        promises.push($mmEmulatorClipboard.load());
+        promises.push($mmEmulatorCustomURLScheme.load());
+        promises.push($mmEmulatorFile.load());
+        promises.push($mmEmulatorFileTransfer.load());
+        promises.push($mmEmulatorGlobalization.load());
+        promises.push($mmEmulatorInAppBrowser.load());
+        promises.push($mmEmulatorLocalNotifications.load());
+        promises.push($mmEmulatorMediaCapture.load());
+        promises.push($mmEmulatorPushNotifications.load());
+        promises.push($mmEmulatorZip.load());
+        promises.push($mmEmulatorNetwork.load());
+        return $mmUtil.allPromises(promises);
+    };
+    return self;
+}]);
+
+angular.module('mm.core.emulator')
+.factory('$mmEmulatorFile', ["$log", "$q", "$mmFS", "$window", "$mmApp", "mmCoreConfigConstants", function($log, $q, $mmFS, $window, $mmApp, mmCoreConfigConstants) {
+    $log = $log.getInstance('$mmEmulatorFile');
+    var self = {};
+    function deleteEmptyFolder(fs, path, successCallback, errorCallback) {
+        fs.rmdir(path, function(err) {
+            if (err) {
+                errorCallback && errorCallback(err);
+            } else {
+                successCallback && successCallback();
+            }
+        });
+    }
+    function deleteRecursive(fs, path, successCallback, errorCallback) {
+        fs.stat(path, function(err, stats) {
+            if (err) {
+                errorCallback && errorCallback(err);
+            } else if (stats.isFile()) {
+                fs.unlink(path, function(err) {
+                    if (err) {
+                        errorCallback && errorCallback(err);
+                    } else {
+                        successCallback && successCallback();
+                    }
+                });
+            } else {
+                fs.readdir(path, function(err, files) {
+                    if (err) {
+                        errorCallback && errorCallback(err);
+                    } else if (!files.length) {
+                        deleteEmptyFolder(fs, path, successCallback, errorCallback);
+                    } else {
+                        var removed = 0;
+                        files.forEach(function(filename) {
+                            deleteRecursive(fs, $mmFS.concatenatePaths(path, filename), function() {
+                                removed++;
+                                if (removed == files.length) {
+                                    deleteEmptyFolder(fs, path, successCallback, errorCallback);
+                                }
+                            }, errorCallback);
+                        });
+                    }
+                });
+            }
+        });
+    }
+    function emulateCordovaFileForDesktop(fs) {
+        if (!$mmApp.isDesktop()) {
+            return;
+        }
+        emulateEntry(fs);
+        emulateFileWriter(fs);
+        emulateDirectoryReader(fs);
+        emulateFileEntry(fs);
+        emulateDirectoryEntry(fs);
+        $window.resolveLocalFileSystemURL = function(path, successCallback, errorCallback) {
+            fs.stat(path, function(err, stats) {
+                if (err) {
+                    errorCallback && errorCallback(err);
+                } else {
+                    var constructorFn = stats.isDirectory() ? DirectoryEntry : FileEntry,
+                        fileAndDir = $mmFS.getFileAndDirectoryFromPath(path);
+                    successCallback && successCallback(new constructorFn(fileAndDir.name, path));
+                }
+            });
+        };
+    }
+    function emulateDirectoryEntry(fs) {
+        $window.DirectoryEntry = function(name, fullPath, fileSystem, nativeURL) {
+            if ((fullPath) && !/\/$/.test(fullPath)) {
+                fullPath += '/';
+            }
+            if (nativeURL && !/\/$/.test(nativeURL)) {
+                nativeURL += '/';
+            }
+            $window.Entry.call(this, false, true, name, fullPath, fileSystem, nativeURL);
+        };
+        $window.DirectoryEntry.prototype = Object.create($window.Entry.prototype); 
+        $window.DirectoryEntry.prototype.createReader = function() {
+            return new DirectoryReader(this.fullPath);
+        };
+        $window.DirectoryEntry.prototype.getDirectory = function(path, options, successCallback, errorCallback) {
+            getDirOrFile(fs, this, true, path, options, successCallback, errorCallback);
+        };
+        $window.DirectoryEntry.prototype.removeRecursively = function(successCallback, errorCallback) {
+            var deferred = $q.defer();
+            deferred.promise.then(function() {
+                successCallback && successCallback();
+            }).catch(function(error) {
+                errorCallback && errorCallback(error);
+            });
+            deleteRecursive(fs, this.fullPath, deferred.resolve, deferred.reject);
+        };
+        $window.DirectoryEntry.prototype.getFile = function(path, options, successCallback, errorCallback) {
+            getDirOrFile(fs, this, false, path, options, successCallback, errorCallback);
+        };
+    }
+    function emulateDirectoryReader(fs) {
+        $window.DirectoryReader = function(localURL) {
+            this.localURL = localURL || null;
+        };
+        $window.DirectoryReader.prototype.readEntries = function(successCallback, errorCallback) {
+            var that = this;
+            fs.readdir(this.localURL, function(err, files) {
+                if (err) {
+                    errorCallback && errorCallback(err);
+                } else {
+                    try {
+                        var entries = [];
+                        for (var i = 0; i < files.length; i++) {
+                            var fileName = files[i],
+                                filePath = $mmFS.concatenatePaths(that.localURL, fileName),
+                                stats = fs.statSync(filePath); 
+                            if (stats.isDirectory()) {
+                                entries.push(new DirectoryEntry(fileName, filePath));
+                            } else if (stats.isFile()) {
+                                entries.push(new FileEntry(fileName, filePath));
+                            }
+                        }
+                        successCallback && successCallback(entries);
+                    } catch(ex) {
+                        errorCallback && errorCallback(ex);
+                    }
+                }
+            });
+        };
+    }
+    function emulateEntry(fs) {
+        $window.Entry = function(isFile, isDirectory, name, fullPath, fileSystem, nativeURL) {
+            this.isFile = !!isFile;
+            this.isDirectory = !!isDirectory;
+            this.name = name || '';
+            this.fullPath = fullPath || '';
+            this.filesystem = fileSystem || null;
+            this.nativeURL = nativeURL || null;
+        };
+        $window.Entry.prototype.getMetadata = function(successCallback, errorCallback) {
+            fs.stat(this.fullPath, function(err, stats) {
+                if (err) {
+                    errorCallback && errorCallback(err);
+                } else {
+                    successCallback && successCallback({
+                        size: stats.size,
+                        modificationTime: stats.mtime
+                    });
+                }
+            });
+        };
+        $window.Entry.prototype.setMetadata = function(successCallback, errorCallback, metadataObject) {
+            errorCallback && errorCallback('Not supported');
+        };
+        $window.Entry.prototype.moveTo = function(parent, newName, successCallback, errorCallback) {
+            newName = newName || this.name;
+            var srcPath = this.fullPath,
+                destPath = $mmFS.concatenatePaths(parent.fullPath, newName),
+                that = this;
+            fs.rename(srcPath, destPath, function(err) {
+                if (err) {
+                    errorCallback && errorCallback(err);
+                } else {
+                    var constructorFn = that.isDirectory ? DirectoryEntry : FileEntry;
+                    successCallback && successCallback(new constructorFn(newName, destPath));
+                }
+            });
+        };
+        $window.Entry.prototype.copyTo = function(parent, newName, successCallback, errorCallback) {
+            newName = newName || this.name;
+            var srcPath = this.fullPath,
+                destPath = $mmFS.concatenatePaths(parent.fullPath, newName),
+                reader = fs.createReadStream(srcPath),
+                writer = fs.createWriteStream(destPath),
+                deferred = $q.defer(), 
+                that = this;
+            deferred.promise.then(function() {
+                var constructorFn = that.isDirectory ? DirectoryEntry : FileEntry;
+                successCallback && successCallback(new constructorFn(newName, destPath));
+            }).catch(function(error) {
+                errorCallback && errorCallback(error);
+            });
+            reader.on('error', deferred.reject);
+            writer.on('error', deferred.reject);
+            writer.on('close', deferred.resolve);
+            reader.pipe(writer);
+        };
+        $window.Entry.prototype.toInternalURL = function() {
+            return 'file://' + this.fullPath;
+        };
+        $window.Entry.prototype.toURL = function() {
+            return this.fullPath;
+        };
+        $window.Entry.prototype.remove = function(successCallback, errorCallback) {
+            var removeFn = this.isDirectory ? fs.rmdir : fs.unlink;
+            removeFn(this.fullPath, function(err) {
+                if (err < 0) {
+                    errorCallback && errorCallback(err);
+                } else {
+                    successCallback && successCallback();
+                }
+            });
+        };
+        $window.Entry.prototype.getParent = function(successCallback, errorCallback) {
+            var fullPath = this.fullPath.slice(-1) == '/' ? this.fullPath.slice(0, -1) : this.fullPath,
+                parentPath = fullPath.substr(0, fullPath.lastIndexOf('/'));
+            fs.stat(parentPath, function(err, stats) {
+                if (err || !stats.isDirectory()) {
+                    errorCallback && errorCallback(err);
+                } else {
+                    var fileAndDir = $mmFS.getFileAndDirectoryFromPath(parentPath);
+                    successCallback && successCallback(new DirectoryEntry(fileAndDir.name, parentPath));
+                }
+            });
+        };
+    }
+    function emulateFileEntry(fs) {
+        $window.FileEntry = function(name, fullPath, fileSystem, nativeURL) {
+            if (fullPath && /\/$/.test(fullPath)) {
+                fullPath = fullPath.substring(0, fullPath.length - 1);
+            }
+            if (nativeURL && /\/$/.test(nativeURL)) {
+                nativeURL = nativeURL.substring(0, nativeURL.length - 1);
+            }
+            $window.Entry.call(this, true, false, name, fullPath, fileSystem, nativeURL);
+        };
+        $window.FileEntry.prototype = Object.create($window.Entry.prototype); 
+        $window.FileEntry.prototype.createWriter = function(successCallback, errorCallback) {
+            this.file(function(file) {
+                successCallback && successCallback(new FileWriter(file));
+            }, errorCallback);
+        };
+        $window.FileEntry.prototype.file = function(successCallback, errorCallback) {
+            var that = this;
+            this.getMetadata(function(metadata) {
+                fs.readFile(that.fullPath, function(err, data) {
+                    if (err) {
+                        errorCallback && errorCallback(err);
+                    } else {
+                        data = Uint8Array.from(data).buffer; 
+                        var file = new File([data], that.name || '', {
+                            lastModified: metadata.modificationTime || null,
+                            type: $mmFS.getMimeType($mmFS.getFileExtension(that.name)) || null
+                        });
+                        file.localURL = that.fullPath;
+                        file.start = 0;
+                        file.end = file.size;
+                        successCallback && successCallback(file);
+                    }
+                });
+            }, errorCallback);
+        };
+    }
+    function emulateFileWriter(fs) {
+        $window.FileWriter = function(file) {
+            this.fileName = '';
+            this.length = 0;
+            if (file) {
+                this.localURL = file.localURL || file;
+                this.length = file.size || 0;
+            }
+            this.position = 0; 
+            this.readyState = 0; 
+            this.result = null;
+            this.error = null;
+            this.onwritestart = null;   
+            this.onprogress = null;     
+            this.onwrite = null;        
+            this.onwriteend = null;     
+            this.onabort = null;        
+            this.onerror = null;        
+        };
+        $window.FileWriter.prototype.write = function(data) {
+            var that = this;
+            if (data && data.toString() == '[object Blob]') {
+                var reader = new FileReader();
+                reader.onload = function() {
+                    if (reader.readyState == 2) {
+                        write(new Buffer(reader.result));
+                    }
+                };
+                reader.readAsArrayBuffer(data);
+            } else if (data && data.toString() == '[object ArrayBuffer]') {
+                write(Buffer.from(new Uint8Array(data)));
+            } else {
+                write(data);
+            }
+            function write(data) {
+                fs.writeFile(that.localURL, data, function(err) {
+                    if (err) {
+                        that.onerror && that.onerror(err);
+                    } else {
+                        that.onwrite && that.onwrite();
+                    }
+                    that.onwriteend && that.onwriteend();
+                });
+                that.onwritestart && that.onwritestart();
+            }
+        };
+    }
+    function getDirOrFile(fs, entry, isDir, path, options, successCallback, errorCallback) {
+        var filename = $mmFS.getFileAndDirectoryFromPath(path).name,
+            fileDirPath = $mmFS.concatenatePaths(entry.fullPath, path);
+        fs.stat(fileDirPath, function(err) {
+            if (err) {
+                if (options.create) {
+                    create(function(error2) {
+                        if (!error2) {
+                            success();
+                        } else if (error2.code === 'EEXIST') {
+                            success();
+                        } else if (error2.code === 'ENOENT') {
+                            var parent = fileDirPath.substring(0, fileDirPath.lastIndexOf('/'));
+                            if (parent) {
+                                entry.getDirectory(parent, options, function() {
+                                    create(function(error3) {
+                                        if (!error3) {
+                                            success();
+                                        } else {
+                                            errorCallback && errorCallback(error3);
+                                        }
+                                    });
+                                }, errorCallback);
+                            } else {
+                                errorCallback && errorCallback(error2);
+                            }
+                        } else {
+                            errorCallback && errorCallback(error2);
+                        }
+                    });
+                } else {
+                    errorCallback && errorCallback(err);
+                }
+            } else {
+                success();
+            }
+        });
+        function success() {
+            var constructorFn = isDir ? DirectoryEntry : FileEntry;
+            successCallback && successCallback(new constructorFn(filename, fileDirPath));
+        }
+        function create(done) {
+            if (isDir) {
+                fs.mkdir(fileDirPath, done);
+            } else {
+                fs.writeFile(fileDirPath, '', done);
+            }
+        }
+    }
+    self.load = function() {
+        var deferred = $q.defer(),
+            basePath;
+        $window.requestFileSystem  = $window.requestFileSystem || $window.webkitRequestFileSystem;
+        $window.resolveLocalFileSystemURL = $window.resolveLocalFileSystemURL || $window.webkitResolveLocalFileSystemURL;
+        $window.LocalFileSystem = {
+            PERSISTENT: 1
+        };
+        if ($mmApp.isDesktop()) {
+            var fs = require('fs'),
+                app = require('electron').remote.app;
+            emulateCordovaFileForDesktop(fs);
+            basePath = app.getPath('documents') || app.getPath('home');
+            if (!basePath) {
+                deferred.reject('Cannot calculate base path for file system.');
+                return;
+            }
+            basePath = $mmFS.concatenatePaths(basePath.replace(/\\/g, '/'), mmCoreConfigConstants.app_id) + '/';
+            fs.mkdir(basePath, function(e) {
+                if (!e || (e && e.code === 'EEXIST')) {
+                    $mmFS.setHTMLBasePath(basePath);
+                    deferred.resolve();
+                } else {
+                    deferred.reject('Error creating base path.');
+                }
+            });
+        } else {
+            $window.webkitStorageInfo.requestQuota(PERSISTENT, 500 * 1024 * 1024, function(granted) {
+                $window.requestFileSystem(PERSISTENT, granted, function(entry) {
+                    basePath = entry.root.toURL();
+                    $mmFS.setHTMLBasePath(basePath);
+                    deferred.resolve();
+                }, deferred.reject);
+            }, deferred.reject);
+        }
+        return deferred.promise;
+    };
+    return self;
+}]);
+
+angular.module('mm.core.emulator')
+.factory('$mmEmulatorFileTransfer', ["$log", "$q", "$mmFS", "$window", "$mmApp", function($log, $q, $mmFS, $window, $mmApp) {
+    $log = $log.getInstance('$mmEmulatorFileTransfer');
+    var self = {},
+        fileTransferIdCounter = 0;
+    function getBasicAuthHeader(urlString) {
+        var header =  null;
+        if (window.btoa) {
+            var credentials = getUrlCredentials(urlString);
+            if (credentials) {
+                var authHeader = 'Authorization';
+                var authHeaderValue = 'Basic ' + window.btoa(credentials);
+                header = {
+                    name : authHeader,
+                    value : authHeaderValue
+                };
+            }
+        }
+        return header;
+    }
+    function getUrlCredentials(urlString) {
+        var credentialsPattern = /^https?\:\/\/(?:(?:(([^:@\/]*)(?::([^@\/]*))?)?@)?([^:\/?#]*)(?::(\d*))?).*$/,
+            credentials = credentialsPattern.exec(urlString);
+        return credentials && credentials[1];
+    }
+    self.load = function() {
+        $window.FileTransferError = function(code, source, target, status, body, exception) {
+            this.code = code || null;
+            this.source = source || null;
+            this.target = target || null;
+            this.http_status = status || null;
+            this.body = body || null;
+            this.exception = exception || null;
+        };
+        $window.FileTransferError.FILE_NOT_FOUND_ERR = 1;
+        $window.FileTransferError.INVALID_URL_ERR = 2;
+        $window.FileTransferError.CONNECTION_ERR = 3;
+        $window.FileTransferError.ABORT_ERR = 4;
+        $window.FileTransferError.NOT_MODIFIED_ERR = 5;
+        $window.FileTransfer = function() {
+            this._id = ++fileTransferIdCounter;
+            this.onprogress = null; 
+        };
+        $window.FileTransfer.prototype.download = function(source, target, successCallback, errorCallback, trustAllHosts, options) {
+            var basicAuthHeader = getBasicAuthHeader(source),
+                xhr = new XMLHttpRequest(),
+                isDesktop = $mmApp.isDesktop(),
+                deferred = $q.defer(), 
+                headers = null;
+            deferred.promise.then(function(entry) {
+                successCallback && successCallback(entry);
+            }).catch(function(error) {
+                errorCallback && errorCallback(error);
+            });
+            this.xhr = xhr;
+            this.deferred = deferred;
+            this.source = source;
+            this.target = target;
+            if (basicAuthHeader) {
+                source = source.replace(getUrlCredentials(source) + '@', '');
+                options = options || {};
+                options.headers = options.headers || {};
+                options.headers[basicAuthHeader.name] = basicAuthHeader.value;
+            }
+            if (options) {
+                headers = options.headers || null;
+            }
+            xhr.open('GET', source, true);
+            xhr.responseType = isDesktop ? 'arraybuffer' : 'blob';
+            angular.forEach(headers, function(value, name) {
+                xhr.setRequestHeader(name, value);
+            });
+            if (this.onprogress) {
+                xhr.onprogress = this.onprogress;
+            }
+            xhr.onerror = function() {
+                deferred.reject(new FileTransferError(-1, source, target, xhr.status, xhr.statusText));
+            };
+            xhr.onload = function() {
+                var response = xhr.response;
+                if (!response) {
+                    deferred.reject();
+                } else {
+                    var basePath = $mmFS.getBasePathInstant();
+                    target = target.replace(basePath, ''); 
+                    target = target.replace(/%20/g, ' '); 
+                    if (isDesktop) {
+                        response = Buffer.from(new Uint8Array(response));
+                    }
+                    $mmFS.writeFile(target, response).then(deferred.resolve, deferred.reject);
+                }
+            };
+            xhr.send();
+        };
+        $window.FileTransfer.prototype.upload = function(filePath, server, successCallback, errorCallback, options, trustAllHosts) {
+            var fileKey = null,
+                fileName = null,
+                mimeType = null,
+                params = null,
+                headers = null,
+                httpMethod = null,
+                deferred = $q.defer(), 
+                basicAuthHeader = getBasicAuthHeader(server),
+                that = this;
+            deferred.promise.then(function(result) {
+                successCallback && successCallback(result);
+            }).catch(function(error) {
+                errorCallback && errorCallback(error);
+            });
+            if (basicAuthHeader) {
+                server = server.replace(getUrlCredentials(server) + '@', '');
+                options = options || {};
+                options.headers = options.headers || {};
+                options.headers[basicAuthHeader.name] = basicAuthHeader.value;
+            }
+            if (options) {
+                fileKey = options.fileKey;
+                fileName = options.fileName;
+                mimeType = options.mimeType;
+                headers = options.headers;
+                httpMethod = options.httpMethod || 'POST';
+                if (httpMethod.toUpperCase() == "PUT"){
+                    httpMethod = 'PUT';
+                } else {
+                    httpMethod = 'POST';
+                }
+                if (options.params) {
+                    params = options.params;
+                } else {
+                    params = {};
+                }
+            }
+            headers = headers || {};
+            if (!headers['Content-Disposition']) {
+                headers['Content-Disposition'] = 'form-data;' + (fileKey ? ' name="' + fileKey + '";' : '') +
+                    (fileName ? ' filename="' + fileName + '"' : '')
+            }
+            delete headers['Content-Type'];
+            $mmFS.getFile(filePath).then(function(fileEntry) {
+                return $mmFS.getFileObjectFromFileEntry(fileEntry);
+            }).then(function(file) {
+                var xhr = new XMLHttpRequest();
+                xhr.open(httpMethod || 'POST', server);
+                angular.forEach(headers, function(value, name) {
+                    if (name != 'Connection') {
+                        xhr.setRequestHeader(name, value);
+                    }
+                });
+                if (that.onprogress) {
+                    xhr.onprogress = that.onprogress;
+                }
+                that.xhr = xhr;
+                that.deferred = deferred;
+                this.source = filePath;
+                this.target = server;
+                xhr.onerror = function() {
+                    deferred.reject(new FileTransferError(-1, filePath, server, xhr.status, xhr.statusText));
+                };
+                xhr.onload = function() {
+                    deferred.resolve({
+                        bytesSent: file.size,
+                        responseCode: xhr.status,
+                        response: xhr.response,
+                        objectId: ''
+                    });
+                };
+                var fd = new FormData();
+                angular.forEach(params, function(value, name) {
+                    fd.append(name, value);
+                });
+                fd.append('file', file);
+                xhr.send(fd);
+            }).catch(deferred.reject);
+        };
+        $window.FileTransfer.prototype.abort = function() {
+            if (this.xhr) {
+                this.xhr.abort();
+                this.deferred.reject(new FileTransferError(FileTransferError.ABORT_ERR, this.source, this.target));
+            }
+        };
+        return $q.when();
+    };
+    return self;
+}]);
+
+angular.module('mm.core.emulator')
+.factory('$mmEmulatorGlobalization', ["$log", "$q", "$window", "$mmApp", function($log, $q, $window, $mmApp) {
+    $log = $log.getInstance('$mmEmulatorGlobalization');
+    var self = {};
+    function getLocale() {
+        var navLang = navigator.userLanguage || navigator.language;
+        try {
+            if ($mmApp.isDesktop()) {
+                var locale = require('electron').remote.app.getLocale();
+                return locale || navLang;
+            } else {
+                return navLang;
+            }
+        } catch(ex) {
+            return navLang;
+        }
+    }
+    self.load = function() {
+        $window.GlobalizationError = function(code, message) {
+            this.code = code || null;
+            this.message = message || '';
+        };
+        $window.GlobalizationError.UNKNOWN_ERROR = 0;
+        $window.GlobalizationError.FORMATTING_ERROR = 1;
+        $window.GlobalizationError.PARSING_ERROR = 2;
+        $window.GlobalizationError.PATTERN_ERROR = 3;
+        navigator.globalization = {
+            getLocaleName: function(successCallback, errorCallback) {
+                var locale = getLocale();
+                if (locale) {
+                    successCallback && successCallback({value: locale});
+                } else {
+                    var error = new GlobalizationError(GlobalizationError.UNKNOWN_ERROR, 'Cannot get language');
+                    errorCallback && errorCallback(error);
+                }
+            },
+            numberToString: function(number, successCallback, errorCallback, options) {
+                var error = new GlobalizationError(GlobalizationError.UNKNOWN_ERROR, 'Not supported.');
+                errorCallback && errorCallback(error);
+            },
+            isDayLightSavingsTime: function(date, successCallback, errorCallback) {
+                var error = new GlobalizationError(GlobalizationError.UNKNOWN_ERROR, 'Not supported.');
+                errorCallback && errorCallback(error);
+            },
+            getFirstDayOfWeek: function(successCallback, errorCallback) {
+                var error = new GlobalizationError(GlobalizationError.UNKNOWN_ERROR, 'Not supported.');
+                errorCallback && errorCallback(error);
+            },
+            getDateNames: function (successCallback, errorCallback, options) {
+                var error = new GlobalizationError(GlobalizationError.UNKNOWN_ERROR, 'Not supported.');
+                errorCallback && errorCallback(error);
+            },
+            getDatePattern: function(successCallback, errorCallback, options) {
+                var error = new GlobalizationError(GlobalizationError.UNKNOWN_ERROR, 'Not supported.');
+                errorCallback && errorCallback(error);
+            },
+            getNumberPattern: function(successCallback, errorCallback, options) {
+                var error = new GlobalizationError(GlobalizationError.UNKNOWN_ERROR, 'Not supported.');
+                errorCallback && errorCallback(error);
+            },
+            getCurrencyPattern: function(currencyCode, successCallback, errorCallback) {
+                var error = new GlobalizationError(GlobalizationError.UNKNOWN_ERROR, 'Not supported.');
+                errorCallback && errorCallback(error);
+            },
+            stringToDate: function(dateString, successCallback, errorCallback, options) {
+                var error = new GlobalizationError(GlobalizationError.UNKNOWN_ERROR, 'Not supported.');
+                errorCallback && errorCallback(error);
+            },
+            stringToNumber: function(numberString, successCallback, errorCallback, options) {
+                var error = new GlobalizationError(GlobalizationError.UNKNOWN_ERROR, 'Not supported.');
+                errorCallback && errorCallback(error);
+            },
+            dateToString: function(date, successCallback, errorCallback, options) {
+                var error = new GlobalizationError(GlobalizationError.UNKNOWN_ERROR, 'Not supported.');
+                errorCallback && errorCallback(error);
+            },
+        };
+        navigator.globalization.getPreferredLanguage = navigator.globalization.getLocaleName;
+        return $q.when();
+    };
+    return self;
+}]);
+
+angular.module('mm.core.emulator')
+.constant('mmCoreEmulatorLastReceivedNotificationStore', 'mm_emulator_last_received_notification')
+.config(["$mmSitesFactoryProvider", "mmCoreEmulatorLastReceivedNotificationStore", function($mmSitesFactoryProvider, mmCoreEmulatorLastReceivedNotificationStore) {
+    var stores = [
+        {
+            name: mmCoreEmulatorLastReceivedNotificationStore,
+            keyPath: 'component' 
+        }
+    ];
+    $mmSitesFactoryProvider.registerStores(stores);
+}])
+.factory('$mmEmulatorHelper', ["$log", "$mmSitesManager", "$mmApp", "$q", "$mmLocalNotifications", "$mmUtil", "mmCoreSecondsDay", "mmCoreEmulatorLastReceivedNotificationStore", function($log, $mmSitesManager, $mmApp, $q, $mmLocalNotifications, $mmUtil, mmCoreSecondsDay,
+            mmCoreEmulatorLastReceivedNotificationStore) {
+    $log = $log.getInstance('$mmEmulatorHelper');
+    var self = {};
+    self.checkNewNotifications = function(component, fetchFn, getDataFn, siteId) {
+        if (!$mmApp.isDesktop() || !$mmLocalNotifications.isAvailable()) {
+            return $q.when();
+        }
+        if (!$mmApp.isOnline()) {
+            $log.debug('Cannot check push notifications because device is offline.');
+            return $q.reject();
+        }
+        var promise;
+        if (!siteId) {
+            promise = $mmSitesManager.getSitesIds();
+        } else {
+            promise = $q.when([siteId]);
+        }
+        return promise.then(function(siteIds) {
+            var sitePromises = [];
+            angular.forEach(siteIds, function(siteId) {
+                sitePromises.push(checkNewNotificationsForSite(component, fetchFn, getDataFn, siteId));
+            });
+            return $q.all(sitePromises);
+        });
+    };
+    function checkNewNotificationsForSite(component, fetchFn, getDataFn, siteId) {
+        return self.getLastReceivedNotification(component, siteId).then(function(lastNotification) {
+            return fetchFn(siteId).then(function(notifications) {
+                if (!lastNotification || !notifications.length) {
+                    return;
+                }
+                var notification = notifications[0];
+                if (notification.id == lastNotification.id || notification.timecreated <= lastNotification.timecreated ||
+                        $mmUtil.timestamp() - notification.timecreated > mmCoreSecondsDay) {
+                    return;
+                }
+                return $q.when(getDataFn(notification)).then(function(titleAndText) {
+                    var localNotif = {
+                            id: 1,
+                            at: new Date(),
+                            title: titleAndText.title,
+                            text: titleAndText.text,
+                            data: {
+                                notif: notification,
+                                site: siteId
+                            }
+                        };
+                    $mmLocalNotifications.schedule(localNotif, component, siteId);
+                });
+            });
+        });
+    }
+    self.getLastReceivedNotification = function(component, siteId) {
+        return $mmSitesManager.getSite(siteId).then(function(site) {
+            return site.getDb().get(mmCoreEmulatorLastReceivedNotificationStore, component);
+        }).catch(function() {
+            return false;
+        });
+    };
+    self.isLinux = function() {
+        try {
+            var os = require('os');
+            return os.platform().indexOf('linux') === 0;
+        } catch(ex) {
+            return false;
+        }
+    };
+    self.isMac = function() {
+        try {
+            var os = require('os');
+            return os.platform().indexOf('darwin') === 0;
+        } catch(ex) {
+            return false;
+        }
+    };
+    self.isWindows = function() {
+        try {
+            var os = require('os');
+            return os.platform().indexOf('win') === 0;
+        } catch(ex) {
+            return false;
+        }
+    };
+    self.storeLastReceivedNotification = function(component, notification, siteId) {
+        if (!notification) {
+            notification = {id: -1, timecreated: 0};
+        }
+        notification.component = component;
+        return $mmSitesManager.getSite(siteId).then(function(site) {
+            return site.getDb().insert(mmCoreEmulatorLastReceivedNotificationStore, notification);
+        });
+    };
+    return self;
+}]);
+
+angular.module('mm.core.emulator')
+.factory('$mmEmulatorInAppBrowser', ["$log", "$q", "$mmFS", "$window", "$mmApp", "$timeout", "$mmEmulatorHelper", "$mmUtil", function($log, $q, $mmFS, $window, $mmApp, $timeout, $mmEmulatorHelper, $mmUtil) {
+    $log = $log.getInstance('$mmEmulatorInAppBrowser');
+    var self = {};
+    function getLaunchUrl(webContents, retry) {
+        retry = retry || 0;
+        var jsCode = 'var el = document.querySelector("#launchapp"); el && el.href;',
+            deferred = $q.defer(),
+            found = false;
+        webContents.executeJavaScript(jsCode).then(function(launchUrl) {
+            found = true;
+            deferred.resolve(launchUrl);
+        });
+        $timeout(function() {
+            if (found) {
+            } else if (retry > 5) {
+                deferred.reject();
+            } else {
+                getLaunchUrl(webContents, retry + 1).then(deferred.resolve, deferred.reject);
+            }
+        }, 300);
+        return deferred.promise;
+    }
+    self.load = function() {
+        if (!$mmApp.isDesktop()) {
+            return $q.when();
+        }
+        var BrowserWindow = require('electron').remote.BrowserWindow,
+            screen = require('electron').screen;
+        $window.open = function(url, frameName, features) {
+            var width = 800,
+                height = 600,
+                display,
+                newWindow,
+                listeners = {},
+                isLinux = $mmEmulatorHelper.isLinux(),
+                isSSO = !!(url && url.match(/\/launch\.php\?service=.+&passport=/));
+            if (screen) {
+                display = screen.getPrimaryDisplay();
+                if (display && display.workArea) {
+                    width = display.workArea.width || width;
+                    height = display.workArea.height || height;
+                }
+            }
+            newWindow = new BrowserWindow({
+                width: width,
+                height: height
+            });
+            newWindow.loadURL(url);
+            if (isLinux && isSSO) {
+                var userAgent = 'Mozilla/5.0 (iPad) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60';
+                newWindow.webContents.setUserAgent(userAgent);
+            }
+            newWindow.addEventListener = function(name, callback) {
+                var that = this;
+                listeners[callback] = [received];
+                switch (name) {
+                    case 'loadstart':
+                        that.webContents.addListener('did-start-loading', received);
+                        if (isLinux && isSSO) {
+                            listeners[callback].push(finishLoad);
+                            that.webContents.addListener('did-finish-load', finishLoad);
+                            function finishLoad(event) {
+                                if ($mmUtil.removeUrlParams(url) == $mmUtil.removeUrlParams(that.getURL())) {
+                                    getLaunchUrl(that.webContents).then(function(launchUrl) {
+                                        if (launchUrl) {
+                                            received(event, launchUrl);
+                                        }
+                                    });
+                                }
+                            }
+                        }
+                        break;
+                    case 'loadstop':
+                        that.webContents.addListener('did-finish-load', received);
+                        break;
+                    case 'loaderror':
+                        that.webContents.addListener('did-fail-load', received);
+                        break;
+                    case 'exit':
+                        that.addListener('close', received);
+                        break;
+                }
+                function received(event, url) {
+                    try {
+                        event.url = url || that.getURL();
+                        callback(event);
+                    } catch(ex) {}
+                }
+            };
+            newWindow.removeEventListener = function(name, callback) {
+                var that = this,
+                    cbListeners = listeners[callback];
+                if (!cbListeners || !cbListeners.length) {
+                    return;
+                }
+                switch (name) {
+                    case 'loadstart':
+                        that.webContents.removeListener('did-start-loading', cbListeners[0]);
+                        if (cbListeners.length > 1) {
+                            that.webContents.removeListener('did-finish-load', cbListeners[1]);
+                        }
+                        break;
+                    case 'loadstop':
+                        that.webContents.removeListener('did-finish-load', cbListeners[0]);
+                        break;
+                    case 'loaderror':
+                        that.webContents.removeListener('did-fail-load', cbListeners[0]);
+                        break;
+                    case 'exit':
+                        that.removeListener('close', cbListeners[0]);
+                        break;
+                }
+            };
+            newWindow.executeScript = function(details, callback) {
+                var that = this;
+                if (details.code) {
+                    that.webContents.executeJavaScript(details.code, false, callback);
+                } else if (details.file) {
+                    $mmFS.readFile(details.file).then(function(code) {
+                        that.webContents.executeJavaScript(code, false, callback);
+                    }).catch(callback);
+                } else {
+                    callback('executeScript requires exactly one of code or file to be specified');
+                }
+            };
+            newWindow.insertCSS = function(details, callback) {
+                var that = this;
+                if (details.code) {
+                    that.webContents.insertCSS(details.code);
+                    callback();
+                } else if (details.file) {
+                    $mmFS.readFile(details.file).then(function(code) {
+                        that.webContents.insertCSS(code);
+                        callback();
+                    }).catch(callback);
+                } else {
+                    callback('insertCSS requires exactly one of code or file to be specified');
+                }
+            };
+            return newWindow;
+        };
+        return $q.when();
+    };
+    return self;
+}]);
+
+angular.module('mm.core.emulator')
+.constant('mmCoreDesktopLocalNotificationsStore', 'desktop_local_notifications')
+.config(["$mmAppProvider", "mmCoreDesktopLocalNotificationsStore", function($mmAppProvider, mmCoreDesktopLocalNotificationsStore) {
+    var stores = [
+        {
+            name: mmCoreDesktopLocalNotificationsStore, 
+            keyPath: 'id',
+            indexes: [
+                {
+                    name: 'triggered'
+                }
+            ]
+        }
+    ];
+    $mmAppProvider.registerStores(stores);
+}])
+.factory('$mmEmulatorLocalNotifications', ["$log", "$q", "$mmApp", "$mmUtil", "$timeout", "$interval", "$rootScope", "$cordovaLocalNotification", "mmCoreDesktopLocalNotificationsStore", "mmCoreSecondsYear", "mmCoreSecondsDay", "mmCoreSecondsHour", "mmCoreSecondsMinute", "$mmEmulatorHelper", "mmCoreConfigConstants", function($log, $q, $mmApp, $mmUtil, $timeout, $interval, $rootScope,
+            $cordovaLocalNotification, mmCoreDesktopLocalNotificationsStore, mmCoreSecondsYear, mmCoreSecondsDay,
+            mmCoreSecondsHour, mmCoreSecondsMinute, $mmEmulatorHelper, mmCoreConfigConstants) {
+    $log = $log.getInstance('$mmEmulatorLocalNotifications');
+    var self = {},
+        scheduled = {},
+        triggered = {},
+        defaults = {
+            text:  '',
+            title: '',
+            sound: '',
+            badge: 0,
+            id:    0,
+            data:  undefined,
+            every: undefined,
+            at:    undefined
+        },
+        winNotif, 
+        toastTemplate = '<toast><visual><binding template="ToastText02"><text id="1" hint-wrap="true">%s</text>' +
+                        '<text id="2" hint-wrap="true">%s</text></binding></visual></toast>', 
+        tileBindingTemplate =   '<text hint-style="base" hint-wrap="true">%s</text>' +
+                                '<text hint-style="captionSubtle" hint-wrap="true">%s</text>',
+        tileTemplate = '<tile><visual branding="nameAndLogo">' +
+                            '<binding template="TileMedium">' + tileBindingTemplate + '</binding>' +
+                            '<binding template="TileWide">' + tileBindingTemplate + '</binding>' +
+                            '<binding template="TileLarge">' + tileBindingTemplate + '</binding>' +
+                        '</visual></tile>'; 
+    function cancelNotification(id, omitEvent, eventName) {
+        var notification = scheduled[id].notification;
+        $timeout.cancel(scheduled[id].timeout);
+        $interval.cancel(scheduled[id].interval);
+        delete scheduled[id];
+        delete triggered[id];
+        removeNotification(id);
+        if (!omitEvent) {
+            $rootScope.$broadcast(eventName, notification, 'foreground');
+        }
+    }
+    function convertIds(ids) {
+        var convertedIds = [];
+        for (var i = 0; i < ids.length; i++) {
+            convertedIds.push(Number(ids[i]));
+        }
+        return convertedIds;
+    }
+    function convertProperties(options) {
+        if (options.id) {
+            if (isNaN(options.id)) {
+                options.id = defaults.id;
+                $log.warn('Id is not a number: ' + options.id);
+            } else {
+                options.id = Number(options.id);
+            }
+        }
+        if (options.title) {
+            options.title = options.title.toString();
+        }
+        if (options.text) {
+            options.text  = options.text.toString();
+        }
+        if (options.badge) {
+            if (isNaN(options.badge)) {
+                options.badge = defaults.badge;
+                $log.warn('Badge number is not a number: ' + options.id);
+            } else {
+                options.badge = Number(options.badge);
+            }
+        }
+        if (options.at) {
+            if (typeof options.at == 'object') {
+                options.at = options.at.getTime();
+            }
+            options.at = Math.round(options.at / 1000);
+        }
+        if (typeof options.data == 'object') {
+            options.data = JSON.stringify(options.data);
+        }
+        return options;
+    }
+    function getAllNotifications() {
+        return $mmApp.getDB().getAll(mmCoreDesktopLocalNotificationsStore);
+    }
+    function getNotifications(ids, getScheduled, getTriggered) {
+        var notifications = [];
+        if (getScheduled) {
+            angular.forEach(scheduled, function(entry, id) {
+                if (!ids || ids.indexOf(id) != -1) {
+                    notifications.push(entry.notification);
+                }
+            });
+        }
+        if (getTriggered) {
+            angular.forEach(triggered, function(notification, id) {
+                if ((!getScheduled || !scheduled[id]) && (!ids || ids.indexOf(id) != -1)) {
+                    notifications.push(notification);
+                }
+            });
+        }
+        return notifications;
+    }
+    function getValueFor(options) {
+        var keys = Array.apply(null, arguments).slice(1);
+        for (var i = 0; i < keys.length; i++) {
+            var key = keys[i];
+            if (options.hasOwnProperty(key)) {
+                return options[key];
+            }
+        }
+    }
+    self.load = function() {
+        if (!$mmApp.isDesktop()) {
+            return $q.when();
+        }
+        if ($mmEmulatorHelper.isWindows()) {
+            try {
+                winNotif = require('electron-windows-notifications');
+            } catch(ex) {}
+        }
+        $cordovaLocalNotification.schedule = function(notifications, scope, isUpdate) {
+            var promises = [];
+            notifications = Array.isArray(notifications) ? notifications : [notifications];
+            angular.forEach(notifications, function(notification) {
+                mergeWithDefaults(notification);
+                convertProperties(notification);
+                $cordovaLocalNotification.cancel(notification.id, null, true);
+                scheduled[notification.id] = {
+                    notification: notification
+                };
+                promises.push(storeNotification(notification, false));
+                if (Math.abs(moment().diff(notification.at * 1000, 'days')) > 15) {
+                    return;
+                }
+                var toTrigger = notification.at * 1000 - Date.now();
+                scheduled[notification.id].timeout = $timeout(function trigger() {
+                    triggerNotification(notification);
+                    triggered[notification.id] = notification;
+                    storeNotification(notification, true);
+                    $rootScope.$broadcast('$cordovaLocalNotification:trigger', notification, 'foreground');
+                    if (notification.every && scheduled[notification.id] && !scheduled[notification.id].interval) {
+                        var interval = parseInterval(notification.every);
+                        if (interval > 0) {
+                            scheduled[notification.id].interval = $interval(trigger, interval);
+                        }
+                    }
+                }, toTrigger);
+                var eventName = isUpdate ? 'update' : 'schedule';
+                $rootScope.$broadcast('$cordovaLocalNotification:' + eventName, notification, 'foreground');
+            });
+            return $q.when();
+        };
+        $cordovaLocalNotification.update = function(notifications) {
+            return $cordovaLocalNotification.schedule(notifications, null, true);
+        };
+        $cordovaLocalNotification.clear = function(ids, scope, omitEvent) {
+            var promises = [];
+            ids = Array.isArray(ids) ? ids : [ids];
+            ids = convertIds(ids);
+            angular.forEach(ids, function(id) {
+                if (scheduled[id] && scheduled[id].notification && !scheduled[id].notification.every) {
+                    promises.push(cancelNotification(id, omitEvent, '$cordovaLocalNotification:clear'));
+                }
+            });
+            return $q.all(promises);
+        };
+        $cordovaLocalNotification.clearAll = function(scope, omitEvent) {
+            var ids = Object.keys(scheduled);
+            return $cordovaLocalNotification.clear(ids, scope, omitEvent).then(function() {
+                if (!omitEvent) {
+                    $rootScope.$broadcast('$cordovaLocalNotification:clearall', 'foreground');
+                }
+            });
+        };
+        $cordovaLocalNotification.cancel = function(ids, scope, omitEvent) {
+            var promises = [];
+            ids = Array.isArray(ids) ? ids : [ids];
+            ids = convertIds(ids);
+            angular.forEach(ids, function(id) {
+                if (scheduled[id]) {
+                    promises.push(cancelNotification(id, omitEvent, '$cordovaLocalNotification:cancel'));
+                }
+            });
+            return $q.all(promises);
+        };
+        $cordovaLocalNotification.cancelAll = function(scope, omitEvent) {
+            var ids = Object.keys(scheduled);
+            return $cordovaLocalNotification.cancel(ids, scope, omitEvent).then(function() {
+                if (!omitEvent) {
+                    $rootScope.$broadcast('$cordovaLocalNotification:cancelall', 'foreground');
+                }
+            });
+        };
+        $cordovaLocalNotification.isPresent = function(id) {
+            return $q.when(!!scheduled[id] || !!triggered[notification.id]);
+        };
+        $cordovaLocalNotification.isScheduled = function(id) {
+            return $q.when(!!scheduled[id]);
+        };
+        $cordovaLocalNotification.isTriggered = function(id) {
+            return $q.when(!!triggered[notification.id]);
+        };
+        $cordovaLocalNotification.hasPermission = function() {
+            return $q.when(true);
+        };
+        $cordovaLocalNotification.registerPermission = function() {
+            return $q.when(true);
+        };
+        $cordovaLocalNotification.getAllIds = function() {
+            return $q.when($mmUtil.mergeArraysWithoutDuplicates(Object.keys(scheduled), Object.keys(triggered)));
+        };
+        $cordovaLocalNotification.getIds = $cordovaLocalNotification.getAllIds;
+        $cordovaLocalNotification.getScheduledIds = function() {
+            return $q.when(Object.keys(scheduled));
+        };
+        $cordovaLocalNotification.getTriggeredIds = function() {
+            return $q.when(Object.keys(triggered));
+        };
+        $cordovaLocalNotification.get = function(ids) {
+            ids = Array.isArray(ids) ? ids : [ids];
+            ids = convertIds(ids);
+            return $q.when(getNotifications(ids, true, true));
+        };
+        $cordovaLocalNotification.getAll = function() {
+            return $q.when(getNotifications(null, true, true));
+        };
+        $cordovaLocalNotification.getScheduled = function(ids) {
+            ids = Array.isArray(ids) ? ids : [ids];
+            ids = convertIds(ids);
+            return $q.when(getNotifications(ids, true, false));
+        };
+        $cordovaLocalNotification.getAllScheduled = function() {
+            return $q.when(getNotifications(null, true, false));
+        };
+        $cordovaLocalNotification.getTriggered = function(ids) {
+            ids = Array.isArray(ids) ? ids : [ids];
+            ids = convertIds(ids);
+            return $q.when(getNotifications(ids, false, true));
+        };
+        $cordovaLocalNotification.getAllTriggered = function() {
+            return $q.when(getNotifications(null, false, true));
+        };
+        $cordovaLocalNotification.getDefaults = function() {
+            return defaults;
+        };
+        $cordovaLocalNotification.setDefaults = function(newDefaults) {
+            for (var key in defaults) {
+                if (newDefaults.hasOwnProperty(key)) {
+                    defaults[key] = newDefaults[key];
+                }
+            }
+        };
+        return getAllNotifications().catch(function() {
+            return [];
+        }).then(function(notifications) {
+            angular.forEach(notifications, function(notification) {
+                if (notification.triggered) {
+                    delete notification.triggered;
+                    scheduled[notification.id] = {
+                        notification: notification
+                    };
+                    triggered[notification.id] = notification;
+                } else {
+                    delete notification.triggered;
+                    notification.at = notification.at * 1000;
+                    if (notification.at - Date.now() > - mmCoreSecondsHour * 1000) {
+                        $cordovaLocalNotification.schedule(notification);
+                    }
+                }
+            });
+        });
+    };
+    function mergeWithDefaults(options) {
+        options.at   = getValueFor(options, 'at', 'firstAt', 'date');
+        options.text = getValueFor(options, 'text', 'message');
+        options.data = getValueFor(options, 'data', 'json');
+        if (defaults.hasOwnProperty('autoClear')) {
+            options.autoClear = getValueFor(options, 'autoClear', 'autoCancel');
+        }
+        if (options.autoClear !== true && options.ongoing) {
+            options.autoClear = false;
+        }
+        if (options.at === undefined || options.at === null) {
+            options.at = new Date();
+        }
+        for (var key in defaults) {
+            if (options[key] === null || options[key] === undefined) {
+                if (options.hasOwnProperty(key) && ['data','sound'].indexOf(key) > -1) {
+                    options[key] = undefined;
+                } else {
+                    options[key] = defaults[key];
+                }
+            }
+        }
+        for (key in options) {
+            if (!defaults.hasOwnProperty(key)) {
+                delete options[key];
+                $log.warn('Unknown property: ' + key);
+            }
+        }
+        return options;
+    }
+    function notificationClicked(notification) {
+        $rootScope.$broadcast('$cordovaLocalNotification:click', notification, 'foreground');
+        require('electron').ipcRenderer.send('focusApp');
+    }
+    function parseInterval(every) {
+        var interval;
+        every = String(every).toLowerCase();
+        if (!every || every == 'undefined') {
+            interval = 0;
+        } else if (every == 'second') {
+            interval = 1000;
+        } else if (every == 'minute') {
+            interval = mmCoreSecondsMinute * 1000;
+        } else if (every == 'hour') {
+            interval = mmCoreSecondsHour * 1000;
+        } else if (every == 'day') {
+            interval = mmCoreSecondsDay * 1000;
+        } else if (every == 'week') {
+            interval = mmCoreSecondsDay * 7 * 1000;
+        } else if (every == 'month') {
+            interval = mmCoreSecondsDay * 31 * 1000;
+        } else if (every == 'quarter') {
+            interval = mmCoreSecondsHour * 2190 * 1000;
+        } else if (every == 'year') {
+            interval = mmCoreSecondsYear * 1000;
+        } else {
+            interval = parseInt(every, 10);
+            if (isNaN(interval)) {
+                interval = 0;
+            } else {
+                interval *= 60000;
+            }
+        }
+        return interval;
+    }
+    function removeNotification(id) {
+        return $mmApp.getDB().remove(mmCoreDesktopLocalNotificationsStore, id);
+    }
+    function storeNotification(notification, triggered) {
+        notification = angular.copy(notification);
+        notification.triggered = !!triggered;
+        return $mmApp.getDB().insert(mmCoreDesktopLocalNotificationsStore, notification);
+    }
+    function triggerNotification(notification) {
+        if (winNotif) {
+            var notifInstance = new winNotif.ToastNotification({
+                appId: mmCoreConfigConstants.app_id,
+                template: toastTemplate,
+                strings: [notification.title,  notification.text]
+            });
+            notifInstance.on('activated', function() {
+                notificationClicked(notification);
+            });
+            notifInstance.show();
+            try {
+                var tileNotif = new winNotif.TileNotification({
+                    tag: notification.id + '',
+                    template: tileTemplate,
+                    strings: [notification.title,  notification.text, notification.title,  notification.text, notification.title,  notification.text],
+                    expirationTime: new Date(Date.now() + mmCoreSecondsHour * 1000) 
+                })
+                tileNotif.show()
+            } catch(ex) {
+                $log.warn('Error showing TileNotification. Please notice they only work with the app installed.', ex);
+            }
+        } else {
+            var notifInstance = new Notification(notification.title, {
+                body: notification.text
+            });
+            notifInstance.onclick = function() {
+                notificationClicked(notification);
+            };
+        }
+    }
+    return self;
+}]);
+
+angular.module('mm.core.emulator')
+.factory('$mmEmulatorMediaCapture', ["$log", "$q", "$ionicModal", "$rootScope", "$window", "$mmUtil", "$mmFS", "$timeout", function($log, $q, $ionicModal, $rootScope, $window, $mmUtil, $mmFS, $timeout) {
+    $log = $log.getInstance('$mmEmulatorMediaCapture');
+    var self = {},
+        possibleAudioMimeTypes = {
+            'audio/webm': 'weba',
+            'audio/ogg': 'ogg'
+        },
+        possibleVideoMimeTypes = {
+            'video/webm;codecs=vp9': 'webm',
+            'video/webm;codecs=vp8': 'webm',
+            'video/ogg': 'ogv'
+        },
+        videoMimeType,
+        audioMimeType;
+    function captureMedia(type, successCallback, errorCallback, options) {
+        options = options || {};
+        var loadingModal;
+        try {
+            var scope = $rootScope.$new(),
+                facingMode = 'environment',
+                mimetype,
+                extension,
+                quality = 0.92, 
+                returnData = false, 
+                isCaptureImage = false, 
+                mimeAndExt;
+            loadingModal = $mmUtil.showModalLoading();
+            if (type == 'captureimage') {
+                isCaptureImage = true;
+                type = 'image';
+            }
+            if (type == 'video') {
+                scope.isVideo = true;
+                title = 'mm.core.capturevideo';
+                mimeAndExt = getMimeTypeAndExtension(type, options.mimetypes);
+                mimetype = mimeAndExt.mimetype;
+                extension = mimeAndExt.extension;
+            } else if (type == 'audio') {
+                scope.isAudio = true;
+                title = 'mm.core.captureaudio';
+                mimeAndExt = getMimeTypeAndExtension(type, options.mimetypes);
+                mimetype = mimeAndExt.mimetype;
+                extension = mimeAndExt.extension;
+            } else if (type == 'image') {
+                scope.isImage = true;
+                title = 'mm.core.captureimage';
+                if (typeof options.sourceType != 'undefined' && options.sourceType != Camera.PictureSourceType.CAMERA) {
+                    errorCallback && errorCallback('This source type is not supported in desktop.');
+                    loadingModal.dismiss();
+                    return;
+                }
+                if (options.cameraDirection == Camera.Direction.FRONT) {
+                    facingMode = 'user';
+                }
+                if (options.encodingType == Camera.EncodingType.PNG) {
+                    mimetype = 'image/png';
+                    extension = 'png';
+                } else {
+                    mimetype = 'image/jpeg';
+                    extension = 'jpeg';
+                }
+                if (options.quality >= 0 && options.quality <= 100) {
+                    quality = options.quality / 100;
+                }
+                if (options.destinationType == Camera.DestinationType.DATA_URL) {
+                    returnData = true;
+                }
+            }
+            if (options.duration) {
+                scope.chronoEndTime = options.duration * 1000;
+            }
+            initModal(scope).then(function(modal) {
+                var constraints = {
+                    video: scope.isAudio ? false : {facingMode: facingMode},
+                    audio: !scope.isImage
+                };
+                return navigator.mediaDevices.getUserMedia(constraints).then(function(localMediaStream) {
+                    var streamVideo,
+                        previewMedia,
+                        canvas,
+                        imgEl,
+                        mediaRecorder,
+                        chunks = [],
+                        mediaBlob,
+                        audioDrawer;
+                    if (scope.isImage) {
+                        canvas = modal.modalEl.querySelector('canvas.mm-webcam-image-canvas');
+                        imgEl = modal.modalEl.querySelector('img.mm-webcam-image');
+                    } else {
+                        if (scope.isVideo) {
+                            previewMedia = modal.modalEl.querySelector('video.mm-webcam-video-captured');
+                        } else {
+                            previewMedia = modal.modalEl.querySelector('audio.mm-audio-captured');
+                            canvas = modal.modalEl.querySelector('canvas.mm-audio-canvas');
+                            audioDrawer = initAudioDrawer(localMediaStream, canvas);
+                            audioDrawer.start();
+                        }
+                        mediaRecorder = new MediaRecorder(localMediaStream, {mimeType: mimetype});
+                        mediaRecorder.ondataavailable = function(e) {
+                            if (e.data.size > 0) {
+                                chunks.push(e.data);
+                            }
+                        };
+                        mediaRecorder.onstop = function() {
+                            mediaBlob = new Blob(chunks);
+                            chunks = [];
+                            previewMedia.src = $window.URL.createObjectURL(mediaBlob);
+                        };
+                    }
+                    if (scope.isImage || scope.isVideo) {
+                        var hasLoaded = false,
+                            waitTimeout;
+                        streamVideo = modal.modalEl.querySelector('video.mm-webcam-stream');
+                        streamVideo.src = $window.URL.createObjectURL(localMediaStream);
+                        streamVideo.onloadedmetadata = function() {
+                            if (hasLoaded) {
+                                return;
+                            }
+                            hasLoaded = true;
+                            $timeout.cancel(waitTimeout);
+                            loadingModal.dismiss();
+                            modal.show();
+                            scope.readyToCapture = true;
+                            streamVideo.onloadedmetadata = null;
+                        };
+                        waitTimeout = $timeout(function() {
+                            if (!hasLoaded) {
+                                hasLoaded = true;
+                                loadingModal.dismiss();
+                                errorCallback && errorCallback({code: -1, message: 'Cannot connect to webcam.'});
+                            }
+                        }, 10000);
+                    } else {
+                        loadingModal.dismiss();
+                        modal.show();
+                        scope.readyToCapture = true;
+                    }
+                    scope.actionClicked = function() {
+                        if (scope.isCapturing) {
+                            scope.stopCapturing();
+                        } else {
+                            if (!scope.isImage) {
+                                scope.isCapturing = true;
+                                mediaRecorder.start();
+                                scope.$broadcast('mm-chrono-start');
+                            } else {
+                                var width = streamVideo.videoWidth,
+                                    height = streamVideo.videoHeight;
+                                canvas.width = width;
+                                canvas.height = height;
+                                canvas.getContext('2d').drawImage(streamVideo, 0, 0, width, height);
+                                loadingModal = $mmUtil.showModalLoading();
+                                canvas.toBlob(function(blob) {
+                                    loadingModal.dismiss();
+                                    mediaBlob = blob;
+                                    imgEl.setAttribute('src', $window.URL.createObjectURL(mediaBlob));
+                                    scope.hasCaptured = true;
+                                }, mimetype, quality);
+                            }
+                        }
+                    };
+                    scope.stopCapturing = function() {
+                        streamVideo && streamVideo.pause();
+                        audioDrawer && audioDrawer.stop();
+                        mediaRecorder.stop();
+                        scope.isCapturing = false;
+                        scope.hasCaptured = true;
+                        scope.$broadcast('mm-chrono-stop');
+                    };
+                    scope.discard = function() {
+                        previewMedia && previewMedia.pause();
+                        streamVideo && streamVideo.play();
+                        audioDrawer && audioDrawer.start();
+                        scope.hasCaptured = false;
+                        scope.isCapturing = false;
+                        scope.$broadcast('mm-chrono-reset');
+                        delete mediaBlob;
+                    };
+                    scope.done = function() {
+                        if (returnData) {
+                            success(canvas.toDataURL(mimetype, quality));
+                            return;
+                        }
+                        if (!mediaBlob) {
+                            $mmUtil.showErrorModal('Please capture the media first.');
+                            return;
+                        }
+                        var fileName = type + '_' + $mmUtil.readableTimestamp() + '.' + extension,
+                            path = $mmFS.concatenatePaths($mmFS.getTmpFolder(), 'media/' + fileName);
+                        loadingModal = $mmUtil.showModalLoading();
+                        $mmFS.writeFile(path, mediaBlob).then(function(fileEntry) {
+                            if (scope.isImage && !isCaptureImage) {
+                                success(fileEntry.toURL());
+                            } else {
+                                fileEntry.getFormatData = function(successFn, errorFn) {
+                                    errorFn && errorFn('Not supported');
+                                };
+                                success([fileEntry]);
+                            }
+                        }).catch(function(err) {
+                            $mmUtil.showErrorModal(err);
+                        }).finally(function() {
+                            loadingModal.dismiss();
+                        });
+                    };
+                    function success(data) {
+                        scope.modal.hide();
+                        $timeout(function() {
+                            successCallback && successCallback(data);
+                        }, 400);
+                    }
+                    scope.cancel = function() {
+                        scope.modal.hide();
+                        var error = scope.isImage && !isCaptureImage ? 'Camera cancelled' : {code: 3, message: 'Canceled.'};
+                        errorCallback && errorCallback(error);
+                    };
+                    scope.$on('modal.hidden', function() {
+                        var tracks = localMediaStream.getTracks();
+                        angular.forEach(tracks, function(track) {
+                            track.stop();
+                        });
+                        streamVideo && streamVideo.pause();
+                        previewMedia && previewMedia.pause();
+                        audioDrawer && audioDrawer.stop();
+                        scope.$destroy();
+                    });
+                    scope.$on('$destroy', function() {
+                        scope.modal.remove();
+                    });
+                });
+            }).catch(function(err) {
+                loadingModal && loadingModal.dismiss();
+                errorCallback && errorCallback(err);
+            });
+        } catch(ex) {
+            loadingModal && loadingModal.dismiss();
+            errorCallback && errorCallback(ex.toString());
+        }
+    }
+    function getMimeTypeAndExtension(type, mimetypes) {
+        var result = {};
+        if (mimetypes && mimetypes.length) {
+            for (var i = 0; i < mimetypes.length; i++) {
+                var mimetype = mimetypes[i],
+                    matches = mimetype.match(new RegExp('^' + type + '/'));
+                if (matches && matches.length && MediaRecorder.isTypeSupported(mimetype)) {
+                    result.mimetype = mimetype;
+                    break;
+                }
+            }
+        }
+        if (result.mimetype) {
+            result.extension = $mmFS.getExtension(result.mimetype);
+        } else if (type == 'video') {
+            result.mimetype = videoMimeType;
+            result.extension = possibleVideoMimeTypes[result.mimetype];
+        } else if (type == 'audio') {
+            result.mimetype = audioMimeType;
+            result.extension = possibleAudioMimeTypes[result.mimetype];
+        }
+        return result;
+    }
+    function initAudioDrawer(stream, canvas) {
+        var audioCtx = new (window.AudioContext || webkitAudioContext)(),
+            canvasCtx = canvas.getContext("2d"),
+            source = audioCtx.createMediaStreamSource(stream),
+            analyser = audioCtx.createAnalyser(),
+            bufferLength = analyser.frequencyBinCount,
+            dataArray = new Uint8Array(bufferLength),
+            width = canvas.width,
+            height = canvas.height,
+            running = false,
+            skip = true;
+        analyser.fftSize = 2048;
+        source.connect(analyser);
+        return {
+            start: function() {
+                if (running) {
+                    return;
+                }
+                running = true;
+                drawAudio();
+            },
+            stop: function() {
+                running = false;
+            }
+        };
+        function drawAudio() {
+            if (!running) {
+                return;
+            }
+            requestAnimationFrame(drawAudio);
+            skip = !skip;
+            if (skip) {
+                return;
+            }
+            var sliceWidth = width / bufferLength,
+                x = 0;
+            analyser.getByteTimeDomainData(dataArray);
+            canvasCtx.fillStyle = 'rgb(200, 200, 200)';
+            canvasCtx.fillRect(0, 0, width, height);
+            canvasCtx.lineWidth = 1;
+            canvasCtx.strokeStyle = 'rgb(0, 0, 0)';
+            canvasCtx.beginPath();
+            for(var i = 0; i < bufferLength; i++) {
+                var v = dataArray[i] / 128.0,
+                    y = v * height / 2;
+                if (i === 0) {
+                    canvasCtx.moveTo(x, y);
+                } else {
+                    canvasCtx.lineTo(x, y);
+                }
+                x += sliceWidth;
+            }
+            canvasCtx.lineTo(width, height / 2);
+            canvasCtx.stroke();
+        }
+    }
+    function initGetUserMedia() {
+        navigator.mediaDevices = navigator.mediaDevices || {};
+        if (!navigator.mediaDevices.getUserMedia) {
+            navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia ||
+                            navigator.mozGetUserMedia || navigator.msGetUserMedia;
+            if (navigator.getUserMedia) {
+                navigator.mediaDevices.getUserMedia = function(constraints) {
+                    var deferred = $q.defer();
+                    navigator.getUserMedia(constraints, deferred.resolve, deferred.reject);
+                    return deferred.promise;
+                };
+            } else {
+                return false;
+            }
+        }
+        return true;
+    }
+    function initMimeTypes() {
+        for (var mimeType in possibleVideoMimeTypes) {
+            if (MediaRecorder.isTypeSupported(mimeType)) {
+                videoMimeType = mimeType;
+                break;
+            }
+        }
+        for (mimeType in possibleAudioMimeTypes) {
+            if (MediaRecorder.isTypeSupported(mimeType)) {
+                audioMimeType = mimeType;
+                break;
+            }
+        }
+    }
+    function initModal(scope) {
+        return $ionicModal.fromTemplateUrl('core/components/emulator/templates/capturemediamodal.html', {
+            scope: scope,
+            animation: 'slide-in-up'
+        }).then(function(modal) {
+            scope.modal = modal;
+            return modal;
+        });
+    }
+    self.load = function() {
+        if (typeof window.MediaRecorder == 'undefined') {
+            return $q.when();
+        }
+        if (!initGetUserMedia()) {
+            return $q.when();
+        }
+        initMimeTypes();
+        navigator.device = navigator.device || {};
+        navigator.device.capture = navigator.device.capture || {};
+        navigator.camera = navigator.camera || {};
+        $window.Camera = $window.Camera || {};
+        $window.Camera.DestinationType = {
+            DATA_URL: 0,
+            FILE_URI: 1,
+            NATIVE_URI: 2
+        };
+        $window.Camera.Direction = {
+            BACK: 0,
+            FRONT: 1
+        };
+        $window.Camera.EncodingType = {
+            JPEG: 0,
+            PNG: 1
+        };
+        $window.Camera.MediaType = {
+            PICTURE: 0,
+            VIDEO: 1,
+            ALLMEDIA: 2
+        };
+        $window.Camera.PictureSourceType = {
+            PHOTOLIBRARY: 0,
+            CAMERA: 1,
+            SAVEDPHOTOALBUM: 2
+        };
+        $window.Camera.PopoverArrowDirection = {
+            ARROW_UP: 1,
+            ARROW_DOWN: 2,
+            ARROW_LEFT: 4,
+            ARROW_RIGHT: 8,
+            ARROW_ANY: 15
+        };
+        angular.extend(navigator.camera, $window.Camera);
+        $window.CameraPopoverOptions = function() {
+        };
+        $window.CameraPopoverHandle = function() {
+        };
+        $window.CameraPopoverHandle.prototype.setPosition = function() {
+        };
+        navigator.camera.getPicture = function(successCallback, errorCallback, options) {
+            return captureMedia('image', successCallback, errorCallback, options);
+        };
+        navigator.camera.cleanup = function(successCallback, errorCallback) {
+            successCallback && successCallback();
+        };
+        navigator.device.capture.captureImage = function(successCallback, errorCallback, options) {
+            return captureMedia('captureimage', successCallback, errorCallback, options);
+        };
+        navigator.device.capture.captureVideo = function(successCallback, errorCallback, options) {
+            return captureMedia('video', successCallback, errorCallback, options);
+        };
+        navigator.device.capture.captureAudio = function(successCallback, errorCallback, options) {
+            return captureMedia('audio', successCallback, errorCallback, options);
+        };
+        $window.CaptureAudioOptions = function() {};
+        $window.CaptureImageOptions = function() {};
+        $window.CaptureVideoOptions = function() {};
+        $window.CaptureError = function(c) {
+            this.code = c || null;
+        };
+        return $q.when();
+    };
+    return self;
+}]);
+
+angular.module('mm.core.emulator')
+.factory('$mmEmulatorNetwork', ["$log", "$q", function($log, $q) {
+    $log = $log.getInstance('$mmEmulatorNetwork');
+    var self = {};
+    self.load = function() {
+        window.Connection = {
+            UNKNOWN: 'unknown',
+            ETHERNET: 'ethernet',
+            WIFI: 'wifi',
+            CELL_2G: '2g',
+            CELL_3G: '3g',
+            CELL_4G: '4g',
+            CELL: 'cellular',
+            NONE: 'none'
+        };
+        return $q.when();
+    };
+    return self;
+}]);
+
+angular.module('mm.core.emulator')
+.factory('$mmEmulatorPushNotifications', ["$log", "$q", "$window", "$mmApp", function($log, $q, $window, $mmApp) {
+    $log = $log.getInstance('$mmEmulatorPushNotifications');
+    var self = {};
+    self.load = function() {
+        var PushNotification = function(options) {};
+        PushNotification.prototype.unregister = function(successCallback, errorCallback, options) {
+            errorCallback && errorCallback('Unregister is only supported in mobile devices');
+        };
+        PushNotification.prototype.subscribe = function(topic, successCallback, errorCallback) {
+            errorCallback && errorCallback('Suscribe is only supported in mobile devices');
+        };
+        PushNotification.prototype.unsubscribe = function(topic, successCallback, errorCallback) {
+            errorCallback && errorCallback('Unsuscribe is only supported in mobile devices');
+        };
+        PushNotification.prototype.setApplicationIconBadgeNumber = function(successCallback, errorCallback, badge) {
+            if (!$mmApp.isDesktop()) {
+                errorCallback && errorCallback('setApplicationIconBadgeNumber is not supported in browser');
+                return;
+            }
+            try {
+                var app = require('electron').remote.app;
+                if (app.setBadgeCount(badge)) {
+                    successCallback && successCallback();
+                } else {
+                    errorCallback && errorCallback();
+                }
+            } catch(ex) {
+                errorCallback && errorCallback(ex);
+            }
+        };
+        PushNotification.prototype.getApplicationIconBadgeNumber = function(successCallback, errorCallback) {
+            if (!$mmApp.isDesktop()) {
+                errorCallback && errorCallback('getApplicationIconBadgeNumber is not supported in browser');
+                return;
+            }
+            try {
+                var app = require('electron').remote.app;
+                successCallback && successCallback(app.getBadgeCount());
+            } catch(ex) {
+                errorCallback && errorCallback(ex);
+            }
+        };
+        PushNotification.prototype.clearAllNotifications = function(successCallback, errorCallback) {
+            errorCallback && errorCallback('clearAllNotifications is only supported in mobile devices');
+        };
+        PushNotification.prototype.on = function(eventName, callback) {};
+        PushNotification.prototype.off = function(eventName, handle) {};
+        PushNotification.prototype.emit = function() {};
+        PushNotification.prototype.finish = function(successCallback, errorCallback, id) {
+            errorCallback && errorCallback('finish is only supported in mobile devices');
+        };
+        $window.PushNotification = {
+            init: function(options) {
+                return new PushNotification(options);
+            },
+            hasPermission: function(successCallback, errorCallback) {
+                errorCallback && errorCallback('hasPermission is only supported in mobile devices');
+            },
+            PushNotification: PushNotification
+        };
+        return $q.when();
+    };
+    return self;
+}]);
+
+angular.module('mm.core.emulator')
+.factory('$mmEmulatorZip', ["$log", "$q", "$mmFS", "$window", function($log, $q, $mmFS, $window) {
+    $log = $log.getInstance('$mmEmulatorZip');
+    var self = {};
+    self.load = function() {
+        $window.zip = {
+            unzip: function(source, destination, callback, progressCallback) {
+                var basePath = $mmFS.getBasePathInstant();
+                source = source.replace(basePath, '').replace(/%20/g, ' ');
+                destination = destination.replace(basePath, '').replace(/%20/g, ' ');
+                $mmFS.readFile(source, $mmFS.FORMATARRAYBUFFER).then(function(data) {
+                    var zip = new JSZip(data),
+                        promises = [],
+                        loaded = 0,
+                        total = Object.keys(zip.files).length;
+                    angular.forEach(zip.files, function(file, name) {
+                        var filePath = $mmFS.concatenatePaths(destination, name),
+                            type,
+                            promise;
+                        if (!file.dir) {
+                            type = $mmFS.getMimeType($mmFS.getFileExtension(name));
+                            promise = $mmFS.writeFile(filePath, new Blob([file.asArrayBuffer()], {type: type}));
+                        } else {
+                            promise = $mmFS.createDir(filePath);
+                        }
+                        promises.push(promise.then(function() {
+                            loaded++;
+                            progressCallback && progressCallback({loaded: loaded, total: total});
+                        }));
+                    });
+                    return $q.all(promises).then(function() {
+                        callback(0);
+                    });
+                }).catch(function() {
+                    callback(-1);
+                });
+            }
+        };
+        return $q.when();
+    };
     return self;
 }]);
 
@@ -21568,419 +21568,6 @@ angular.module('mm.core.question')
     return self;
 }]);
 
-angular.module('mm.core.sharedfiles')
-.controller('mmSharedFilesChooseSiteCtrl', ["$scope", "$stateParams", "$mmSitesManager", "$mmUtil", "$ionicHistory", "$mmFS", "$mmSharedFilesHelper", function($scope, $stateParams, $mmSitesManager, $mmUtil, $ionicHistory, $mmFS,
-            $mmSharedFilesHelper) {
-    var filePath = $stateParams.filepath || {},
-        fileAndDir = $mmFS.getFileAndDirectoryFromPath(filePath),
-        fileEntry;
-    if (!filePath) {
-        $mmUtil.showErrorModal('Error reading file.');
-        $ionicHistory.goBack();
-        return;
-    }
-    $scope.filename = fileAndDir.name;
-    $mmFS.getFile(filePath).then(function(fe) {
-        fileEntry = fe;
-        $scope.filename = fileEntry.name;
-    }).catch(function() {
-        $mmUtil.showErrorModal('Error reading file.');
-        $ionicHistory.goBack();
-    });
-    $mmSitesManager.getSites().then(function(sites) {
-        $scope.sites = sites;
-    }).finally(function() {
-        $scope.loaded = true;
-    });
-    $scope.storeInSite = function(siteId) {
-        $scope.loaded = false;
-        $mmSharedFilesHelper.storeSharedFileInSite(fileEntry, siteId).then(function() {
-            $ionicHistory.goBack();
-        }).finally(function() {
-            $scope.loaded = true;
-        });
-    };
-}]);
-
-angular.module('mm.core.sharedfiles')
-.controller('mmSharedFilesListCtrl', ["$scope", "$stateParams", "$mmSharedFiles", "$ionicScrollDelegate", "$state", "$mmFS", "$translate", "$mmEvents", "$mmSite", "$mmSharedFilesHelper", "$ionicHistory", "mmSharedFilesEventFileShared", function($scope, $stateParams, $mmSharedFiles, $ionicScrollDelegate, $state, $mmFS,
-            $translate, $mmEvents, $mmSite, $mmSharedFilesHelper, $ionicHistory, mmSharedFilesEventFileShared) {
-    var path = $stateParams.path || '',
-        manage = $stateParams.manage,
-        pick = $stateParams.pick,
-        shareObserver,
-        siteId = $mmSite.getId();
-    $scope.manage = manage;
-    $scope.pick = pick;
-    if (path) {
-        $scope.title = $mmFS.getFileAndDirectoryFromPath(path).name;
-    } else {
-        $scope.title = $translate.instant('mm.sharedfiles.sharedfiles');
-    }
-    function loadFiles() {
-        return $mmSharedFiles.getSiteSharedFiles(siteId, path).then(function(files) {
-            $scope.files = files;
-        });
-    }
-    loadFiles().finally(function() {
-        $scope.filesLoaded = true;
-    });
-    shareObserver = $mmEvents.on(mmSharedFilesEventFileShared, function(data) {
-        if (data.siteid == siteId) {
-            $scope.filesLoaded = false;
-            loadFiles().finally(function() {
-                $scope.filesLoaded = true;
-            });
-        }
-    });
-    $scope.refreshFiles = function() {
-        loadFiles().finally(function() {
-            $scope.$broadcast('scroll.refreshComplete');
-        });
-    };
-    $scope.fileDeleted = function(index) {
-        $scope.files.splice(index, 1);
-        $ionicScrollDelegate.resize(); 
-    };
-    $scope.fileRenamed = function(index, file) {
-        $scope.files[index] = file;
-    };
-    $scope.openFolder = function(folder) {
-        $state.go('site.sharedfiles-list', {path: $mmFS.concatenatePaths(path, folder.name), manage: manage, pick: pick});
-    };
-    $scope.changeSite = function(sid) {
-        siteId = sid;
-        $scope.filesLoaded = false;
-        loadFiles().finally(function() {
-            $scope.filesLoaded = true;
-        });
-    };
-    if (pick) {
-        $scope.filePicked = function(file) {
-            $mmSharedFilesHelper.filePicked(file.fullPath);
-            if (path) {
-                var count = path.split('/').length + 1;
-                $ionicHistory.goBack(-count);
-            } else {
-                $ionicHistory.goBack();
-            }
-        };
-    }
-    $scope.$on('$destroy', function() {
-        shareObserver && shareObserver.off && shareObserver.off();
-        if (pick && !path) {
-            $mmSharedFilesHelper.filePickerClosed();
-        }
-    });
-}]);
-
-angular.module('mm.core.sharedfiles')
-.factory('$mmSharedFilesHandlers', ["$mmSharedFilesHelper", function($mmSharedFilesHelper) {
-    var self = {};
-    self.filePicker = function() {
-        var self = {};
-        self.isEnabled = function() {
-            return ionic.Platform.isIOS();
-        };
-        self.getData = function() {
-            return {
-                name: 'sharedfiles',
-                title: 'mm.sharedfiles.sharedfiles',
-                class: 'mm-sharedfiles-filepicker-handler',
-                icon: 'ion-folder',
-                action: function(maxSize, upload, allowOffline, mimetypes) {
-                    return $mmSharedFilesHelper.pickSharedFile(mimetypes);
-                }
-            };
-        };
-        self.getSupportedMimeTypes = function(mimetypes) {
-            return mimetypes;
-        };
-        return self;
-    };
-    return self;
-}]);
-
-angular.module('mm.core.sharedfiles')
-.factory('$mmSharedFilesHelper', ["$mmSharedFiles", "$mmUtil", "$log", "$mmApp", "$mmSitesManager", "$mmFS", "$rootScope", "$q", "$ionicModal", "$state", "$translate", "$mmSite", "$mmFileUploaderHelper", function($mmSharedFiles, $mmUtil, $log, $mmApp, $mmSitesManager, $mmFS, $rootScope, $q,
-            $ionicModal, $state, $translate, $mmSite, $mmFileUploaderHelper) {
-    $log = $log.getInstance('$mmSharedFilesHelper');
-    var self = {},
-        filePickerDeferred,
-        fileListScope;
-    self.askRenameReplace = function(originalName, newName) {
-        var scope = $rootScope.$new();
-        scope.originalName = originalName;
-        scope.newName = newName;
-        return $ionicModal.fromTemplateUrl('core/components/sharedfiles/templates/renamereplace.html', {
-            scope: scope,
-            animation: 'slide-in-up'
-        }).then(function(modal) {
-            var deferred = $q.defer();
-            scope.modal = modal;
-            modal.show();
-            scope.click = function(name) {
-                close().catch(function() {}).then(function() {
-                    deferred.resolve(name);
-                });
-            };
-            scope.closeModal = function() {
-                close().catch(function() {}).then(function() {
-                    deferred.reject();
-                });
-            };
-            function close() {
-                return modal.remove().then(function() {
-                    scope.$destroy();
-                });
-            }
-            return deferred.promise;
-        });
-    };
-    self.filePickerClosed = function(error) {
-        if (filePickerDeferred) {
-            filePickerDeferred.reject(error);
-            filePickerDeferred = undefined;
-        }
-    };
-    self.filePicked = function(filePath) {
-        if (filePickerDeferred) {
-            filePickerDeferred.resolve({
-                path: filePath,
-                uploaded: false
-            });
-            filePickerDeferred = undefined;
-        }
-    };
-    self.goToChooseSite = function(filePath) {
-        fileListScope && fileListScope.closeModal && fileListScope.closeModal();
-        var parentState = $state.$current.name.split('.')[0];
-        return $state.go(parentState + '.sharedfiles-choose-site', {filepath: filePath});
-    };
-    self.initFileListModal = function() {
-        if (fileListScope && fileListScope.modal) {
-            return $q.when();
-        }
-        fileListScope = $rootScope.$new();
-        return $ionicModal.fromTemplateUrl('core/components/sharedfiles/templates/listmodal.html', {
-            scope: fileListScope,
-            animation: 'slide-in-up'
-        }).then(function(modal) {
-            fileListScope.modal = modal;
-        });
-    };
-    self.pickSharedFile = function(mimetypes) {
-        var path = '',
-            siteId = $mmSite.getId();
-        filePickerDeferred = $q.defer();
-        self.initFileListModal().then(function() {
-            fileListScope.filesLoaded = false;
-            if (path) {
-                fileListScope.title = $mmFS.getFileAndDirectoryFromPath(path).name;
-            } else {
-                fileListScope.title = $translate.instant('mm.sharedfiles.sharedfiles');
-            }
-            loadFiles().then(function() {
-                fileListScope.closeModal = function() {
-                    fileListScope.modal.hide();
-                    self.filePickerClosed();
-                };
-                fileListScope.refreshFiles = function() {
-                    loadFiles().finally(function() {
-                        fileListScope.$broadcast('scroll.refreshComplete');
-                    });
-                };
-                fileListScope.openFolder = function(folder) {
-                    path = $mmFS.concatenatePaths(path, folder.name);
-                    fileListScope.filesLoaded = false;
-                    loadFiles();
-                };
-                fileListScope.changeSite = function(sid) {
-                    siteId = sid;
-                    path = '';
-                    fileListScope.filesLoaded = false;
-                    loadFiles();
-                };
-                fileListScope.filePicked = function(file) {
-                    fileListScope.modal.hide();
-                    var error = $mmFileUploaderHelper.isInvalidMimetype(mimetypes, file.fullPath);
-                    if (error) {
-                        self.filePickerClosed(error);
-                        return;
-                    }
-                    self.filePicked(file.fullPath);
-                };
-            });
-            fileListScope.modal.show();
-        }).catch(function() {
-            self.filePickerClosed();
-        });
-        return filePickerDeferred.promise;
-        function loadFiles() {
-            return $mmSharedFiles.getSiteSharedFiles(siteId, path, mimetypes).then(function(files) {
-                fileListScope.files = files;
-                fileListScope.filesLoaded = true;
-            });
-        }
-    };
-    self.searchIOSNewSharedFiles = function() {
-        return $mmApp.ready().then(function() {
-            if ($state.$current.name == 'site.sharedfiles-choose-site') {
-                return $q.reject();
-            }
-            return $mmSharedFiles.checkIOSNewFiles().then(function(fileEntry) {
-                return $mmSitesManager.getSitesIds().then(function(siteIds) {
-                    if (!siteIds.length) {
-                        $mmUtil.showErrorModal('mm.sharedfiles.errorreceivefilenosites', true);
-                        $mmSharedFiles.deleteInboxFile(fileEntry);
-                    } else if (siteIds.length == 1) {
-                        self.storeSharedFileInSite(fileEntry, siteIds[0]);
-                    } else {
-                        self.goToChooseSite(fileEntry.fullPath);
-                    }
-                });
-            });
-        });
-    };
-    self.storeSharedFileInSite = function(fileEntry, siteId) {
-        siteId = siteId || $mmSite.getId();
-        var sharedFilesDirPath = $mmSharedFiles.getSiteSharedFilesDirPath(siteId);
-        return $mmFS.getUniqueNameInFolder(sharedFilesDirPath, fileEntry.name).then(function(newName) {
-            if (newName == fileEntry.name) {
-                return newName;
-            } else {
-                return self.askRenameReplace(fileEntry.name, newName);
-            }
-        }).then(function(name) {
-            return $mmSharedFiles.storeFileInSite(fileEntry, name, siteId).finally(function() {
-                $mmSharedFiles.deleteInboxFile(fileEntry);
-                $mmUtil.showModal(undefined, $translate.instant('mm.sharedfiles.successstorefile'));
-            }).catch(function(err) {
-                $mmUtil.showErrorModal(err || 'Error moving file.');
-                return $q.reject();
-            });
-        });
-    };
-    return self;
-}]);
-
-angular.module('mm.core.sharedfiles')
-.config(["$mmAppProvider", "mmSharedFilesStore", function($mmAppProvider, mmSharedFilesStore) {
-    var stores = [
-        {
-            name: mmSharedFilesStore,
-            keyPath: 'id'
-        }
-    ];
-    $mmAppProvider.registerStores(stores);
-}])
-.factory('$mmSharedFiles', ["$mmFS", "$q", "$log", "$mmApp", "$mmSite", "$mmEvents", "md5", "mmSharedFilesStore", "mmSharedFilesFolder", "mmSharedFilesEventFileShared", function($mmFS, $q, $log, $mmApp, $mmSite, $mmEvents, md5, mmSharedFilesStore, mmSharedFilesFolder,
-            mmSharedFilesEventFileShared) {
-    $log = $log.getInstance('$mmSharedFiles');
-    var self = {};
-    self.checkIOSNewFiles = function() {
-        $log.debug('Search for new files on iOS');
-        return $mmFS.getDirectoryContents('Inbox').then(function(entries) {
-            if (entries.length > 0) {
-                var promises = [],
-                    fileToReturn;
-                angular.forEach(entries, function(entry) {
-                    var fileId = self._getFileId(entry);
-                    promises.push(self._isFileTreated(fileId).then(function() {
-                        self.deleteInboxFile(entry);
-                    }).catch(function() {
-                        $log.debug('Found new file ' + entry.name + ' shared with the app.');
-                        if (!fileToReturn) {
-                            fileToReturn = entry;
-                        }
-                    }));
-                });
-                return $q.all(promises).then(function() {
-                    var fileId;
-                    if (fileToReturn) {
-                        fileId = self._getFileId(fileToReturn);
-                        return self._markAsTreated(fileId).then(function() {
-                            $log.debug('File marked as "treated": ' + fileToReturn.name);
-                            return fileToReturn;
-                        });
-                    } else {
-                        return $q.reject();
-                    }
-                });
-            } else {
-                return $q.reject();
-            }
-        });
-    };
-    self.deleteInboxFile = function(entry) {
-        var fileId = self._getFileId(entry),
-            deferred = $q.defer();
-        function removeMark() {
-            self._unmarkAsTreated(fileId).then(function() {
-                $log.debug('"Treated" mark removed from file: ' + entry.name);
-                deferred.resolve();
-            }).catch(function() {
-                $log.debug('Error deleting "treated" mark from file: ' + entry.name);
-                deferred.reject();
-            });
-        }
-        $log.debug('Delete inbox file: ' + entry.name);
-        entry.remove(removeMark, removeMark);
-        return deferred.promise;
-    };
-    self._getFileId = function(entry) {
-        return md5.createHash(entry.name);
-    };
-    self.getSiteSharedFiles = function(siteId, path, mimetypes) {
-        siteId = siteId || $mmSite.getId();
-        var pathToGet = self.getSiteSharedFilesDirPath(siteId);
-        if (path) {
-            pathToGet = $mmFS.concatenatePaths(pathToGet, path);
-        }
-        return $mmFS.getDirectoryContents(pathToGet).then(function(files) {
-            if (mimetypes) {
-                files = files.filter(function(file) {
-                    var extension = $mmFS.getFileExtension(file.name),
-                        mimetype = $mmFS.getMimeType(extension);
-                    return !mimetype || mimetypes.indexOf(mimetype) > -1;
-                });
-            }
-            return files;
-        }).catch(function() {
-            return [];
-        });
-    };
-    self.getSiteSharedFilesDirPath = function(siteId) {
-        siteId = siteId || $mmSite.getId();
-        return $mmFS.getSiteFolder(siteId) + '/' + mmSharedFilesFolder;
-    };
-    self._isFileTreated = function(fileId) {
-        return $mmApp.getDB().get(mmSharedFilesStore, fileId);
-    };
-    self._markAsTreated = function(fileId) {
-        return $mmApp.getDB().insert(mmSharedFilesStore, {id: fileId});
-    };
-    self.storeFileInSite = function(entry, newName, siteId) {
-        siteId = siteId || $mmSite.getId();
-        if (!entry || !siteId) {
-            return $q.reject();
-        }
-        newName = newName || entry.name;
-        var sharedFilesFolder = self.getSiteSharedFilesDirPath(siteId),
-            newPath = $mmFS.concatenatePaths(sharedFilesFolder, newName);
-        return $mmFS.createDir(sharedFilesFolder).then(function() {
-            return $mmFS.moveFile(entry.fullPath, newPath).then(function(newFile) {
-                $mmEvents.trigger(mmSharedFilesEventFileShared, {siteid: siteId, name: newName});
-                return newFile;
-            });
-        });
-    };
-    self._unmarkAsTreated = function(fileId) {
-        return $mmApp.getDB().remove(mmSharedFilesStore, fileId);
-    };
-    return self;
-}]);
-
 angular.module('mm.core.settings')
 .controller('mmSettingsAboutCtrl', ["$scope", "$window", "$mmApp", "$ionicPlatform", "$mmLang", "$mmFS", "$mmLocalNotifications", "mmCoreConfigConstants", function($scope, $window, $mmApp, $ionicPlatform, $mmLang, $mmFS,
             $mmLocalNotifications, mmCoreConfigConstants) {
@@ -22409,6 +21996,419 @@ angular.module('mm.core')
             syncPromises[siteId] = syncPromise;
         }
         return syncPromise;
+    };
+    return self;
+}]);
+
+angular.module('mm.core.sharedfiles')
+.controller('mmSharedFilesChooseSiteCtrl', ["$scope", "$stateParams", "$mmSitesManager", "$mmUtil", "$ionicHistory", "$mmFS", "$mmSharedFilesHelper", function($scope, $stateParams, $mmSitesManager, $mmUtil, $ionicHistory, $mmFS,
+            $mmSharedFilesHelper) {
+    var filePath = $stateParams.filepath || {},
+        fileAndDir = $mmFS.getFileAndDirectoryFromPath(filePath),
+        fileEntry;
+    if (!filePath) {
+        $mmUtil.showErrorModal('Error reading file.');
+        $ionicHistory.goBack();
+        return;
+    }
+    $scope.filename = fileAndDir.name;
+    $mmFS.getFile(filePath).then(function(fe) {
+        fileEntry = fe;
+        $scope.filename = fileEntry.name;
+    }).catch(function() {
+        $mmUtil.showErrorModal('Error reading file.');
+        $ionicHistory.goBack();
+    });
+    $mmSitesManager.getSites().then(function(sites) {
+        $scope.sites = sites;
+    }).finally(function() {
+        $scope.loaded = true;
+    });
+    $scope.storeInSite = function(siteId) {
+        $scope.loaded = false;
+        $mmSharedFilesHelper.storeSharedFileInSite(fileEntry, siteId).then(function() {
+            $ionicHistory.goBack();
+        }).finally(function() {
+            $scope.loaded = true;
+        });
+    };
+}]);
+
+angular.module('mm.core.sharedfiles')
+.controller('mmSharedFilesListCtrl', ["$scope", "$stateParams", "$mmSharedFiles", "$ionicScrollDelegate", "$state", "$mmFS", "$translate", "$mmEvents", "$mmSite", "$mmSharedFilesHelper", "$ionicHistory", "mmSharedFilesEventFileShared", function($scope, $stateParams, $mmSharedFiles, $ionicScrollDelegate, $state, $mmFS,
+            $translate, $mmEvents, $mmSite, $mmSharedFilesHelper, $ionicHistory, mmSharedFilesEventFileShared) {
+    var path = $stateParams.path || '',
+        manage = $stateParams.manage,
+        pick = $stateParams.pick,
+        shareObserver,
+        siteId = $mmSite.getId();
+    $scope.manage = manage;
+    $scope.pick = pick;
+    if (path) {
+        $scope.title = $mmFS.getFileAndDirectoryFromPath(path).name;
+    } else {
+        $scope.title = $translate.instant('mm.sharedfiles.sharedfiles');
+    }
+    function loadFiles() {
+        return $mmSharedFiles.getSiteSharedFiles(siteId, path).then(function(files) {
+            $scope.files = files;
+        });
+    }
+    loadFiles().finally(function() {
+        $scope.filesLoaded = true;
+    });
+    shareObserver = $mmEvents.on(mmSharedFilesEventFileShared, function(data) {
+        if (data.siteid == siteId) {
+            $scope.filesLoaded = false;
+            loadFiles().finally(function() {
+                $scope.filesLoaded = true;
+            });
+        }
+    });
+    $scope.refreshFiles = function() {
+        loadFiles().finally(function() {
+            $scope.$broadcast('scroll.refreshComplete');
+        });
+    };
+    $scope.fileDeleted = function(index) {
+        $scope.files.splice(index, 1);
+        $ionicScrollDelegate.resize(); 
+    };
+    $scope.fileRenamed = function(index, file) {
+        $scope.files[index] = file;
+    };
+    $scope.openFolder = function(folder) {
+        $state.go('site.sharedfiles-list', {path: $mmFS.concatenatePaths(path, folder.name), manage: manage, pick: pick});
+    };
+    $scope.changeSite = function(sid) {
+        siteId = sid;
+        $scope.filesLoaded = false;
+        loadFiles().finally(function() {
+            $scope.filesLoaded = true;
+        });
+    };
+    if (pick) {
+        $scope.filePicked = function(file) {
+            $mmSharedFilesHelper.filePicked(file.fullPath);
+            if (path) {
+                var count = path.split('/').length + 1;
+                $ionicHistory.goBack(-count);
+            } else {
+                $ionicHistory.goBack();
+            }
+        };
+    }
+    $scope.$on('$destroy', function() {
+        shareObserver && shareObserver.off && shareObserver.off();
+        if (pick && !path) {
+            $mmSharedFilesHelper.filePickerClosed();
+        }
+    });
+}]);
+
+angular.module('mm.core.sharedfiles')
+.factory('$mmSharedFilesHandlers', ["$mmSharedFilesHelper", function($mmSharedFilesHelper) {
+    var self = {};
+    self.filePicker = function() {
+        var self = {};
+        self.isEnabled = function() {
+            return ionic.Platform.isIOS();
+        };
+        self.getData = function() {
+            return {
+                name: 'sharedfiles',
+                title: 'mm.sharedfiles.sharedfiles',
+                class: 'mm-sharedfiles-filepicker-handler',
+                icon: 'ion-folder',
+                action: function(maxSize, upload, allowOffline, mimetypes) {
+                    return $mmSharedFilesHelper.pickSharedFile(mimetypes);
+                }
+            };
+        };
+        self.getSupportedMimeTypes = function(mimetypes) {
+            return mimetypes;
+        };
+        return self;
+    };
+    return self;
+}]);
+
+angular.module('mm.core.sharedfiles')
+.factory('$mmSharedFilesHelper', ["$mmSharedFiles", "$mmUtil", "$log", "$mmApp", "$mmSitesManager", "$mmFS", "$rootScope", "$q", "$ionicModal", "$state", "$translate", "$mmSite", "$mmFileUploaderHelper", function($mmSharedFiles, $mmUtil, $log, $mmApp, $mmSitesManager, $mmFS, $rootScope, $q,
+            $ionicModal, $state, $translate, $mmSite, $mmFileUploaderHelper) {
+    $log = $log.getInstance('$mmSharedFilesHelper');
+    var self = {},
+        filePickerDeferred,
+        fileListScope;
+    self.askRenameReplace = function(originalName, newName) {
+        var scope = $rootScope.$new();
+        scope.originalName = originalName;
+        scope.newName = newName;
+        return $ionicModal.fromTemplateUrl('core/components/sharedfiles/templates/renamereplace.html', {
+            scope: scope,
+            animation: 'slide-in-up'
+        }).then(function(modal) {
+            var deferred = $q.defer();
+            scope.modal = modal;
+            modal.show();
+            scope.click = function(name) {
+                close().catch(function() {}).then(function() {
+                    deferred.resolve(name);
+                });
+            };
+            scope.closeModal = function() {
+                close().catch(function() {}).then(function() {
+                    deferred.reject();
+                });
+            };
+            function close() {
+                return modal.remove().then(function() {
+                    scope.$destroy();
+                });
+            }
+            return deferred.promise;
+        });
+    };
+    self.filePickerClosed = function(error) {
+        if (filePickerDeferred) {
+            filePickerDeferred.reject(error);
+            filePickerDeferred = undefined;
+        }
+    };
+    self.filePicked = function(filePath) {
+        if (filePickerDeferred) {
+            filePickerDeferred.resolve({
+                path: filePath,
+                uploaded: false
+            });
+            filePickerDeferred = undefined;
+        }
+    };
+    self.goToChooseSite = function(filePath) {
+        fileListScope && fileListScope.closeModal && fileListScope.closeModal();
+        var parentState = $state.$current.name.split('.')[0];
+        return $state.go(parentState + '.sharedfiles-choose-site', {filepath: filePath});
+    };
+    self.initFileListModal = function() {
+        if (fileListScope && fileListScope.modal) {
+            return $q.when();
+        }
+        fileListScope = $rootScope.$new();
+        return $ionicModal.fromTemplateUrl('core/components/sharedfiles/templates/listmodal.html', {
+            scope: fileListScope,
+            animation: 'slide-in-up'
+        }).then(function(modal) {
+            fileListScope.modal = modal;
+        });
+    };
+    self.pickSharedFile = function(mimetypes) {
+        var path = '',
+            siteId = $mmSite.getId();
+        filePickerDeferred = $q.defer();
+        self.initFileListModal().then(function() {
+            fileListScope.filesLoaded = false;
+            if (path) {
+                fileListScope.title = $mmFS.getFileAndDirectoryFromPath(path).name;
+            } else {
+                fileListScope.title = $translate.instant('mm.sharedfiles.sharedfiles');
+            }
+            loadFiles().then(function() {
+                fileListScope.closeModal = function() {
+                    fileListScope.modal.hide();
+                    self.filePickerClosed();
+                };
+                fileListScope.refreshFiles = function() {
+                    loadFiles().finally(function() {
+                        fileListScope.$broadcast('scroll.refreshComplete');
+                    });
+                };
+                fileListScope.openFolder = function(folder) {
+                    path = $mmFS.concatenatePaths(path, folder.name);
+                    fileListScope.filesLoaded = false;
+                    loadFiles();
+                };
+                fileListScope.changeSite = function(sid) {
+                    siteId = sid;
+                    path = '';
+                    fileListScope.filesLoaded = false;
+                    loadFiles();
+                };
+                fileListScope.filePicked = function(file) {
+                    fileListScope.modal.hide();
+                    var error = $mmFileUploaderHelper.isInvalidMimetype(mimetypes, file.fullPath);
+                    if (error) {
+                        self.filePickerClosed(error);
+                        return;
+                    }
+                    self.filePicked(file.fullPath);
+                };
+            });
+            fileListScope.modal.show();
+        }).catch(function() {
+            self.filePickerClosed();
+        });
+        return filePickerDeferred.promise;
+        function loadFiles() {
+            return $mmSharedFiles.getSiteSharedFiles(siteId, path, mimetypes).then(function(files) {
+                fileListScope.files = files;
+                fileListScope.filesLoaded = true;
+            });
+        }
+    };
+    self.searchIOSNewSharedFiles = function() {
+        return $mmApp.ready().then(function() {
+            if ($state.$current.name == 'site.sharedfiles-choose-site') {
+                return $q.reject();
+            }
+            return $mmSharedFiles.checkIOSNewFiles().then(function(fileEntry) {
+                return $mmSitesManager.getSitesIds().then(function(siteIds) {
+                    if (!siteIds.length) {
+                        $mmUtil.showErrorModal('mm.sharedfiles.errorreceivefilenosites', true);
+                        $mmSharedFiles.deleteInboxFile(fileEntry);
+                    } else if (siteIds.length == 1) {
+                        self.storeSharedFileInSite(fileEntry, siteIds[0]);
+                    } else {
+                        self.goToChooseSite(fileEntry.fullPath);
+                    }
+                });
+            });
+        });
+    };
+    self.storeSharedFileInSite = function(fileEntry, siteId) {
+        siteId = siteId || $mmSite.getId();
+        var sharedFilesDirPath = $mmSharedFiles.getSiteSharedFilesDirPath(siteId);
+        return $mmFS.getUniqueNameInFolder(sharedFilesDirPath, fileEntry.name).then(function(newName) {
+            if (newName == fileEntry.name) {
+                return newName;
+            } else {
+                return self.askRenameReplace(fileEntry.name, newName);
+            }
+        }).then(function(name) {
+            return $mmSharedFiles.storeFileInSite(fileEntry, name, siteId).finally(function() {
+                $mmSharedFiles.deleteInboxFile(fileEntry);
+                $mmUtil.showModal(undefined, $translate.instant('mm.sharedfiles.successstorefile'));
+            }).catch(function(err) {
+                $mmUtil.showErrorModal(err || 'Error moving file.');
+                return $q.reject();
+            });
+        });
+    };
+    return self;
+}]);
+
+angular.module('mm.core.sharedfiles')
+.config(["$mmAppProvider", "mmSharedFilesStore", function($mmAppProvider, mmSharedFilesStore) {
+    var stores = [
+        {
+            name: mmSharedFilesStore,
+            keyPath: 'id'
+        }
+    ];
+    $mmAppProvider.registerStores(stores);
+}])
+.factory('$mmSharedFiles', ["$mmFS", "$q", "$log", "$mmApp", "$mmSite", "$mmEvents", "md5", "mmSharedFilesStore", "mmSharedFilesFolder", "mmSharedFilesEventFileShared", function($mmFS, $q, $log, $mmApp, $mmSite, $mmEvents, md5, mmSharedFilesStore, mmSharedFilesFolder,
+            mmSharedFilesEventFileShared) {
+    $log = $log.getInstance('$mmSharedFiles');
+    var self = {};
+    self.checkIOSNewFiles = function() {
+        $log.debug('Search for new files on iOS');
+        return $mmFS.getDirectoryContents('Inbox').then(function(entries) {
+            if (entries.length > 0) {
+                var promises = [],
+                    fileToReturn;
+                angular.forEach(entries, function(entry) {
+                    var fileId = self._getFileId(entry);
+                    promises.push(self._isFileTreated(fileId).then(function() {
+                        self.deleteInboxFile(entry);
+                    }).catch(function() {
+                        $log.debug('Found new file ' + entry.name + ' shared with the app.');
+                        if (!fileToReturn) {
+                            fileToReturn = entry;
+                        }
+                    }));
+                });
+                return $q.all(promises).then(function() {
+                    var fileId;
+                    if (fileToReturn) {
+                        fileId = self._getFileId(fileToReturn);
+                        return self._markAsTreated(fileId).then(function() {
+                            $log.debug('File marked as "treated": ' + fileToReturn.name);
+                            return fileToReturn;
+                        });
+                    } else {
+                        return $q.reject();
+                    }
+                });
+            } else {
+                return $q.reject();
+            }
+        });
+    };
+    self.deleteInboxFile = function(entry) {
+        var fileId = self._getFileId(entry),
+            deferred = $q.defer();
+        function removeMark() {
+            self._unmarkAsTreated(fileId).then(function() {
+                $log.debug('"Treated" mark removed from file: ' + entry.name);
+                deferred.resolve();
+            }).catch(function() {
+                $log.debug('Error deleting "treated" mark from file: ' + entry.name);
+                deferred.reject();
+            });
+        }
+        $log.debug('Delete inbox file: ' + entry.name);
+        entry.remove(removeMark, removeMark);
+        return deferred.promise;
+    };
+    self._getFileId = function(entry) {
+        return md5.createHash(entry.name);
+    };
+    self.getSiteSharedFiles = function(siteId, path, mimetypes) {
+        siteId = siteId || $mmSite.getId();
+        var pathToGet = self.getSiteSharedFilesDirPath(siteId);
+        if (path) {
+            pathToGet = $mmFS.concatenatePaths(pathToGet, path);
+        }
+        return $mmFS.getDirectoryContents(pathToGet).then(function(files) {
+            if (mimetypes) {
+                files = files.filter(function(file) {
+                    var extension = $mmFS.getFileExtension(file.name),
+                        mimetype = $mmFS.getMimeType(extension);
+                    return !mimetype || mimetypes.indexOf(mimetype) > -1;
+                });
+            }
+            return files;
+        }).catch(function() {
+            return [];
+        });
+    };
+    self.getSiteSharedFilesDirPath = function(siteId) {
+        siteId = siteId || $mmSite.getId();
+        return $mmFS.getSiteFolder(siteId) + '/' + mmSharedFilesFolder;
+    };
+    self._isFileTreated = function(fileId) {
+        return $mmApp.getDB().get(mmSharedFilesStore, fileId);
+    };
+    self._markAsTreated = function(fileId) {
+        return $mmApp.getDB().insert(mmSharedFilesStore, {id: fileId});
+    };
+    self.storeFileInSite = function(entry, newName, siteId) {
+        siteId = siteId || $mmSite.getId();
+        if (!entry || !siteId) {
+            return $q.reject();
+        }
+        newName = newName || entry.name;
+        var sharedFilesFolder = self.getSiteSharedFilesDirPath(siteId),
+            newPath = $mmFS.concatenatePaths(sharedFilesFolder, newName);
+        return $mmFS.createDir(sharedFilesFolder).then(function() {
+            return $mmFS.moveFile(entry.fullPath, newPath).then(function(newFile) {
+                $mmEvents.trigger(mmSharedFilesEventFileShared, {siteid: siteId, name: newName});
+                return newFile;
+            });
+        });
+    };
+    self._unmarkAsTreated = function(fileId) {
+        return $mmApp.getDB().remove(mmSharedFilesStore, fileId);
     };
     return self;
 }]);
@@ -25036,14 +25036,14 @@ angular.module('mm.addons.qtype_ddmarker', ['mm.core'])
     $mmQuestionDelegateProvider.registerHandler('mmaQtypeDdmarker', 'qtype_ddmarker', '$mmaQtypeDdmarkerHandler');
 }]);
 
-angular.module('mm.addons.qtype_description', ['mm.core'])
-.config(["$mmQuestionDelegateProvider", function($mmQuestionDelegateProvider) {
-    $mmQuestionDelegateProvider.registerHandler('mmaQtypeDescription', 'qtype_description', '$mmaQtypeDescriptionHandler');
-}]);
-
 angular.module('mm.addons.qtype_ddwtos', ['mm.core'])
 .config(["$mmQuestionDelegateProvider", function($mmQuestionDelegateProvider) {
     $mmQuestionDelegateProvider.registerHandler('mmaQtypeDdwtos', 'qtype_ddwtos', '$mmaQtypeDdwtosHandler');
+}]);
+
+angular.module('mm.addons.qtype_description', ['mm.core'])
+.config(["$mmQuestionDelegateProvider", function($mmQuestionDelegateProvider) {
+    $mmQuestionDelegateProvider.registerHandler('mmaQtypeDescription', 'qtype_description', '$mmaQtypeDescriptionHandler');
 }]);
 
 angular.module('mm.addons.qtype_essay', ['mm.core'])
@@ -25061,14 +25061,14 @@ angular.module('mm.addons.qtype_match', ['mm.core'])
     $mmQuestionDelegateProvider.registerHandler('mmaQtypeMatch', 'qtype_match', '$mmaQtypeMatchHandler');
 }]);
 
-angular.module('mm.addons.qtype_multichoice', ['mm.core'])
-.config(["$mmQuestionDelegateProvider", function($mmQuestionDelegateProvider) {
-    $mmQuestionDelegateProvider.registerHandler('mmaQtypeMultichoice', 'qtype_multichoice', '$mmaQtypeMultichoiceHandler');
-}]);
-
 angular.module('mm.addons.qtype_multianswer', ['mm.core'])
 .config(["$mmQuestionDelegateProvider", function($mmQuestionDelegateProvider) {
     $mmQuestionDelegateProvider.registerHandler('mmaQtypeMultianswer', 'qtype_multianswer', '$mmaQtypeMultianswerHandler');
+}]);
+
+angular.module('mm.addons.qtype_multichoice', ['mm.core'])
+.config(["$mmQuestionDelegateProvider", function($mmQuestionDelegateProvider) {
+    $mmQuestionDelegateProvider.registerHandler('mmaQtypeMultichoice', 'qtype_multichoice', '$mmaQtypeMultichoiceHandler');
 }]);
 
 angular.module('mm.addons.qtype_numerical', ['mm.core'])
@@ -26983,6 +26983,46 @@ angular.module('mm.addons.mod_quiz')
 }]);
 
 angular.module('mm.addons.mod_quiz')
+.directive('mmaQuizAccessOfflineAttemptsPreflight', function() {
+    return {
+        restrict: 'A',
+        priority: 100,
+        templateUrl: 'addons/mod/quiz/accessrules/offlineattempts/template.html'
+    };
+});
+
+angular.module('mm.addons.mod_quiz')
+.factory('$mmaQuizAccessOfflineAttemptsHandler', ["mmaModQuizSyncTime", function(mmaModQuizSyncTime) {
+    var self = {};
+    self.isEnabled = function() {
+        return true;
+    };
+    self.isPreflightCheckRequired = function(quiz, attempt, prefetch, siteId) {
+        if (prefetch) {
+            return false;
+        }
+        if (!attempt) {
+            return true;
+        }
+        return new Date().getTime() - mmaModQuizSyncTime > attempt.quizSyncTime;
+    };
+    self.getFixedPreflightData = function(quiz, attempt, preflightData, prefetch, siteId) {
+        preflightData.confirmdatasaved = 1;
+    };
+    self.getPreflightDirectiveName = function() {
+        return 'mma-quiz-access-offline-attempts-preflight';
+    };
+    return self;
+}])
+.run(["$mmAddonManager", function($mmAddonManager) {
+    var $mmaModQuizAccessRulesDelegate = $mmAddonManager.get('$mmaModQuizAccessRulesDelegate');
+    if ($mmaModQuizAccessRulesDelegate) {
+        $mmaModQuizAccessRulesDelegate.registerHandler('mmaQuizAccessOfflineAttempts', 'quizaccess_offlineattempts',
+                                '$mmaQuizAccessOfflineAttemptsHandler');
+    }
+}]);
+
+angular.module('mm.addons.mod_quiz')
 .factory('$mmaQuizAccessNumAttemptsHandler', function() {
     var self = {};
     self.isEnabled = function() {
@@ -27026,46 +27066,6 @@ angular.module('mm.addons.mod_quiz')
     if ($mmaModQuizAccessRulesDelegate) {
         $mmaModQuizAccessRulesDelegate.registerHandler('mmaQuizAccessOpenCloseDate', 'quizaccess_openclosedate',
                                 '$mmaQuizAccessOpenCloseDateHandler');
-    }
-}]);
-
-angular.module('mm.addons.mod_quiz')
-.directive('mmaQuizAccessOfflineAttemptsPreflight', function() {
-    return {
-        restrict: 'A',
-        priority: 100,
-        templateUrl: 'addons/mod/quiz/accessrules/offlineattempts/template.html'
-    };
-});
-
-angular.module('mm.addons.mod_quiz')
-.factory('$mmaQuizAccessOfflineAttemptsHandler', ["mmaModQuizSyncTime", function(mmaModQuizSyncTime) {
-    var self = {};
-    self.isEnabled = function() {
-        return true;
-    };
-    self.isPreflightCheckRequired = function(quiz, attempt, prefetch, siteId) {
-        if (prefetch) {
-            return false;
-        }
-        if (!attempt) {
-            return true;
-        }
-        return new Date().getTime() - mmaModQuizSyncTime > attempt.quizSyncTime;
-    };
-    self.getFixedPreflightData = function(quiz, attempt, preflightData, prefetch, siteId) {
-        preflightData.confirmdatasaved = 1;
-    };
-    self.getPreflightDirectiveName = function() {
-        return 'mma-quiz-access-offline-attempts-preflight';
-    };
-    return self;
-}])
-.run(["$mmAddonManager", function($mmAddonManager) {
-    var $mmaModQuizAccessRulesDelegate = $mmAddonManager.get('$mmaModQuizAccessRulesDelegate');
-    if ($mmaModQuizAccessRulesDelegate) {
-        $mmaModQuizAccessRulesDelegate.registerHandler('mmaQuizAccessOfflineAttempts', 'quizaccess_offlineattempts',
-                                '$mmaQuizAccessOfflineAttemptsHandler');
     }
 }]);
 
@@ -32887,27 +32887,6 @@ angular.module('mm.addons.notes')
 }]);
 
 angular.module('mm.addons.notifications')
-.directive('mmaNotificationsActions', ["$log", "$mmContentLinksDelegate", function($log, $mmContentLinksDelegate) {
-    $log = $log.getInstance('mmaNotificationsActions');
-    function link(scope) {
-        if (scope.contexturl) {
-            $mmContentLinksDelegate.getActionsFor(scope.contexturl, scope.courseid).then(function(actions) {
-                scope.actions = actions;
-            });
-        }
-    }
-    return {
-        link: link,
-        restrict: 'E',
-        scope: {
-            contexturl: '=',
-            courseid: '='
-        },
-        templateUrl: 'addons/notifications/templates/actions.html',
-    };
-}]);
-
-angular.module('mm.addons.notifications')
 .controller('mmaNotificationsListCtrl', ["$scope", "$mmUtil", "$mmaNotifications", "mmaNotificationsListLimit", "$mmAddonManager", "mmUserProfileState", "$q", "$mmEvents", "$mmSite", "mmaNotificationsReadChangedEvent", "mmaNotificationsReadCronEvent", "$state", function($scope, $mmUtil, $mmaNotifications, mmaNotificationsListLimit, $mmAddonManager,
             mmUserProfileState, $q, $mmEvents, $mmSite, mmaNotificationsReadChangedEvent, mmaNotificationsReadCronEvent, $state) {
     var readCount = 0,
@@ -33143,6 +33122,27 @@ angular.module('mm.addons.notifications')
             updatePreferences();
         }
     });
+}]);
+
+angular.module('mm.addons.notifications')
+.directive('mmaNotificationsActions', ["$log", "$mmContentLinksDelegate", function($log, $mmContentLinksDelegate) {
+    $log = $log.getInstance('mmaNotificationsActions');
+    function link(scope) {
+        if (scope.contexturl) {
+            $mmContentLinksDelegate.getActionsFor(scope.contexturl, scope.courseid).then(function(actions) {
+                scope.actions = actions;
+            });
+        }
+    }
+    return {
+        link: link,
+        restrict: 'E',
+        scope: {
+            contexturl: '=',
+            courseid: '='
+        },
+        templateUrl: 'addons/notifications/templates/actions.html',
+    };
 }]);
 
 angular.module('mm.addons.notifications')
@@ -34027,30 +34027,6 @@ angular.module('mm.addons.qbehaviour_immediatefeedback')
     return self;
 }]);
 
-angular.module('mm.addons.qbehaviour_interactive')
-.factory('$mmaQbehaviourInteractiveHandler', ["$mmQuestionHelper", function($mmQuestionHelper) {
-    var self = {};
-    self.isEnabled = function() {
-        return true;
-    };
-    self.handleQuestion = function(question) {
-        $mmQuestionHelper.extractQbehaviourButtons(question);
-    };
-    return self;
-}]);
-
-angular.module('mm.addons.qbehaviour_interactivecountback')
-.factory('$mmaQbehaviourInteractiveCountbackHandler', ["$mmQuestionHelper", function($mmQuestionHelper) {
-    var self = {};
-    self.isEnabled = function() {
-        return true;
-    };
-    self.handleQuestion = function(question) {
-        $mmQuestionHelper.extractQbehaviourButtons(question);
-    };
-    return self;
-}]);
-
 angular.module('mm.addons.qbehaviour_informationitem')
 .directive('mmaQbehaviourInformationItem', function() {
     return {
@@ -34076,6 +34052,30 @@ angular.module('mm.addons.qbehaviour_informationitem')
         if ($mmQuestionHelper.extractQbehaviourSeenInput(question)) {
             return ['mma-qbehaviour-information-item'];
         }
+    };
+    return self;
+}]);
+
+angular.module('mm.addons.qbehaviour_interactive')
+.factory('$mmaQbehaviourInteractiveHandler', ["$mmQuestionHelper", function($mmQuestionHelper) {
+    var self = {};
+    self.isEnabled = function() {
+        return true;
+    };
+    self.handleQuestion = function(question) {
+        $mmQuestionHelper.extractQbehaviourButtons(question);
+    };
+    return self;
+}]);
+
+angular.module('mm.addons.qbehaviour_interactivecountback')
+.factory('$mmaQbehaviourInteractiveCountbackHandler', ["$mmQuestionHelper", function($mmQuestionHelper) {
+    var self = {};
+    self.isEnabled = function() {
+        return true;
+    };
+    self.handleQuestion = function(question) {
+        $mmQuestionHelper.extractQbehaviourButtons(question);
     };
     return self;
 }]);
@@ -34165,40 +34165,6 @@ angular.module('mm.addons.qtype_calculated')
     return self;
 }]);
 
-angular.module('mm.addons.qtype_calculatedmulti')
-.directive('mmaQtypeCalculatedMulti', ["$log", "$mmQuestionHelper", function($log, $mmQuestionHelper) {
-	$log = $log.getInstance('mmaQtypeCalculatedMulti');
-    return {
-        restrict: 'A',
-        priority: 100,
-        templateUrl: 'addons/qtype/multichoice/template.html',
-        link: function(scope) {
-        	$mmQuestionHelper.multiChoiceDirective(scope, $log);
-        }
-    };
-}]);
-
-angular.module('mm.addons.qtype_calculatedmulti')
-.factory('$mmaQtypeCalculatedMultiHandler', ["$mmaQtypeMultichoiceHandler", function($mmaQtypeMultichoiceHandler) {
-    var self = {};
-    self.isCompleteResponse = function(question, answers) {
-        return $mmaQtypeMultichoiceHandler.isCompleteResponseSingle(answers);
-    };
-    self.isEnabled = function() {
-        return true;
-    };
-    self.isGradableResponse = function(question, answers) {
-        return $mmaQtypeMultichoiceHandler.isGradableResponseSingle(answers);
-    };
-    self.isSameResponse = function(question, prevAnswers, newAnswers) {
-        return $mmaQtypeMultichoiceHandler.isSameResponseSingle(prevAnswers, newAnswers);
-    };
-    self.getDirectiveName = function(question) {
-        return 'mma-qtype-calculated-multi';
-    };
-    return self;
-}]);
-
 angular.module('mm.addons.qtype_calculatedsimple')
 .directive('mmaQtypeCalculatedSimple', ["$log", "$mmQuestionHelper", function($log, $mmQuestionHelper) {
 	$log = $log.getInstance('mmaQtypeCalculatedSimple');
@@ -34229,6 +34195,40 @@ angular.module('mm.addons.qtype_calculatedsimple')
     };
     self.getDirectiveName = function(question) {
         return 'mma-qtype-calculated-simple';
+    };
+    return self;
+}]);
+
+angular.module('mm.addons.qtype_calculatedmulti')
+.directive('mmaQtypeCalculatedMulti', ["$log", "$mmQuestionHelper", function($log, $mmQuestionHelper) {
+	$log = $log.getInstance('mmaQtypeCalculatedMulti');
+    return {
+        restrict: 'A',
+        priority: 100,
+        templateUrl: 'addons/qtype/multichoice/template.html',
+        link: function(scope) {
+        	$mmQuestionHelper.multiChoiceDirective(scope, $log);
+        }
+    };
+}]);
+
+angular.module('mm.addons.qtype_calculatedmulti')
+.factory('$mmaQtypeCalculatedMultiHandler', ["$mmaQtypeMultichoiceHandler", function($mmaQtypeMultichoiceHandler) {
+    var self = {};
+    self.isCompleteResponse = function(question, answers) {
+        return $mmaQtypeMultichoiceHandler.isCompleteResponseSingle(answers);
+    };
+    self.isEnabled = function() {
+        return true;
+    };
+    self.isGradableResponse = function(question, answers) {
+        return $mmaQtypeMultichoiceHandler.isGradableResponseSingle(answers);
+    };
+    self.isSameResponse = function(question, prevAnswers, newAnswers) {
+        return $mmaQtypeMultichoiceHandler.isSameResponseSingle(prevAnswers, newAnswers);
+    };
+    self.getDirectiveName = function(question) {
+        return 'mma-qtype-calculated-multi';
     };
     return self;
 }]);
@@ -35366,6 +35366,47 @@ angular.module('mm.addons.qtype_ddmarker')
     };
     return self;
 }]);
+angular.module('mm.addons.qtype_description')
+.directive('mmaQtypeDescription', ["$log", "$mmQuestionHelper", function($log, $mmQuestionHelper) {
+	$log = $log.getInstance('mmaQtypeDescription');
+    return {
+        restrict: 'A',
+        priority: 100,
+        templateUrl: 'addons/qtype/description/template.html',
+        link: function(scope) {
+            var questionEl = $mmQuestionHelper.directiveInit(scope, $log),
+                input;
+            if (questionEl) {
+                input = questionEl[0].querySelector('input[type="hidden"][name*=seen]');
+                if (input) {
+                    scope.seenInput = {
+                        name: input.name,
+                        value: input.value
+                    };
+                }
+            }
+        }
+    };
+}]);
+
+angular.module('mm.addons.qtype_description')
+.factory('$mmaQtypeDescriptionHandler', function() {
+    var self = {};
+    self.isEnabled = function() {
+        return true;
+    };
+    self.getBehaviour = function(question, behaviour) {
+        return 'informationitem';
+    };
+    self.getDirectiveName = function(question) {
+        return 'mma-qtype-description';
+    };
+    self.validateSequenceCheck = function(question, offlineSeqCheck) {
+        return true;
+    };
+    return self;
+});
+
 angular.module('mm.addons.qtype_ddwtos')
 .directive('mmaQtypeDdwtos', ["$log", "$mmQuestionHelper", "$mmaQtypeDdwtosRender", "$timeout", "$mmUtil", function($log, $mmQuestionHelper, $mmaQtypeDdwtosRender, $timeout, $mmUtil) {
 	$log = $log.getInstance('mmaQtypeDdwtos');
@@ -35760,47 +35801,6 @@ angular.module('mm.addons.qtype_ddwtos')
     };
     return self;
 }]);
-angular.module('mm.addons.qtype_description')
-.directive('mmaQtypeDescription', ["$log", "$mmQuestionHelper", function($log, $mmQuestionHelper) {
-	$log = $log.getInstance('mmaQtypeDescription');
-    return {
-        restrict: 'A',
-        priority: 100,
-        templateUrl: 'addons/qtype/description/template.html',
-        link: function(scope) {
-            var questionEl = $mmQuestionHelper.directiveInit(scope, $log),
-                input;
-            if (questionEl) {
-                input = questionEl[0].querySelector('input[type="hidden"][name*=seen]');
-                if (input) {
-                    scope.seenInput = {
-                        name: input.name,
-                        value: input.value
-                    };
-                }
-            }
-        }
-    };
-}]);
-
-angular.module('mm.addons.qtype_description')
-.factory('$mmaQtypeDescriptionHandler', function() {
-    var self = {};
-    self.isEnabled = function() {
-        return true;
-    };
-    self.getBehaviour = function(question, behaviour) {
-        return 'informationitem';
-    };
-    self.getDirectiveName = function(question) {
-        return 'mma-qtype-description';
-    };
-    self.validateSequenceCheck = function(question, offlineSeqCheck) {
-        return true;
-    };
-    return self;
-});
-
 angular.module('mm.addons.qtype_essay')
 .directive('mmaQtypeEssay', ["$log", "$mmQuestionHelper", "$mmText", "$mmUtil", function($log, $mmQuestionHelper, $mmText, $mmUtil) {
 	$log = $log.getInstance('mmaQtypeEssay');
@@ -36096,60 +36096,6 @@ angular.module('mm.addons.qtype_multianswer')
     return self;
 }]);
 
-angular.module('mm.addons.qtype_numerical')
-.directive('mmaQtypeNumerical', ["$log", "$mmQuestionHelper", function($log, $mmQuestionHelper) {
-	$log = $log.getInstance('mmaQtypeNumerical');
-    return {
-        restrict: 'A',
-        priority: 100,
-        templateUrl: 'addons/qtype/shortanswer/template.html',
-        link: function(scope) {
-            $mmQuestionHelper.inputTextDirective(scope, $log);
-        }
-    };
-}]);
-
-angular.module('mm.addons.qtype_numerical')
-.factory('$mmaQtypeNumericalHandler', ["$mmUtil", function($mmUtil) {
-    var self = {};
-    self.isCompleteResponse = function(question, answers) {
-        if (!self.isGradableResponse(question, answers) || !self.validateUnits(answers['answer'])) {
-            return false;
-        }
-        return -1;
-    };
-    self.isEnabled = function() {
-        return true;
-    };
-    self.isGradableResponse = function(question, answers) {
-        return answers['answer'] || answers['answer'] === '0' || answers['answer'] === 0;
-    };
-    self.isSameResponse = function(question, prevAnswers, newAnswers) {
-        return $mmUtil.sameAtKeyMissingIsBlank(prevAnswers, newAnswers, 'answer');
-    };
-    self.getDirectiveName = function(question) {
-        return 'mma-qtype-numerical';
-    };
-    self.validateUnits = function(answer) {
-        if (!answer) {
-            return false;
-        }
-        var regexString = '[+-]?(?:\\d+(?:\\.\\d*)?|\\.\\d+)(?:e[-+]?\\d+)?';
-        answer = answer.replace(' ', '');
-        answer = answer.replace(/(?:e|E|(?:x|\*|×)10(?:\^|\*\*))([+-]?\d+)/, 'e$1');
-        if (answer.indexOf('.') != -1 || answer.split(',').length - 1 > 1) {
-            answer = answer.replace(',', '');
-        } else {
-            answer = answer.replace(',', '.');
-        }
-        if (answer.match(new RegExp('^' + regexString)) === null || answer.match(new RegExp(regexString + '$')) === null) {
-            return false;
-        }
-        return true;
-    };
-    return self;
-}]);
-
 angular.module('mm.addons.qtype_multichoice')
 .directive('mmaQtypeMultichoice', ["$log", "$mmQuestionHelper", function($log, $mmQuestionHelper) {
 	$log = $log.getInstance('mmaQtypeMultichoice');
@@ -36217,6 +36163,60 @@ angular.module('mm.addons.qtype_multichoice')
     };
     self.getDirectiveName = function(question) {
         return 'mma-qtype-multichoice';
+    };
+    return self;
+}]);
+
+angular.module('mm.addons.qtype_numerical')
+.directive('mmaQtypeNumerical', ["$log", "$mmQuestionHelper", function($log, $mmQuestionHelper) {
+	$log = $log.getInstance('mmaQtypeNumerical');
+    return {
+        restrict: 'A',
+        priority: 100,
+        templateUrl: 'addons/qtype/shortanswer/template.html',
+        link: function(scope) {
+            $mmQuestionHelper.inputTextDirective(scope, $log);
+        }
+    };
+}]);
+
+angular.module('mm.addons.qtype_numerical')
+.factory('$mmaQtypeNumericalHandler', ["$mmUtil", function($mmUtil) {
+    var self = {};
+    self.isCompleteResponse = function(question, answers) {
+        if (!self.isGradableResponse(question, answers) || !self.validateUnits(answers['answer'])) {
+            return false;
+        }
+        return -1;
+    };
+    self.isEnabled = function() {
+        return true;
+    };
+    self.isGradableResponse = function(question, answers) {
+        return answers['answer'] || answers['answer'] === '0' || answers['answer'] === 0;
+    };
+    self.isSameResponse = function(question, prevAnswers, newAnswers) {
+        return $mmUtil.sameAtKeyMissingIsBlank(prevAnswers, newAnswers, 'answer');
+    };
+    self.getDirectiveName = function(question) {
+        return 'mma-qtype-numerical';
+    };
+    self.validateUnits = function(answer) {
+        if (!answer) {
+            return false;
+        }
+        var regexString = '[+-]?(?:\\d+(?:\\.\\d*)?|\\.\\d+)(?:e[-+]?\\d+)?';
+        answer = answer.replace(' ', '');
+        answer = answer.replace(/(?:e|E|(?:x|\*|×)10(?:\^|\*\*))([+-]?\d+)/, 'e$1');
+        if (answer.indexOf('.') != -1 || answer.split(',').length - 1 > 1) {
+            answer = answer.replace(',', '');
+        } else {
+            answer = answer.replace(',', '.');
+        }
+        if (answer.match(new RegExp('^' + regexString)) === null || answer.match(new RegExp(regexString + '$')) === null) {
+            return false;
+        }
+        return true;
     };
     return self;
 }]);
@@ -40431,6 +40431,347 @@ angular.module('mm.addons.mod_assign')
     $mmEvents.on(mmCoreEventRemoteAddonsLoaded, $mmaModAssignSubmissionDelegate.updateHandlers);
 }]);
 
+angular.module('mm.addons.mod_chat')
+.controller('mmaModChatChatCtrl', ["$scope", "$stateParams", "$mmApp", "$mmaModChat", "$log", "$ionicModal", "$mmUtil", "$ionicHistory", "$ionicScrollDelegate", "$timeout", "$mmSite", "$interval", "mmaChatPollInterval", "$q", "$mmText", function($scope, $stateParams, $mmApp, $mmaModChat, $log, $ionicModal, $mmUtil, $ionicHistory,
+            $ionicScrollDelegate, $timeout, $mmSite, $interval, mmaChatPollInterval, $q, $mmText) {
+    $log = $log.getInstance('mmaModChatChatCtrl');
+    var chatId = $stateParams.chatid,
+        courseId = $stateParams.courseid,
+        title = $stateParams.title,
+        chatLastTime = 0,
+        pollingRunning = false;
+    $scope.loaded = false;
+    $scope.title = title;
+    $scope.currentUserId = $mmSite.getUserId();
+    $scope.currentUserBeep = 'beep ' + $scope.currentUserId;
+    $scope.messages = [];
+    $scope.chatUsers = [];
+    $scope.newMessage = {
+        text: ''
+    };
+    $ionicModal.fromTemplateUrl('addons/mod/chat/templates/users.html', {
+        scope: $scope,
+        animation: 'slide-in-up'
+    }).then(function(m) {
+        $scope.modal = m;
+    });
+    $scope.closeModal = function(){
+        $scope.modal.hide();
+    };
+    $scope.showChatUsers = function() {
+        $scope.usersLoaded = false;
+        $scope.modal.show();
+        $mmaModChat.getChatUsers($scope.chatsid).then(function(data) {
+            $scope.chatUsers = data.users;
+        }).catch(function(error) {
+            $mmUtil.showErrorModalDefault(error, 'mma.mod_chat.errorwhilegettingchatusers', true);
+        }).finally(function() {
+            $scope.usersLoaded = true;
+        });
+    };
+    $scope.talkTo = function(user) {
+        $scope.newMessage.text = "To " + user + ": ";
+        $scope.modal.hide();
+    };
+    $scope.beepTo = function(userId) {
+        $scope.sendMessage('', userId);
+        $scope.modal.hide();
+    };
+    $scope.isAppOffline = function() {
+        return !$mmApp.isOnline();
+    };
+    function loginUser() {
+        return $mmaModChat.loginUser(chatId).then(function(chatsid) {
+            $scope.chatsid = chatsid;
+        });
+    }
+    function getMessages() {
+        return $mmaModChat.getLatestMessages($scope.chatsid, chatLastTime).then(function(messagesInfo) {
+            chatLastTime = messagesInfo.chatnewlasttime;
+            return $mmaModChat.getMessagesUserData(messagesInfo.messages, courseId).then(function(messages) {
+                $scope.messages = $scope.messages.concat(messages);
+            });
+        });
+    }
+    function startPolling() {
+        if ($scope.polling) {
+            return;
+        }
+        $scope.polling = $interval(getMessagesInterval, mmaChatPollInterval);
+    }
+    function getMessagesInterval() {
+        $log.debug('Polling for messages');
+        if (!$mmApp.isOnline() || pollingRunning) {
+            return $q.reject();
+        }
+        pollingRunning = true;
+        return getMessages().catch(function() {
+            return loginUser().then(function() {
+                return getMessages();
+            }).catch(function(error) {
+                if ($scope.polling) {
+                    $interval.cancel($scope.polling);
+                    $scope.polling = undefined;
+                }
+                $mmUtil.showErrorModalDefault(error, 'mma.mod_chat.errorwhileretrievingmessages', true);
+                return $q.reject();
+            });
+        }).finally(function() {
+            pollingRunning = false;
+        });
+    }
+    $scope.showDate = function(message, prevMessage) {
+        if (!prevMessage) {
+            return true;
+        }
+        return !moment(message.timestamp * 1000).isSame(prevMessage.timestamp * 1000, 'day');
+    };
+    $scope.sendMessage = function(text, beep) {
+        beep = beep || '';
+        if (!$mmApp.isOnline()) {
+            return;
+        } else if (beep === '' && !text.trim()) {
+            return;
+        }
+        text = $mmText.replaceNewLines(text, '<br>');
+        var modal = $mmUtil.showModalLoading('mm.core.sending', true);
+        $mmaModChat.sendMessage($scope.chatsid, text, beep).then(function() {
+            if (beep === '') {
+                $scope.newMessage.text = '';
+            }
+            getMessagesInterval(); 
+        }).catch(function(error) {
+            $mmApp.closeKeyboard();
+            $mmUtil.showErrorModalDefault(error, 'mma.mod_chat.errorwhilesendingmessage', true);
+        }).finally(function() {
+            modal.dismiss();
+        });
+    };
+    $scope.reconnect = function() {
+        var modal = $mmUtil.showModalLoading();
+        return getMessagesInterval().then(function() {
+            startPolling();
+        }).finally(function() {
+            modal.dismiss();
+        });
+    };
+    loginUser().then(function() {
+        return getMessages().then(function() {
+            startPolling();
+        }).catch(function(error) {
+            $mmUtil.showErrorModalDefault(error, 'mma.mod_chat.errorwhileretrievingmessages', true);
+            $ionicHistory.goBack();
+            return $q.reject();
+        });
+    }, function(error) {
+        $mmUtil.showErrorModalDefault(error, 'mma.mod_chat.errorwhileconnecting', true);
+        $ionicHistory.goBack();
+    }).finally(function() {
+        $scope.loaded = true;
+    });
+    $scope.scrollAfterRender = function(scope) {
+        if (scope.$last === true) {
+            $timeout(function() {
+                var scrollView = $ionicScrollDelegate.$getByHandle('mmaChatScroll');
+                scrollView.scrollBottom();
+            });
+        }
+    };
+    $scope.$on('$ionicView.leave', function() {
+        if ($scope.polling) {
+            $log.debug('Cancelling polling for conversation');
+            $interval.cancel($scope.polling);
+        }
+    });
+}]);
+
+angular.module('mm.addons.mod_chat')
+.controller('mmaModChatIndexCtrl', ["$scope", "$stateParams", "$mmaModChat", "$mmUtil", "$q", "$mmCourse", "$mmText", "$translate", "mmaModChatComponent", function($scope, $stateParams, $mmaModChat, $mmUtil, $q, $mmCourse, $mmText, $translate,
+            mmaModChatComponent) {
+    var module = $stateParams.module || {},
+        courseid = $stateParams.courseid,
+        chat;
+    $scope.title = module.name;
+    $scope.description = module.description;
+    $scope.moduleUrl = module.url;
+    $scope.courseid = courseid;
+    $scope.refreshIcon = 'spinner';
+    $scope.component = mmaModChatComponent;
+    $scope.componentId = module.id;
+    function fetchChatData(refresh) {
+        return $mmaModChat.getChat(courseid, module.id, refresh).then(function(chatdata) {
+            chat = chatdata;
+            $scope.title = chat.name || $scope.title;
+            $scope.description = chat.intro || $scope.description;
+            $scope.chatId = chat.id;
+            var now = $mmUtil.timestamp();
+            var span = chat.chattime - now;
+            if (chat.chattime && chat.schedule > 0 && span > 0) {
+                $scope.chatInfo = {
+                    date: moment(chat.chattime * 1000).format('LLL'),
+                    fromnow: $mmUtil.formatTimeInstant(span)
+                };
+            } else {
+                $scope.chatInfo = false;
+            }
+        }, function(error) {
+            if (!refresh) {
+                return fetchChatData(true);
+            }
+            if (error) {
+                $mmUtil.showErrorModal(error);
+            } else {
+                $mmUtil.showErrorModal('mma.mod_chat.errorwhilegettingchatdata', true);
+            }
+            return $q.reject();
+        });
+    }
+    fetchChatData().then(function() {
+        $mmaModChat.logView(chat.id).then(function() {
+            $mmCourse.checkModuleCompletion(courseid, module.completionstatus);
+        });
+    }).finally(function() {
+        $scope.chatLoaded = true;
+        $scope.refreshIcon = 'ion-refresh';
+    });
+    $scope.expandDescription = function() {
+        $mmText.expandText($translate.instant('mm.core.description'), $scope.description, false, mmaModChatComponent, module.id);
+    };
+    $scope.refreshChat = function() {
+        if ($scope.chatLoaded) {
+            $scope.refreshIcon = 'spinner';
+            return fetchChatData(true).finally(function() {
+                $scope.refreshIcon = 'ion-refresh';
+                $scope.$broadcast('scroll.refreshComplete');
+            });
+        }
+    };
+}]);
+angular.module('mm.addons.mod_chat')
+.factory('$mmaModChat', ["$q", "$mmSite", "$mmUser", "$mmSitesManager", function($q, $mmSite, $mmUser, $mmSitesManager) {
+    var self = {};
+    self.isPluginEnabled = function(siteId) {
+        siteId = siteId || $mmSite.getId();
+        return $mmSitesManager.getSite(siteId).then(function(site) {
+            return  site.wsAvailable('mod_chat_get_chats_by_courses') &&
+                    site.wsAvailable('mod_chat_login_user') &&
+                    site.wsAvailable('mod_chat_get_chat_users') &&
+                    site.wsAvailable('mod_chat_send_chat_message') &&
+                    site.wsAvailable('mod_chat_get_chat_latest_messages');
+        });
+    };
+    self.getChat = function(courseid, cmid, refresh) {
+        var params = {
+            courseids: [courseid]
+            },
+            preSets = {};
+        if (refresh) {
+            preSets.getFromCache = false;
+        }
+        return $mmSite.read('mod_chat_get_chats_by_courses', params, preSets).then(function(response) {
+            if (response.chats) {
+                var currentChat;
+                angular.forEach(response.chats, function(chat) {
+                    if (chat.coursemodule == cmid) {
+                        currentChat = chat;
+                    }
+                });
+                if (currentChat) {
+                    return currentChat;
+                }
+            }
+            return $q.reject();
+        });
+    };
+    self.loginUser = function(chatId) {
+        var params = {
+            chatid: chatId
+        };
+        return $mmSite.write('mod_chat_login_user', params).then(function(response) {
+            if (response.chatsid) {
+                return response.chatsid;
+            }
+            return $q.reject();
+        });
+    };
+    self.logView = function(id) {
+        if (id) {
+            var params = {
+                chatid: id
+            };
+            return $mmSite.write('mod_chat_view_chat', params);
+        }
+        return $q.reject();
+    };
+    self.sendMessage = function(chatsid, message, beep) {
+        var params = {
+            chatsid: chatsid,
+            messagetext: message,
+            beepid: beep
+        };
+        return $mmSite.write('mod_chat_send_chat_message', params).then(function(response) {
+            if (response.messageid) {
+                return response.messageid;
+            }
+            return $q.reject();
+        });
+    };
+    self.getLatestMessages = function(chatsid, lasttime) {
+        var params = {
+            chatsid: chatsid,
+            chatlasttime: lasttime
+        };
+        return $mmSite.write('mod_chat_get_chat_latest_messages', params);
+    };
+    self.getMessagesUserData = function(messages, courseid) {
+        var promises = [];
+        angular.forEach(messages, function(message) {
+            var promise = $mmUser.getProfile(message.userid, courseid, true).then(function(user) {
+                message.userfullname = user.fullname;
+                message.userprofileimageurl = user.profileimageurl;
+            }, function() {
+                message.userfullname = message.userid;
+            });
+            promises.push(promise);
+        });
+        return $q.all(promises).then(function() {
+            return messages;
+        });
+    };
+    self.getChatUsers = function(chatsid) {
+        var params = {
+            chatsid: chatsid
+        };
+        var preSets = {
+            getFromCache: false
+        };
+        return $mmSite.read('mod_chat_get_chat_users', params, preSets);
+    };
+    return self;
+}]);
+angular.module('mm.addons.mod_chat')
+.factory('$mmaModChatHandlers', ["$mmCourse", "$mmaModChat", "$state", "$mmContentLinksHelper", function($mmCourse, $mmaModChat, $state, $mmContentLinksHelper) {
+    var self = {};
+    self.courseContent = function() {
+        var self = {};
+        self.isEnabled = function() {
+            return $mmaModChat.isPluginEnabled();
+        };
+        self.getController = function(module, courseid) {
+            return function($scope) {
+                $scope.title = module.name;
+                $scope.icon = $mmCourse.getModuleIconSrc('chat');
+                $scope.class = 'mma-mod_chat-handler';
+                $scope.action = function(e) {
+                    $state.go('site.mod_chat', {module: module, courseid: courseid});
+                };
+            };
+        };
+        return self;
+    };
+    self.linksHandler = $mmContentLinksHelper.createModuleIndexLinkHandler('mmaModChat', 'chat', $mmaModChat);
+    return self;
+}]);
 angular.module('mm.addons.mod_book')
 .controller('mmaModBookIndexCtrl', ["$scope", "$stateParams", "$mmUtil", "$mmCourseHelper", "$mmaModBook", "$log", "mmaModBookComponent", "$mmText", "$ionicPopover", "$mmApp", "$q", "$mmCourse", "$ionicScrollDelegate", "$translate", "$mmaModBookPrefetchHandler", function($scope, $stateParams, $mmUtil, $mmCourseHelper, $mmaModBook, $log, mmaModBookComponent,
             $mmText, $ionicPopover, $mmApp, $q, $mmCourse, $ionicScrollDelegate, $translate, $mmaModBookPrefetchHandler) {
@@ -40865,347 +41206,6 @@ angular.module('mm.addons.mod_book')
     return self;
 }]);
 
-angular.module('mm.addons.mod_chat')
-.controller('mmaModChatChatCtrl', ["$scope", "$stateParams", "$mmApp", "$mmaModChat", "$log", "$ionicModal", "$mmUtil", "$ionicHistory", "$ionicScrollDelegate", "$timeout", "$mmSite", "$interval", "mmaChatPollInterval", "$q", "$mmText", function($scope, $stateParams, $mmApp, $mmaModChat, $log, $ionicModal, $mmUtil, $ionicHistory,
-            $ionicScrollDelegate, $timeout, $mmSite, $interval, mmaChatPollInterval, $q, $mmText) {
-    $log = $log.getInstance('mmaModChatChatCtrl');
-    var chatId = $stateParams.chatid,
-        courseId = $stateParams.courseid,
-        title = $stateParams.title,
-        chatLastTime = 0,
-        pollingRunning = false;
-    $scope.loaded = false;
-    $scope.title = title;
-    $scope.currentUserId = $mmSite.getUserId();
-    $scope.currentUserBeep = 'beep ' + $scope.currentUserId;
-    $scope.messages = [];
-    $scope.chatUsers = [];
-    $scope.newMessage = {
-        text: ''
-    };
-    $ionicModal.fromTemplateUrl('addons/mod/chat/templates/users.html', {
-        scope: $scope,
-        animation: 'slide-in-up'
-    }).then(function(m) {
-        $scope.modal = m;
-    });
-    $scope.closeModal = function(){
-        $scope.modal.hide();
-    };
-    $scope.showChatUsers = function() {
-        $scope.usersLoaded = false;
-        $scope.modal.show();
-        $mmaModChat.getChatUsers($scope.chatsid).then(function(data) {
-            $scope.chatUsers = data.users;
-        }).catch(function(error) {
-            $mmUtil.showErrorModalDefault(error, 'mma.mod_chat.errorwhilegettingchatusers', true);
-        }).finally(function() {
-            $scope.usersLoaded = true;
-        });
-    };
-    $scope.talkTo = function(user) {
-        $scope.newMessage.text = "To " + user + ": ";
-        $scope.modal.hide();
-    };
-    $scope.beepTo = function(userId) {
-        $scope.sendMessage('', userId);
-        $scope.modal.hide();
-    };
-    $scope.isAppOffline = function() {
-        return !$mmApp.isOnline();
-    };
-    function loginUser() {
-        return $mmaModChat.loginUser(chatId).then(function(chatsid) {
-            $scope.chatsid = chatsid;
-        });
-    }
-    function getMessages() {
-        return $mmaModChat.getLatestMessages($scope.chatsid, chatLastTime).then(function(messagesInfo) {
-            chatLastTime = messagesInfo.chatnewlasttime;
-            return $mmaModChat.getMessagesUserData(messagesInfo.messages, courseId).then(function(messages) {
-                $scope.messages = $scope.messages.concat(messages);
-            });
-        });
-    }
-    function startPolling() {
-        if ($scope.polling) {
-            return;
-        }
-        $scope.polling = $interval(getMessagesInterval, mmaChatPollInterval);
-    }
-    function getMessagesInterval() {
-        $log.debug('Polling for messages');
-        if (!$mmApp.isOnline() || pollingRunning) {
-            return $q.reject();
-        }
-        pollingRunning = true;
-        return getMessages().catch(function() {
-            return loginUser().then(function() {
-                return getMessages();
-            }).catch(function(error) {
-                if ($scope.polling) {
-                    $interval.cancel($scope.polling);
-                    $scope.polling = undefined;
-                }
-                $mmUtil.showErrorModalDefault(error, 'mma.mod_chat.errorwhileretrievingmessages', true);
-                return $q.reject();
-            });
-        }).finally(function() {
-            pollingRunning = false;
-        });
-    }
-    $scope.showDate = function(message, prevMessage) {
-        if (!prevMessage) {
-            return true;
-        }
-        return !moment(message.timestamp * 1000).isSame(prevMessage.timestamp * 1000, 'day');
-    };
-    $scope.sendMessage = function(text, beep) {
-        beep = beep || '';
-        if (!$mmApp.isOnline()) {
-            return;
-        } else if (beep === '' && !text.trim()) {
-            return;
-        }
-        text = $mmText.replaceNewLines(text, '<br>');
-        var modal = $mmUtil.showModalLoading('mm.core.sending', true);
-        $mmaModChat.sendMessage($scope.chatsid, text, beep).then(function() {
-            if (beep === '') {
-                $scope.newMessage.text = '';
-            }
-            getMessagesInterval(); 
-        }).catch(function(error) {
-            $mmApp.closeKeyboard();
-            $mmUtil.showErrorModalDefault(error, 'mma.mod_chat.errorwhilesendingmessage', true);
-        }).finally(function() {
-            modal.dismiss();
-        });
-    };
-    $scope.reconnect = function() {
-        var modal = $mmUtil.showModalLoading();
-        return getMessagesInterval().then(function() {
-            startPolling();
-        }).finally(function() {
-            modal.dismiss();
-        });
-    };
-    loginUser().then(function() {
-        return getMessages().then(function() {
-            startPolling();
-        }).catch(function(error) {
-            $mmUtil.showErrorModalDefault(error, 'mma.mod_chat.errorwhileretrievingmessages', true);
-            $ionicHistory.goBack();
-            return $q.reject();
-        });
-    }, function(error) {
-        $mmUtil.showErrorModalDefault(error, 'mma.mod_chat.errorwhileconnecting', true);
-        $ionicHistory.goBack();
-    }).finally(function() {
-        $scope.loaded = true;
-    });
-    $scope.scrollAfterRender = function(scope) {
-        if (scope.$last === true) {
-            $timeout(function() {
-                var scrollView = $ionicScrollDelegate.$getByHandle('mmaChatScroll');
-                scrollView.scrollBottom();
-            });
-        }
-    };
-    $scope.$on('$ionicView.leave', function() {
-        if ($scope.polling) {
-            $log.debug('Cancelling polling for conversation');
-            $interval.cancel($scope.polling);
-        }
-    });
-}]);
-
-angular.module('mm.addons.mod_chat')
-.controller('mmaModChatIndexCtrl', ["$scope", "$stateParams", "$mmaModChat", "$mmUtil", "$q", "$mmCourse", "$mmText", "$translate", "mmaModChatComponent", function($scope, $stateParams, $mmaModChat, $mmUtil, $q, $mmCourse, $mmText, $translate,
-            mmaModChatComponent) {
-    var module = $stateParams.module || {},
-        courseid = $stateParams.courseid,
-        chat;
-    $scope.title = module.name;
-    $scope.description = module.description;
-    $scope.moduleUrl = module.url;
-    $scope.courseid = courseid;
-    $scope.refreshIcon = 'spinner';
-    $scope.component = mmaModChatComponent;
-    $scope.componentId = module.id;
-    function fetchChatData(refresh) {
-        return $mmaModChat.getChat(courseid, module.id, refresh).then(function(chatdata) {
-            chat = chatdata;
-            $scope.title = chat.name || $scope.title;
-            $scope.description = chat.intro || $scope.description;
-            $scope.chatId = chat.id;
-            var now = $mmUtil.timestamp();
-            var span = chat.chattime - now;
-            if (chat.chattime && chat.schedule > 0 && span > 0) {
-                $scope.chatInfo = {
-                    date: moment(chat.chattime * 1000).format('LLL'),
-                    fromnow: $mmUtil.formatTimeInstant(span)
-                };
-            } else {
-                $scope.chatInfo = false;
-            }
-        }, function(error) {
-            if (!refresh) {
-                return fetchChatData(true);
-            }
-            if (error) {
-                $mmUtil.showErrorModal(error);
-            } else {
-                $mmUtil.showErrorModal('mma.mod_chat.errorwhilegettingchatdata', true);
-            }
-            return $q.reject();
-        });
-    }
-    fetchChatData().then(function() {
-        $mmaModChat.logView(chat.id).then(function() {
-            $mmCourse.checkModuleCompletion(courseid, module.completionstatus);
-        });
-    }).finally(function() {
-        $scope.chatLoaded = true;
-        $scope.refreshIcon = 'ion-refresh';
-    });
-    $scope.expandDescription = function() {
-        $mmText.expandText($translate.instant('mm.core.description'), $scope.description, false, mmaModChatComponent, module.id);
-    };
-    $scope.refreshChat = function() {
-        if ($scope.chatLoaded) {
-            $scope.refreshIcon = 'spinner';
-            return fetchChatData(true).finally(function() {
-                $scope.refreshIcon = 'ion-refresh';
-                $scope.$broadcast('scroll.refreshComplete');
-            });
-        }
-    };
-}]);
-angular.module('mm.addons.mod_chat')
-.factory('$mmaModChat', ["$q", "$mmSite", "$mmUser", "$mmSitesManager", function($q, $mmSite, $mmUser, $mmSitesManager) {
-    var self = {};
-    self.isPluginEnabled = function(siteId) {
-        siteId = siteId || $mmSite.getId();
-        return $mmSitesManager.getSite(siteId).then(function(site) {
-            return  site.wsAvailable('mod_chat_get_chats_by_courses') &&
-                    site.wsAvailable('mod_chat_login_user') &&
-                    site.wsAvailable('mod_chat_get_chat_users') &&
-                    site.wsAvailable('mod_chat_send_chat_message') &&
-                    site.wsAvailable('mod_chat_get_chat_latest_messages');
-        });
-    };
-    self.getChat = function(courseid, cmid, refresh) {
-        var params = {
-            courseids: [courseid]
-            },
-            preSets = {};
-        if (refresh) {
-            preSets.getFromCache = false;
-        }
-        return $mmSite.read('mod_chat_get_chats_by_courses', params, preSets).then(function(response) {
-            if (response.chats) {
-                var currentChat;
-                angular.forEach(response.chats, function(chat) {
-                    if (chat.coursemodule == cmid) {
-                        currentChat = chat;
-                    }
-                });
-                if (currentChat) {
-                    return currentChat;
-                }
-            }
-            return $q.reject();
-        });
-    };
-    self.loginUser = function(chatId) {
-        var params = {
-            chatid: chatId
-        };
-        return $mmSite.write('mod_chat_login_user', params).then(function(response) {
-            if (response.chatsid) {
-                return response.chatsid;
-            }
-            return $q.reject();
-        });
-    };
-    self.logView = function(id) {
-        if (id) {
-            var params = {
-                chatid: id
-            };
-            return $mmSite.write('mod_chat_view_chat', params);
-        }
-        return $q.reject();
-    };
-    self.sendMessage = function(chatsid, message, beep) {
-        var params = {
-            chatsid: chatsid,
-            messagetext: message,
-            beepid: beep
-        };
-        return $mmSite.write('mod_chat_send_chat_message', params).then(function(response) {
-            if (response.messageid) {
-                return response.messageid;
-            }
-            return $q.reject();
-        });
-    };
-    self.getLatestMessages = function(chatsid, lasttime) {
-        var params = {
-            chatsid: chatsid,
-            chatlasttime: lasttime
-        };
-        return $mmSite.write('mod_chat_get_chat_latest_messages', params);
-    };
-    self.getMessagesUserData = function(messages, courseid) {
-        var promises = [];
-        angular.forEach(messages, function(message) {
-            var promise = $mmUser.getProfile(message.userid, courseid, true).then(function(user) {
-                message.userfullname = user.fullname;
-                message.userprofileimageurl = user.profileimageurl;
-            }, function() {
-                message.userfullname = message.userid;
-            });
-            promises.push(promise);
-        });
-        return $q.all(promises).then(function() {
-            return messages;
-        });
-    };
-    self.getChatUsers = function(chatsid) {
-        var params = {
-            chatsid: chatsid
-        };
-        var preSets = {
-            getFromCache: false
-        };
-        return $mmSite.read('mod_chat_get_chat_users', params, preSets);
-    };
-    return self;
-}]);
-angular.module('mm.addons.mod_chat')
-.factory('$mmaModChatHandlers', ["$mmCourse", "$mmaModChat", "$state", "$mmContentLinksHelper", function($mmCourse, $mmaModChat, $state, $mmContentLinksHelper) {
-    var self = {};
-    self.courseContent = function() {
-        var self = {};
-        self.isEnabled = function() {
-            return $mmaModChat.isPluginEnabled();
-        };
-        self.getController = function(module, courseid) {
-            return function($scope) {
-                $scope.title = module.name;
-                $scope.icon = $mmCourse.getModuleIconSrc('chat');
-                $scope.class = 'mma-mod_chat-handler';
-                $scope.action = function(e) {
-                    $state.go('site.mod_chat', {module: module, courseid: courseid});
-                };
-            };
-        };
-        return self;
-    };
-    self.linksHandler = $mmContentLinksHelper.createModuleIndexLinkHandler('mmaModChat', 'chat', $mmaModChat);
-    return self;
-}]);
 angular.module('mm.addons.mod_choice')
 .controller('mmaModChoiceIndexCtrl', ["$scope", "$stateParams", "$mmaModChoice", "$mmUtil", "$mmCourseHelper", "$q", "$mmCourse", "$mmText", "mmaModChoiceComponent", "mmaModChoiceAutomSyncedEvent", "$mmSite", "$mmEvents", "$mmaModChoiceSync", "$ionicScrollDelegate", "$mmaModChoiceOffline", "$mmApp", "$translate", "mmCoreEventOnlineStatusChanged", function($scope, $stateParams, $mmaModChoice, $mmUtil, $mmCourseHelper, $q, $mmCourse, $mmText,
             mmaModChoiceComponent, mmaModChoiceAutomSyncedEvent, $mmSite, $mmEvents, $mmaModChoiceSync, $ionicScrollDelegate,
@@ -55871,36 +55871,6 @@ angular.module('mm.addons.mod_page')
 }]);
 
 angular.module('mm.addons.mod_quiz')
-.directive('mmaQuizAccessRule', ["$log", "$compile", function($log, $compile) {
-    $log = $log.getInstance('mmaQuizAccessRule');
-    return {
-        restrict: 'E',
-        templateUrl: 'addons/mod/quiz/templates/accessrule.html',
-        link: function(scope, element) {
-            var directive = scope.directive,
-                container = element[0].querySelector('.mma-quiz-accessrule-container');
-            if (directive && container) {
-                container.setAttribute(directive, '');
-                $compile(container)(scope);
-            }
-        }
-    };
-}]);
-
-angular.module('mm.addons.mod_quiz')
-.directive('mmaModQuizArrows', function() {
-    return {
-        restrict: 'E',
-        scope: {
-            previous: '=?',
-            next: '=?',
-            action: '=?'
-        },
-        templateUrl: 'addons/mod/quiz/templates/arrows.html'
-    };
-});
-
-angular.module('mm.addons.mod_quiz')
 .controller('mmaModQuizAttemptCtrl', ["$scope", "$stateParams", "$mmaModQuiz", "$q", "$mmaModQuizHelper", "mmaModQuizComponent", function($scope, $stateParams, $mmaModQuiz, $q, $mmaModQuizHelper, mmaModQuizComponent) {
     var attemptId = $stateParams.attemptid,
         quizId = $stateParams.quizid,
@@ -56853,6 +56823,36 @@ angular.module('mm.addons.mod_quiz')
     };
     $mmSideMenu.showRightSideMenu('addons/mod/quiz/templates/toc.html', $scope);
 }]);
+
+angular.module('mm.addons.mod_quiz')
+.directive('mmaQuizAccessRule', ["$log", "$compile", function($log, $compile) {
+    $log = $log.getInstance('mmaQuizAccessRule');
+    return {
+        restrict: 'E',
+        templateUrl: 'addons/mod/quiz/templates/accessrule.html',
+        link: function(scope, element) {
+            var directive = scope.directive,
+                container = element[0].querySelector('.mma-quiz-accessrule-container');
+            if (directive && container) {
+                container.setAttribute(directive, '');
+                $compile(container)(scope);
+            }
+        }
+    };
+}]);
+
+angular.module('mm.addons.mod_quiz')
+.directive('mmaModQuizArrows', function() {
+    return {
+        restrict: 'E',
+        scope: {
+            previous: '=?',
+            next: '=?',
+            action: '=?'
+        },
+        templateUrl: 'addons/mod/quiz/templates/arrows.html'
+    };
+});
 
 angular.module('mm.addons.mod_quiz')
 .factory('$mmaModQuizAccessRulesDelegate', ["$log", "$q", "$mmUtil", "$mmSite", function($log, $q, $mmUtil, $mmSite) {
