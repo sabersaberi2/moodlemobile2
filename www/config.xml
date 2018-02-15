@@ -5,14 +5,14 @@
         id        = "net.moodle.learn"
         versionCode = "3"
         version   = "1.2">
-    <name>دانه</name>
+    <name>علامه حلی ۶</name>
 
     <description>
-        نرم افزار موبایل دانه
+        نرم افزار موبایل علامه حلی ۶
     </description>
 
     <author href="http://moodle.com" email="mobile@moodle.com">
-        lmskaran
+        azhelli6
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">

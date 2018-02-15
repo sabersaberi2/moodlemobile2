@@ -1,7 +1,7 @@
 {
-    "app_id" : "com.Daneh",
-    "appname": "Daneh",
-    "desktopappname": "Daneh Desktop",
+    "app_id" : "com.azhelli6",
+    "appname": "azhelli6",
+    "desktopappname": "azhell6 Desktop",
     "versioncode" : "2020",
     "versionname" : "3.3.2",
     "cache_expiration_time" : 300000,
@@ -11,8 +11,8 @@
     "wsextservice" : "local_mobile",
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "https://demo2.lmskaran.com",
+    "siteurl": "http://azhelli6.com",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "true",
-    "privacypolicy": "https://demo2.lmskaran.com"
+    "privacypolicy": "http://azhelli6.com"
 }

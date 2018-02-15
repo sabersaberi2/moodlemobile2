@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="com.moodle.moodlemobile" version="3.4.0">
-  <name>دانه</name>
+  <name>مرکز علامه حلی 6</name>
   <description>
-        مرکز آموزش فعالین فرهنگی و هنری
+        مرکز آموزش علامه حلی 6 تیزهوشان
     </description>
-  <author href="http://moodle.com" email="mobile@moodle.com">
-        LMSKaran
+  <author href="http://azhelli6.com" email="mobile@moodle.com">
+        azhelli6
     </author>
   <content src="index.html"/>
   <access origin="*"/>
