@@ -5,13 +5,13 @@
         id        = "net.moodle.learn"
         versionCode = "3"
         version   = "1.2">
-    <name>علامه حلی ۶</name>
+    <name>azhelli6</name>
 
     <description>
         نرم افزار موبایل علامه حلی ۶
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
+    <author href="http://azhelli6.com" email="info@azhelli6.com">
         azhelli6
     </author>
 
