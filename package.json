@@ -1,10 +1,10 @@
 {
-  "name": "علامه حلی 6",
+  "name": "باجلان",
   "version": "3.4.0",
-  "description": "یرنامه موبایل علامه حلی 6",
+  "description": "برنامه موبایل اپلیکیشن آزمون باجلان",
   "author": {
-    "name": "مدرسه علامه حلی ۶ ۰۹۱۷۷۸۱۱۲۱۵",
-    "email": "info@azhelli6.com"
+    "name": "باجلان ",
+    "email": "info@masghatilari.ir"
   },
   "repository": {
     "type": "git",

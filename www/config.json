@@ -1,7 +1,7 @@
 {
     "app_id" : "ir.masghatilari",
-    "appname": "azhelli6",
-    "desktopappname": "azhell6 Desktop",
+    "appname": "masghatilari",
+    "desktopappname": "masghatilari Desktop",
     "versioncode" : "2020",
     "versionname" : "3.3.2",
     "cache_expiration_time" : 300000,
@@ -11,7 +11,7 @@
     "wsextservice" : "local_mobile",
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "http://masghatilari.com",
+    "siteurl": "http://masghatilari.ir",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "true",
     "privacypolicy": "http://masghatilari.ir"
