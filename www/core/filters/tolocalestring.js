@@ -33,6 +33,6 @@ angular.module('mm.core')
             // Timestamp is in seconds, convert it to milliseconds.
             timestamp = timestamp * 1000;
         }
-        return new Date(timestamp).toLocaleString();
+        return new Date(timestamp).toLocaleString('fa-IR');
     };
 });
