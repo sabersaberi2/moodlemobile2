@@ -378,9 +378,9 @@ angular.module('mm.addons.mod_quiz')
     self.getAttemptDueDateWarning = function(quiz, attempt) {
         var dueDate = self.getAttemptDueDate(quiz, attempt);
         if (attempt.state === self.ATTEMPT_OVERDUE) {
-            return $translate.instant('mma.mod_quiz.overduemustbesubmittedby', {$a: moment(dueDate).format('LLL')});
+            return $translate.instant('mma.mod_quiz.overduemustbesubmittedby', {$a: new Date(dueDate).toLocaleString('fa-IR')});
         } else if (dueDate) {
-            return $translate.instant('mma.mod_quiz.mustbesubmittedby', {$a: moment(dueDate).format('LLL')});
+            return $translate.instant('mma.mod_quiz.mustbesubmittedby', {$a: new Date(dueDate).toLocaleString('fa-IR')});
         }
     };
 
@@ -408,7 +408,7 @@ angular.module('mm.addons.mod_quiz')
                     dueDate = self.getAttemptDueDate(quiz, attempt);
                 sentences.push($translate.instant('mma.mod_quiz.stateoverdue'));
                 if (dueDate) {
-                    dueDate = moment(dueDate).format('LLL');
+                    dueDate = new Date(dueDate).toLocaleString('fa-IR');
                     sentences.push($translate.instant('mma.mod_quiz.stateoverduedetails', {$a: dueDate}));
                 }
                 return sentences;
@@ -416,7 +416,7 @@ angular.module('mm.addons.mod_quiz')
             case self.ATTEMPT_FINISHED:
                 return [
                     $translate.instant('mma.mod_quiz.statefinished'),
-                    $translate.instant('mma.mod_quiz.statefinisheddetails', {$a: moment(attempt.timefinish * 1000).format('LLL')})
+                    $translate.instant('mma.mod_quiz.statefinisheddetails', {$a: new Date(attempt.timefinish * 1000).toLocaleString('fa-IR')})
                 ];
 
             case self.ATTEMPT_ABANDONED:
