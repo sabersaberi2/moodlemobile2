@@ -50,9 +50,9 @@ angular.module('mm.addons.mod_choice')
         return $mmaModChoice.getChoice(courseId, module.id).then(function(choicedata) {
             choice = choicedata;
             choice.timeopen = parseInt(choice.timeopen) * 1000;
-            choice.openTimeReadable = moment(choice.timeopen).format('LLL');
+            choice.openTimeReadable = new Date(choice.timeopen).toLocaleString('fa-IR');
             choice.timeclose = parseInt(choice.timeclose) * 1000;
-            choice.closeTimeReadable = moment(choice.timeclose).format('LLL');
+            choice.closeTimeReadable = new Date(choice.timeclose).toLocaleString('fa-IR');
 
             $scope.title = choice.name || $scope.title;
             $scope.description = choice.intro || $scope.description;

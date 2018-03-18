@@ -89,7 +89,6 @@ angular.module('mm.core')
                 }
 
                 scope.timeModified = new Date(metadata.modificationTime).toLocaleString('fa-IR');
-                
             });
 
             // Open the file.
