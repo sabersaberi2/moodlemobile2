@@ -142,10 +142,10 @@ angular.module('mm.addons.mod_feedback')
         if (accessData.canedititems) {
             $scope.overview.timeopen = parseInt(feedback.timeopen) * 1000 || false;
             $scope.overview.openTimeReadable = $scope.overview.timeopen ?
-                moment($scope.overview.timeopen).format('LLL') : false;
+                new Date($scope.overview.timeopen).toLocaleString('fa-IR') : false;
             $scope.overview.timeclose = parseInt(feedback.timeclose) * 1000 || false;
             $scope.overview.closeTimeReadable = $scope.overview.timeclose ?
-                moment($scope.overview.timeclose).format('LLL') : false;
+                new Date($scope.overview.timeclose).toLocaleString('fa-IR') : false;
 
             // Get groups (only for teachers).
             promises.push(fetchGroupInfo(feedback.coursemodule));
