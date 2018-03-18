@@ -1,4 +1,16 @@
-
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
 
 angular.module('mm', ['ionic', 'mm.core', 'mm.core.comments', 'mm.core.contentlinks', 'mm.core.course', 'mm.core.emulator', 'mm.core.fileuploader', 'mm.core.grades', 'mm.core.login', 'mm.core.question', 'mm.core.settings', 'mm.core.sharedfiles', 'mm.core.sidemenu', 'mm.core.textviewer', 'mm.core.user', 'mm.core.courses', 'mm.addons.competency', 'mm.addons.badges', 'mm.addons.calendar', 'mm.addons.coursecompletion', 'mm.addons.grades', 'mm.addons.files', 'mm.addons.frontpage', 'mm.addons.messageoutput', 'mm.addons.messages', 'mm.addons.myoverview', 'mm.addons.notes', 'mm.addons.notifications', 'mm.addons.pushnotifications', 'mm.addons.remotestyles', 'mm.addons.participants', 'mm.addons.messageoutput_airnotifier', 'mm.addons.mod_assign', 'mm.addons.mod_book', 'mm.addons.mod_chat', 'mm.addons.mod_choice', 'mm.addons.mod_feedback', 'mm.addons.mod_folder', 'mm.addons.mod_forum', 'mm.addons.mod_glossary', 'mm.addons.mod_imscp', 'mm.addons.mod_label', 'mm.addons.mod_lesson', 'mm.addons.mod_lti', 'mm.addons.mod_page', 'mm.addons.mod_quiz', 'mm.addons.mod_resource', 'mm.addons.mod_scorm', 'mm.addons.mod_survey', 'mm.addons.mod_url', 'mm.addons.mod_wiki', 'mm.addons.qbehaviour_adaptive', 'mm.addons.qbehaviour_adaptivenopenalty', 'mm.addons.qbehaviour_deferredcbm', 'mm.addons.qbehaviour_deferredfeedback', 'mm.addons.qbehaviour_immediatecbm', 'mm.addons.qbehaviour_immediatefeedback', 'mm.addons.qbehaviour_informationitem', 'mm.addons.qbehaviour_interactive', 'mm.addons.qbehaviour_interactivecountback', 'mm.addons.qbehaviour_manualgraded', 'mm.addons.qtype_calculated', 'mm.addons.qtype_calculatedmulti', 'mm.addons.qtype_calculatedsimple', 'mm.addons.qtype_ddimageortext', 'mm.addons.qtype_ddmarker', 'mm.addons.qtype_ddwtos', 'mm.addons.qtype_description', 'mm.addons.qtype_essay', 'mm.addons.qtype_gapselect', 'mm.addons.qtype_match', 'mm.addons.qtype_multianswer', 'mm.addons.qtype_multichoice', 'mm.addons.qtype_numerical', 'mm.addons.qtype_randomsamatch', 'mm.addons.qtype_shortanswer', 'mm.addons.qtype_truefalse', 'mm.addons.userprofilefield_checkbox', 'mm.addons.userprofilefield_datetime', 'mm.addons.userprofilefield_menu', 'mm.addons.userprofilefield_text', 'mm.addons.userprofilefield_textarea', 'mm.addons.mod_data', 'ngCordova', 'angular-md5', 'pascalprecht.translate', 'ngAria', 'oc.lazyLoad', 'ckeditor',
             'ngMessages', 'ngAnimate'])
@@ -57814,8 +57826,8 @@ angular.module('mm.addons.mod_quiz')
             case self.ATTEMPT_FINISHED:
                 return [
                     $translate.instant('mma.mod_quiz.statefinished'),
-                    $translate.instant('mma.mod_quiz.statefinisheddetails', {$a: moment(attempt.timefinish * 1000).format('LLL')})
-                ]; 
+                    $translate.instant('mma.mod_quiz.statefinisheddetails', {$a: new Date(attempt.timefinish * 1000).toLocaleString('fa-IR')})
+                ];
             case self.ATTEMPT_ABANDONED:
                 return [$translate.instant('mma.mod_quiz.stateabandoned')];
         }

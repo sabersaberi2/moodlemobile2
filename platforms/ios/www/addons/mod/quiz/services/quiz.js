@@ -416,7 +416,7 @@ angular.module('mm.addons.mod_quiz')
             case self.ATTEMPT_FINISHED:
                 return [
                     $translate.instant('mma.mod_quiz.statefinished'),
-                    $translate.instant('mma.mod_quiz.statefinisheddetails', {$a: moment(attempt.timefinish * 1000).format('LLL')})
+                    $translate.instant('mma.mod_quiz.statefinisheddetails', {$a: new Date(attempt.timefinish * 1000).toLocaleString('fa-IR')})
                 ];
 
             case self.ATTEMPT_ABANDONED:
