@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'MyFontName';
+    src: url('fonts/woff2/IRANSansWeb_Light.woff2') format('woff2'),
+    url('fonts/woff/IRANSansWeb_Light.woff') format('woff'),
+    url('fonts/ttf/IRANSansWeb_Light.ttf') format('truetype');
+}
+*{
+    font-family: MyFontName;
+}
+h1,h2,h3,h4,h5,h6,a,option{
+    font-family: MyFontName !important;
+}
+.scroll-content {
+    direction: rtl;
+    text-align: right;
+}
+.bar-side-menu {
+    background-color: #03a9f4;
+}
+.bar-content {
+    background-color: #03a9f4;
+}
+.button.button-positive {
+    border-color: #03a9f4;
+    background-color: #03a9f4;
+    color: #fff;
+}
+.item-divider {
+    background-color: #fafafa;
+}
+.mm-bglogo{
+    background: #03a9f4;
+    background-color: #03a9f4;
+}
+.item .marginRight{
+    margin-right: 15px;
+}
+.item .marginLeft{
+    margin-left: 15px;
+}
+mm-format-text span{
+    font-size: medium;
+}
+.mm-grades-table{
+    direction: rtl;
+}
