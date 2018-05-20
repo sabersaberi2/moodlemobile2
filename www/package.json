@@ -1,10 +1,10 @@
 {
-  "name": "آزمون",
+  "name": "آزمون شخصیت",
   "version": "3.3.2",
-  "description": "The official app for stpt.ir",
+  "description": "The official app for masghatilari.ir",
   "author": {
-    "name": "stpt",
-    "email": "info@stpt.ir"
+    "name": "masghatilari",
+    "email": "info@masghatilari.ir"
   },
   "repository": {
     "type": "git",
