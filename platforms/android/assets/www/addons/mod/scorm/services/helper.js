@@ -316,7 +316,7 @@ angular.module('mm.addons.mod_scorm')
             if (time == 0) {
                 return $translate('mm.core.none');
             } else {
-                return new Date(time).toLocaleString('fa-IR');
+                return moment(time).format('LLL');
             }
         });
     };

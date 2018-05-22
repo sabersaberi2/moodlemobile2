@@ -10041,7 +10041,7 @@ angular.module('mm.core')
                 if (metadata.size >= 0) {
                     scope.size = $mmText.bytesToSize(metadata.size, 2);
                 }
-                scope.timeModified = new Date(metadata.modificationTime).toLocaleString('fa-IR');
+                scope.timeModified = moment(metadata.modificationTime).format('LLL');
             });
             scope.open = function(e) {
                 e.preventDefault();
@@ -41042,7 +41042,7 @@ angular.module('mm.addons.mod_chat')
             var span = chat.chattime - now;
             if (chat.chattime && chat.schedule > 0 && span > 0) {
                 $scope.chatInfo = {
-                    date: new Date(chat.chattime * 1000).toLocaleString('fa-IR'),
+                    date: moment(chat.chattime * 1000).format('LLL'),
                     fromnow: $mmUtil.formatTimeInstant(span)
                 };
             } else {
@@ -41232,9 +41232,9 @@ angular.module('mm.addons.mod_choice')
         return $mmaModChoice.getChoice(courseId, module.id).then(function(choicedata) {
             choice = choicedata;
             choice.timeopen = parseInt(choice.timeopen) * 1000;
-            choice.openTimeReadable = new Date(choice.timeopen).toLocaleString('fa-IR');
+            choice.openTimeReadable = moment(choice.timeopen).format('LLL');
             choice.timeclose = parseInt(choice.timeclose) * 1000;
-            choice.closeTimeReadable = new Date(choice.timeclose).toLocaleString('fa-IR');
+            choice.closeTimeReadable = moment(choice.timeclose).format('LLL');
             $scope.title = choice.name || $scope.title;
             $scope.description = choice.intro || $scope.description;
             $scope.choice = choice;
