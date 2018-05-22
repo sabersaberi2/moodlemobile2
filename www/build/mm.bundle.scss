@@ -3309,6 +3309,31 @@ $mma-chat-notice-badge: "stable" !default;
     }
   }
 }
+.mm-site_mod_feedback {
+  .mm-analysis {
+    ul {
+      font-size: $font-size-base;
+    }
+    .item .chart {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+  }
+}
+
+.mm-site_mod_feedback-form {
+  .item-select select {
+      position: relative;
+      padding: $item-padding / 2;
+      max-width: 100%;
+      width: 100%;
+      direction: ltr;
+  }
+  input, textarea {
+    background: transparent;
+  }
+}
+
 
 .mm-site_mod_data {
   .recordcheckbox {
@@ -3447,31 +3472,6 @@ $mma-chat-notice-badge: "stable" !default;
     margin-right: 1px;
   }
 }
-.mm-site_mod_feedback {
-  .mm-analysis {
-    ul {
-      font-size: $font-size-base;
-    }
-    .item .chart {
-      max-width: 500px;
-      margin: 0 auto;
-    }
-  }
-}
-
-.mm-site_mod_feedback-form {
-  .item-select select {
-      position: relative;
-      padding: $item-padding / 2;
-      max-width: 100%;
-      width: 100%;
-      direction: ltr;
-  }
-  input, textarea {
-    background: transparent;
-  }
-}
-
 
 .mma-forum-discussion-link {
     text-decoration: none;
@@ -4221,6 +4221,19 @@ $mma-qbehaviour-deferredcbm-confident-color:    $red !default;
   }
 }
 
+
+// Style match content a bit.
+.mma-qtype-match-container .item-select {
+  select,
+  .mm-select-fix {
+    padding: 0 36px 0 0;
+    max-width: 100%;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+  }
+}
 
 // Style multianswer content a bit. All these styles are copied from Moodle.
 .mma-qtype-multianswer-container {
