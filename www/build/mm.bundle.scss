@@ -2777,9 +2777,6 @@ ion-side-menu li.item.item-divider {
     padding-bottom: 16px;
 }
 
-.mm-site_coursesgrades .item .badge {
-  right: 16px;
-}
 .mm-site_frontpage {
     .mma-frontpage-item-container .item-media {
         min-height: 55px;
@@ -2806,6 +2803,9 @@ ion-side-menu li.item.item-divider {
             height: 22px;
         }
     }
+}
+.mm-site_coursesgrades .item .badge {
+  right: 16px;
 }
 $mma-messages-date-badge: "stable" !default;
 
@@ -4188,6 +4188,19 @@ $mma-qbehaviour-deferredcbm-confident-color:    $red !default;
 
 
 
+// Style match content a bit.
+.mma-qtype-match-container .item-select {
+  select,
+  .mm-select-fix {
+    padding: 0 36px 0 0;
+    max-width: 100%;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+  }
+}
+
 // Style gapselect content a bit. All these styles are copied from Moodle.
 .mma-qtype-gapselect-container {
   p {
@@ -4253,16 +4266,3 @@ $mma-qbehaviour-deferredcbm-confident-color:    $red !default;
   }
 }
 
-
-// Style match content a bit.
-.mma-qtype-match-container .item-select {
-  select,
-  .mm-select-fix {
-    padding: 0 36px 0 0;
-    max-width: 100%;
-    display: flex;
-    justify-content:center;
-    align-content:center;
-    flex-direction:column;
-  }
-}
