@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="com.moodle.moodlemobile" version="3.4.0">
-  <name>Helli6</name>
+  <name>mahdaviat</name>
   <description>
-        مرکز آموزش علامه حلی 6 تیزهوشان
+        مرکز آموزش مجازی پورتال جامع مهدویت
     </description>
-  <author href="http://azhelli6.com" email="mobile@moodle.com">
-        azhelli6
+  <author href="https://lms.mahdaviat.ir" email="info@mahdaviat.ir">
+        پورتال جامع مهدویت
     </author>
   <content src="index.html"/>
   <access origin="*"/>
