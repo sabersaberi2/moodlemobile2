@@ -6,5 +6,9 @@
     "www/build/**/*",
     "www/index.html",
     "!www/lib/**/*"
-  ]
+  ],
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic1"
 }
