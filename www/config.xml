@@ -5,14 +5,14 @@
         id        = "net.moodle.learn"
         versionCode = "3"
         version   = "1.2">
-    <name>azhelli6</name>
+    <name>mahdaviat</name>
 
     <description>
-        نرم افزار موبایل علامه حلی ۶
+        مرکز آموزش مجازی پورتال جامع مهدویت
     </description>
 
-    <author href="http://azhelli6.com" email="info@azhelli6.com">
-        azhelli6
+    <author href="https://lms.mahdaviat.ir" email="info@mahdaviat.ir">
+        پورتال جامع مهدویت
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
