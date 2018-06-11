@@ -1,9 +1,9 @@
 {
-    "app_id" : "ir.stpt",
-    "appname": "stpt",
-    "desktopappname": "stpt Desktop",
+    "app_id" : "ir.masghatilari",
+    "appname": "masghatilari",
+    "desktopappname": "masghatilari Desktop",
     "versioncode" : "2020",
-    "versionname" : "1.0.0",
+    "versionname" : "3.3.2",
     "cache_expiration_time" : 300000,
     "default_lang" : "fa",
     "languages": {"fa": "فارسی"},
@@ -11,8 +11,8 @@
     "wsextservice" : "local_mobile",
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "https://stpt.ir/lms",
+    "siteurl": "http://masghatilari.ir/lms",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "true",
-    "privacypolicy": "https://stpt.ir"
+    "privacypolicy": "http://masghatilari.ir"
 }

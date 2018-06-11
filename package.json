@@ -1,10 +1,10 @@
 {
-  "name": "آزمون",
-  "version": "1.0.0",
-  "description": "برنامه موبایل اپلیکیشن آزمون",
+  "name": "باجلان",
+  "version": "3.4.0",
+  "description": "برنامه موبایل اپلیکیشن آزمون باجلان",
   "author": {
-    "name": "آزمون ",
-    "email": "info@stpt.ir"
+    "name": "باجلان ",
+    "email": "info@masghatilari.ir"
   },
   "repository": {
     "type": "git",

@@ -8,11 +8,11 @@
     <name>basij</name>
 
     <description>
-        نرم افزار آزمون
+        نرم افزار موبایل علامه حلی ۶
     </description>
 
-    <author href="https://stpt.ir" email="info@stpt.ir">
-        stpt
+    <author href="http://masghatilari.ir" email="info@masghatilari.ir">
+        masghatilari
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">

@@ -2174,6 +2174,23 @@ $mm-rte-min-height: 80px !default;
     margin: 0;
   }
 }
+
+.item.item-button-right .badge.mm-course-download{
+  right: $spinner-width + $item-padding;
+}
+
+.mm-course-module-handler mm-format-text + mm-format-text {
+  margin-top: 16px;
+}
+
+mm-course-mod-description .card .item {
+  padding: $item-padding / 2;
+}
+
+.padding mm-course-mod-description .card {
+  margin-top: 0;
+}
+
 $chart-size: 70px;
 $doughnut-border-size: 15px;
 $doughnut-dasharray: 173;
@@ -2296,23 +2313,6 @@ $doughnut-text-colour: $gray-darker;
 mm-course-list-item .item-icon-left {
   color: $black;
 }
-
-.item.item-button-right .badge.mm-course-download{
-  right: $spinner-width + $item-padding;
-}
-
-.mm-course-module-handler mm-format-text + mm-format-text {
-  margin-top: 16px;
-}
-
-mm-course-mod-description .card .item {
-  padding: $item-padding / 2;
-}
-
-.padding mm-course-mod-description .card {
-  margin-top: 0;
-}
-
 .mm-capture-media-modal {
     background-color: $gray-light;
 
@@ -2777,9 +2777,6 @@ ion-side-menu li.item.item-divider {
     padding-bottom: 16px;
 }
 
-.mm-site_coursesgrades .item .badge {
-  right: 16px;
-}
 .mm-site_frontpage {
     .mma-frontpage-item-container .item-media {
         min-height: 55px;
@@ -2806,6 +2803,9 @@ ion-side-menu li.item.item-divider {
             height: 22px;
         }
     }
+}
+.mm-site_coursesgrades .item .badge {
+  right: 16px;
 }
 $mma-messages-date-badge: "stable" !default;
 
