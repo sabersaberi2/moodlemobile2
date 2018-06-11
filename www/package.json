@@ -1,10 +1,10 @@
 {
-  "name": "مرکز آموزش مجازی پورتال جامع مهدویت",
+  "name": "علامه حلی 6",
   "version": "3.3.2",
-  "description": "پورتال جامع مهدویت دروازه‌ای است به سوی آگاهی، دانایی و همکاری درباره امام موعود",
+  "description": "The official app for azhelli6.com",
   "author": {
-    "name": "پورتال جامع مهدویت",
-    "email": "info@mahdaviat.ir"
+    "name": "azhelli6",
+    "email": "info@azhelli6.com"
   },
   "repository": {
     "type": "git",

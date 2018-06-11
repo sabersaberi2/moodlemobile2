@@ -1,10 +1,10 @@
 {
-  "name": "مرکز آموزش مجازی پورتال جامع مهدویت",
-  "version": "3.3.2",
-  "description": "پورتال جامع مهدویت دروازه‌ای است به سوی آگاهی، دانایی و همکاری درباره امام موعود",
+  "name": "علامه حلی 6",
+  "version": "3.4.0",
+  "description": "یرنامه موبایل علامه حلی 6",
   "author": {
-    "name": "پورتال جامع مهدویت",
-    "email": "info@mahdaviat.ir"
+    "name": "مدرسه علامه حلی ۶ ۰۹۱۷۷۸۱۱۲۱۵",
+    "email": "info@azhelli6.com"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,6 @@
     }
   ],
   "dependencies": {
-    "cordova-android": "6.1.2",
-    "cordova-ios": "4.3.1",
-    "del": "^3.0.0",
     "electron-builder-squirrel-windows": "^19.3.0",
     "electron-windows-notifications": "^1.1.13",
     "gulp-install": "^1.1.0"
@@ -120,11 +117,5 @@
     "snap": {
       "confinement": "classic"
     }
-  },
-  "cordova": {
-    "platforms": [
-      "android",
-      "ios"
-    ]
   }
 }
