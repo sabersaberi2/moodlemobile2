@@ -48,7 +48,7 @@ angular.module('mm.addons.mod_chat')
 
             if (chat.chattime && chat.schedule > 0 && span > 0) {
                 $scope.chatInfo = {
-                    date: moment(chat.chattime * 1000).format('LLL'),
+                    date: new Date(chat.chattime * 1000).toLocaleString('fa-IR'),
                     fromnow: $mmUtil.formatTimeInstant(span)
                 };
             } else {

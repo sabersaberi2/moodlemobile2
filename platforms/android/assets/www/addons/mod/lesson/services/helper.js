@@ -439,7 +439,7 @@ angular.module('mm.addons.mod_lesson')
             if (hasGrade) {
                 data.grade = $translate.instant('mm.core.percentagenumber', {$a: retake.grade});
             }
-            data.timestart = moment(retake.timestart * 1000).format('LLL');
+            data.timestart = new Date(retake.timestart * 1000).toLocaleString('fa-IR');
             if (includeDuration) {
                 data.duration = $mmUtil.formatTimeInstant(retake.timeend - retake.timestart);
             }
@@ -447,7 +447,7 @@ angular.module('mm.addons.mod_lesson')
             // The user has not completed the retake.
             data.grade = $translate.instant('mma.mod_lesson.notcompleted');
             if (retake.timestart) {
-                data.timestart = moment(retake.timestart * 1000).format('LLL');
+                data.timestart = new Date(retake.timestart * 1000).toLocaleString('fa-IR');
             }
         }
 

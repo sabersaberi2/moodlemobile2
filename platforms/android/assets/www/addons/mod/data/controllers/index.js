@@ -83,10 +83,10 @@ angular.module('mm.addons.mod_data')
                 $scope.timeAvailableFrom = data.timeavailablefrom && time < data.timeavailablefrom ?
                     parseInt(data.timeavailablefrom, 10) * 1000 : false;
                 $scope.timeAvailableFromReadable = $scope.timeAvailableFrom ?
-                    moment($scope.timeAvailableFrom).format('LLL') : false;
+                    new Date($scope.timeAvailableFrom).toLocaleString('fa-IR') : false;
                 $scope.timeAvailableTo = data.timeavailableto && time > data.timeavailableto ?
                     parseInt(data.timeavailableto, 10) * 1000 : false;
-                $scope.timeAvailableToReadable = $scope.timeAvailableTo ? moment($scope.timeAvailableTo).format('LLL') : false;
+                $scope.timeAvailableToReadable = $scope.timeAvailableTo ? new Date($scope.timeAvailableTo).toLocaleString('fa-IR') : false;
 
                 $scope.isEmpty = true;
                 $scope.groupInfo = false;

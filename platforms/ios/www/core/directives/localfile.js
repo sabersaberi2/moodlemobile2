@@ -88,7 +88,7 @@ angular.module('mm.core')
                     scope.size = $mmText.bytesToSize(metadata.size, 2);
                 }
 
-                scope.timeModified = moment(metadata.modificationTime).format('LLL');
+                scope.timeModified = new Date(metadata.modificationTime).toLocaleString('fa-IR');
             });
 
             // Open the file.

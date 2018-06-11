@@ -69,7 +69,6 @@ angular.module('mm.addons.mod_quiz')
             return $translate.instant('mm.core.never');
         } else {
             return new Date(timestamp).toLocaleString('fa-IR');
-            
         }
     };
 
