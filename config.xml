@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.moodle.moodlemobile" version="3.6.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Moodle</name>
-    <description>Moodle official app</description>
-    <author email="mobile@moodle.com" href="http://moodle.com">Moodle Mobile team</author>
+<widget id="ir.mahdaviat.lms" version="3.6.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>مرکز آموزش مجازی مهدویت</name>
+    <description>Mahdaviat lms official app - بنیاد فرهنگی حضرت مهدی موعود (عج)</description>
+    <author email="info@lmskaran.com" href="https://lmskaran.com">Lmskaran LMS team</author>
     <content src="index.html" />
     <access origin="*" />
     <access launch-external="yes" origin="tel:*" />
@@ -119,14 +119,15 @@
     <plugin name="cordova-plugin-statusbar" spec="2.4.2" />
     <plugin name="cordova-plugin-whitelist" spec="1.3.3" />
     <plugin name="cordova-plugin-zip" spec="3.1.0" />
-    <plugin name="cordova-sqlite-storage" spec="2.6.0" />
+    <plugin name="cordova-sqlite-storage" spec="^3.1.0" />
     <plugin name="nl.kingsquare.cordova.background-audio" spec="1.0.1" />
     <plugin name="phonegap-plugin-push" spec="https://github.com/moodlemobile/phonegap-plugin-push.git#moodle">
         <variable name="SENDER_ID" value="694767596569" />
     </plugin>
     <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity[@android:name='MainActivity']">
-        <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true" />
+        <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="false" />
     </edit-config>
-    <engine name="android" spec="7.1.2" />
-    <engine name="ios" spec="4.5.5" />
+    <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application">
+        <application android:debuggable="false" />
+    </edit-config>
 </widget>

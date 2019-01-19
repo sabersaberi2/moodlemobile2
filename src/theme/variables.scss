@@ -14,6 +14,9 @@ $app-direction: multi;
 @import "ionic.globals";
 
 // Color palette
+
+$daneh:           #00adef; // Daneh.ir, default color.
+
 $black:           #3a3a3a; // Headings, standard text.
 $gray-darker:     #626262; // Text (emphasis-detail), placeholder, background.
 $gray-dark:       #9e9e9e; // Borders (never text).
@@ -28,7 +31,7 @@ $green:           #5e8100; // Accent.
 $red:             #cb3d4d;
 $orange:          #f98012; // Accent (never text).
 $yellow:          #fbad1a; // Accent (never text).
-$core-color:      $orange;
+$core-color:      $daneh;  // $core-color:      $orange;
 
 // Branded apps customization
 // --------------------------------------------------
@@ -131,8 +134,10 @@ $item-divider-color: $black !default;
 // --------------------------------------------------
 
 // Init screen.
-$core-color-init-screen:          #ff5c00 !default;
-$core-color-init-screen-alt:      #ff7600 !default;
+//$core-color-init-screen:          #ff5c00 !default;
+//$core-color-init-screen-alt:      #ff7600 !default;
+$core-color-init-screen:          #ffffff !default;
+$core-color-init-screen-alt:      #ffffff !default;
 $core-init-screen-spinner-color:  $white !default;
 $core-init-screen-logo-width:     60% !default;
 $core-init-screen-logo-max-width: 300px !default;
